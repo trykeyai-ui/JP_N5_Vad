@@ -1,6 +1,6 @@
 [
   {
-    "korean": "크다",
+    "korean": "이 방은 크다",
     "japanese": "この部屋は____",
     "adjective": "大きい",
     "type": "い形容詞",
@@ -9,7 +9,7 @@
     "answer": "大きい"
   },
   {
-    "korean": "크다",
+    "korean": "이 방은 크지 않다",
     "japanese": "この部屋は____",
     "adjective": "大きい",
     "type": "い形容詞",
@@ -18,7 +18,7 @@
     "answer": "大きくない"
   },
   {
-    "korean": "크다",
+    "korean": "이 방은 컸다",
     "japanese": "この部屋は____",
     "adjective": "大きい",
     "type": "い形容詞",
@@ -27,7 +27,7 @@
     "answer": "大きかった"
   },
   {
-    "korean": "크다",
+    "korean": "이 방은 크지 않았다",
     "japanese": "この部屋は____",
     "adjective": "大きい",
     "type": "い形容詞",
@@ -36,7 +36,7 @@
     "answer": "大きくなかった"
   },
   {
-    "korean": "작다",
+    "korean": "이 상자는 작다",
     "japanese": "この箱は____",
     "adjective": "小さい",
     "type": "い形容詞",
@@ -45,7 +45,7 @@
     "answer": "小さい"
   },
   {
-    "korean": "작다",
+    "korean": "이 상자는 작지 않다",
     "japanese": "この箱は____",
     "adjective": "小さい",
     "type": "い形容詞",
@@ -54,7 +54,7 @@
     "answer": "小さくない"
   },
   {
-    "korean": "작다",
+    "korean": "이 상자는 작았다",
     "japanese": "この箱は____",
     "adjective": "小さい",
     "type": "い形容詞",
@@ -63,7 +63,7 @@
     "answer": "小さかった"
   },
   {
-    "korean": "작다",
+    "korean": "이 상자는 작지 않았다",
     "japanese": "この箱は____",
     "adjective": "小さい",
     "type": "い形容詞",
@@ -72,7 +72,7 @@
     "answer": "小さくなかった"
   },
   {
-    "korean": "높다",
+    "korean": "이 산은 높다",
     "japanese": "この山は____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -81,7 +81,7 @@
     "answer": "高い"
   },
   {
-    "korean": "높다",
+    "korean": "이 산은 높지 않다",
     "japanese": "この山は____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -90,7 +90,7 @@
     "answer": "高くない"
   },
   {
-    "korean": "높다",
+    "korean": "이 산은 높았다",
     "japanese": "この山は____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -99,7 +99,7 @@
     "answer": "高かった"
   },
   {
-    "korean": "높다",
+    "korean": "이 산은 높지 않았다",
     "japanese": "この山は____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -108,7 +108,7 @@
     "answer": "高くなかった"
   },
   {
-    "korean": "낮다",
+    "korean": "이 건물은 낮다",
     "japanese": "この建物は____",
     "adjective": "低い",
     "type": "い形容詞",
@@ -117,7 +117,7 @@
     "answer": "低い"
   },
   {
-    "korean": "낮다",
+    "korean": "이 건물은 낮지 않다",
     "japanese": "この建物は____",
     "adjective": "低い",
     "type": "い形容詞",
@@ -126,7 +126,7 @@
     "answer": "低くない"
   },
   {
-    "korean": "낮다",
+    "korean": "이 건물은 낮았다",
     "japanese": "この建物は____",
     "adjective": "低い",
     "type": "い形容詞",
@@ -135,7 +135,7 @@
     "answer": "低かった"
   },
   {
-    "korean": "낮다",
+    "korean": "이 건물은 낮지 않았다",
     "japanese": "この建物は____",
     "adjective": "低い",
     "type": "い形容詞",
@@ -144,7 +144,7 @@
     "answer": "低くなかった"
   },
   {
-    "korean": "좋다",
+    "korean": "이 영화는 좋다",
     "japanese": "この映画は____",
     "adjective": "良い",
     "type": "い形容詞",
@@ -153,7 +153,7 @@
     "answer": "良い"
   },
   {
-    "korean": "좋다",
+    "korean": "이 영화는 좋지 않다",
     "japanese": "この映画は____",
     "adjective": "良い",
     "type": "い形容詞",
@@ -162,7 +162,7 @@
     "answer": "良くない"
   },
   {
-    "korean": "좋다",
+    "korean": "이 영화는 좋았다",
     "japanese": "この映画は____",
     "adjective": "良い",
     "type": "い形容詞",
@@ -171,7 +171,7 @@
     "answer": "良かった"
   },
   {
-    "korean": "좋다",
+    "korean": "이 영화는 좋지 않았다",
     "japanese": "この映画は____",
     "adjective": "良い",
     "type": "い形容詞",
@@ -180,7 +180,7 @@
     "answer": "良くなかった"
   },
   {
-    "korean": "나쁘다",
+    "korean": "날씨가 나쁘다",
     "japanese": "天気が____",
     "adjective": "悪い",
     "type": "い形容詞",
@@ -189,7 +189,7 @@
     "answer": "悪い"
   },
   {
-    "korean": "나쁘다",
+    "korean": "날씨가 나쁘지 않다",
     "japanese": "天気が____",
     "adjective": "悪い",
     "type": "い形容詞",
@@ -198,7 +198,7 @@
     "answer": "悪くない"
   },
   {
-    "korean": "나쁘다",
+    "korean": "날씨가 나빴다",
     "japanese": "天気が____",
     "adjective": "悪い",
     "type": "い形容詞",
@@ -207,7 +207,7 @@
     "answer": "悪かった"
   },
   {
-    "korean": "나쁘다",
+    "korean": "날씨가 나쁘지 않았다",
     "japanese": "天気が____",
     "adjective": "悪い",
     "type": "い形容詞",
@@ -216,7 +216,7 @@
     "answer": "悪くなかった"
   },
   {
-    "korean": "새롭다",
+    "korean": "이 차는 새롭다",
     "japanese": "この車は____",
     "adjective": "新しい",
     "type": "い形容詞",
@@ -225,7 +225,7 @@
     "answer": "新しい"
   },
   {
-    "korean": "새롭다",
+    "korean": "이 차는 새롭지 않다",
     "japanese": "この車は____",
     "adjective": "新しい",
     "type": "い形容詞",
@@ -234,7 +234,7 @@
     "answer": "新しくない"
   },
   {
-    "korean": "새롭다",
+    "korean": "이 차는 새로웠다",
     "japanese": "この車は____",
     "adjective": "新しい",
     "type": "い形容詞",
@@ -243,7 +243,7 @@
     "answer": "新しかった"
   },
   {
-    "korean": "새롭다",
+    "korean": "이 차는 새롭지 않았다",
     "japanese": "この車は____",
     "adjective": "新しい",
     "type": "い形容詞",
@@ -252,7 +252,7 @@
     "answer": "新しくなかった"
   },
   {
-    "korean": "오래되다",
+    "korean": "이 집은 오래되었다",
     "japanese": "この家は____",
     "adjective": "古い",
     "type": "い形容詞",
@@ -261,7 +261,7 @@
     "answer": "古い"
   },
   {
-    "korean": "오래되다",
+    "korean": "이 집은 오래되지 않았다",
     "japanese": "この家は____",
     "adjective": "古い",
     "type": "い形容詞",
@@ -270,7 +270,7 @@
     "answer": "古くない"
   },
   {
-    "korean": "오래되다",
+    "korean": "이 집은 오래되었었다",
     "japanese": "この家は____",
     "adjective": "古い",
     "type": "い形容詞",
@@ -279,7 +279,7 @@
     "answer": "古かった"
   },
   {
-    "korean": "오래되다",
+    "korean": "이 집은 오래되지 않았었다",
     "japanese": "この家は____",
     "adjective": "古い",
     "type": "い形容詞",
@@ -288,7 +288,7 @@
     "answer": "古くなかった"
   },
   {
-    "korean": "덥다",
+    "korean": "오늘은 덥다",
     "japanese": "今日は____",
     "adjective": "暑い",
     "type": "い形容詞",
@@ -297,7 +297,7 @@
     "answer": "暑い"
   },
   {
-    "korean": "덥다",
+    "korean": "오늘은 덥지 않다",
     "japanese": "今日は____",
     "adjective": "暑い",
     "type": "い形容詞",
@@ -306,7 +306,7 @@
     "answer": "暑くない"
   },
   {
-    "korean": "덥다",
+    "korean": "오늘은 더웠다",
     "japanese": "今日は____",
     "adjective": "暑い",
     "type": "い形容詞",
@@ -315,7 +315,7 @@
     "answer": "暑かった"
   },
   {
-    "korean": "덥다",
+    "korean": "오늘은 덥지 않았다",
     "japanese": "今日は____",
     "adjective": "暑い",
     "type": "い形容詞",
@@ -324,7 +324,7 @@
     "answer": "暑くなかった"
   },
   {
-    "korean": "춥다",
+    "korean": "오늘은 춥다",
     "japanese": "今日は____",
     "adjective": "寒い",
     "type": "い形容詞",
@@ -333,7 +333,7 @@
     "answer": "寒い"
   },
   {
-    "korean": "춥다",
+    "korean": "오늘은 춥지 않다",
     "japanese": "今日は____",
     "adjective": "寒い",
     "type": "い形容詞",
@@ -342,7 +342,7 @@
     "answer": "寒くない"
   },
   {
-    "korean": "춥다",
+    "korean": "오늘은 추웠다",
     "japanese": "今日は____",
     "adjective": "寒い",
     "type": "い形容詞",
@@ -351,7 +351,7 @@
     "answer": "寒かった"
   },
   {
-    "korean": "춥다",
+    "korean": "오늘은 춥지 않았다",
     "japanese": "今日は____",
     "adjective": "寒い",
     "type": "い形容詞",
@@ -360,7 +360,7 @@
     "answer": "寒くなかった"
   },
   {
-    "korean": "따뜻하다",
+    "korean": "방이 따뜻하다",
     "japanese": "部屋が____",
     "adjective": "暖かい",
     "type": "い形容詞",
@@ -369,7 +369,7 @@
     "answer": "暖かい"
   },
   {
-    "korean": "따뜻하다",
+    "korean": "방이 따뜻하지 않다",
     "japanese": "部屋が____",
     "adjective": "暖かい",
     "type": "い形容詞",
@@ -378,7 +378,7 @@
     "answer": "暖かくない"
   },
   {
-    "korean": "따뜻하다",
+    "korean": "방이 따뜻했다",
     "japanese": "部屋が____",
     "adjective": "暖かい",
     "type": "い形容詞",
@@ -387,7 +387,7 @@
     "answer": "暖かかった"
   },
   {
-    "korean": "따뜻하다",
+    "korean": "방이 따뜻하지 않았다",
     "japanese": "部屋が____",
     "adjective": "暖かい",
     "type": "い形容詞",
@@ -396,7 +396,7 @@
     "answer": "暖かくなかった"
   },
   {
-    "korean": "시원하다",
+    "korean": "바람이 시원하다",
     "japanese": "風が____",
     "adjective": "涼しい",
     "type": "い形容詞",
@@ -405,7 +405,7 @@
     "answer": "涼しい"
   },
   {
-    "korean": "시원하다",
+    "korean": "바람이 시원하지 않다",
     "japanese": "風が____",
     "adjective": "涼しい",
     "type": "い形容詞",
@@ -414,7 +414,7 @@
     "answer": "涼しくない"
   },
   {
-    "korean": "시원하다",
+    "korean": "바람이 시원했다",
     "japanese": "風が____",
     "adjective": "涼しい",
     "type": "い形容詞",
@@ -423,7 +423,7 @@
     "answer": "涼しかった"
   },
   {
-    "korean": "시원하다",
+    "korean": "바람이 시원하지 않았다",
     "japanese": "風が____",
     "adjective": "涼しい",
     "type": "い形容詞",
@@ -432,7 +432,7 @@
     "answer": "涼しくなかった"
   },
   {
-    "korean": "뜨겁다",
+    "korean": "커피가 뜨겁다",
     "japanese": "コーヒーが____",
     "adjective": "熱い",
     "type": "い形容詞",
@@ -441,7 +441,7 @@
     "answer": "熱い"
   },
   {
-    "korean": "뜨겁다",
+    "korean": "커피가 뜨겁지 않다",
     "japanese": "コーヒーが____",
     "adjective": "熱い",
     "type": "い形容詞",
@@ -450,7 +450,7 @@
     "answer": "熱くない"
   },
   {
-    "korean": "뜨겁다",
+    "korean": "커피가 뜨거웠다",
     "japanese": "コーヒーが____",
     "adjective": "熱い",
     "type": "い形容詞",
@@ -459,7 +459,7 @@
     "answer": "熱かった"
   },
   {
-    "korean": "뜨겁다",
+    "korean": "커피가 뜨겁지 않았다",
     "japanese": "コーヒーが____",
     "adjective": "熱い",
     "type": "い形容詞",
@@ -468,7 +468,7 @@
     "answer": "熱くなかった"
   },
   {
-    "korean": "차갑다",
+    "korean": "물이 차갑다",
     "japanese": "水が____",
     "adjective": "冷たい",
     "type": "い形容詞",
@@ -477,7 +477,7 @@
     "answer": "冷たい"
   },
   {
-    "korean": "차갑다",
+    "korean": "물이 차갑지 않다",
     "japanese": "水が____",
     "adjective": "冷たい",
     "type": "い形容詞",
@@ -486,7 +486,7 @@
     "answer": "冷たくない"
   },
   {
-    "korean": "차갑다",
+    "korean": "물이 차가웠다",
     "japanese": "水が____",
     "adjective": "冷たい",
     "type": "い形容詞",
@@ -495,7 +495,7 @@
     "answer": "冷たかった"
   },
   {
-    "korean": "차갑다",
+    "korean": "물이 차갑지 않았다",
     "japanese": "水が____",
     "adjective": "冷たい",
     "type": "い形容詞",
@@ -504,7 +504,7 @@
     "answer": "冷たくなかった"
   },
   {
-    "korean": "길다",
+    "korean": "이 길은 길다",
     "japanese": "この道は____",
     "adjective": "長い",
     "type": "い形容詞",
@@ -513,7 +513,7 @@
     "answer": "長い"
   },
   {
-    "korean": "길다",
+    "korean": "이 길은 길지 않다",
     "japanese": "この道は____",
     "adjective": "長い",
     "type": "い形容詞",
@@ -522,7 +522,7 @@
     "answer": "長くない"
   },
   {
-    "korean": "길다",
+    "korean": "이 길은 길었다",
     "japanese": "この道は____",
     "adjective": "長い",
     "type": "い形容詞",
@@ -531,7 +531,7 @@
     "answer": "長かった"
   },
   {
-    "korean": "길다",
+    "korean": "이 길은 길지 않았다",
     "japanese": "この道は____",
     "adjective": "長い",
     "type": "い形容詞",
@@ -540,7 +540,7 @@
     "answer": "長くなかった"
   },
   {
-    "korean": "짧다",
+    "korean": "치마가 짧다",
     "japanese": "スカートが____",
     "adjective": "短い",
     "type": "い形容詞",
@@ -549,7 +549,7 @@
     "answer": "短い"
   },
   {
-    "korean": "짧다",
+    "korean": "치마가 짧지 않다",
     "japanese": "スカートが____",
     "adjective": "短い",
     "type": "い形容詞",
@@ -558,7 +558,7 @@
     "answer": "短くない"
   },
   {
-    "korean": "짧다",
+    "korean": "치마가 짧았다",
     "japanese": "スカートが____",
     "adjective": "短い",
     "type": "い形容詞",
@@ -567,7 +567,7 @@
     "answer": "短かった"
   },
   {
-    "korean": "짧다",
+    "korean": "치마가 짧지 않았다",
     "japanese": "スカートが____",
     "adjective": "短い",
     "type": "い形容詞",
@@ -576,7 +576,7 @@
     "answer": "短くなかった"
   },
   {
-    "korean": "빠르다",
+    "korean": "전철이 빠르다",
     "japanese": "電車が____",
     "adjective": "速い",
     "type": "い形容詞",
@@ -585,7 +585,7 @@
     "answer": "速い"
   },
   {
-    "korean": "빠르다",
+    "korean": "전철이 빠르지 않다",
     "japanese": "電車が____",
     "adjective": "速い",
     "type": "い形容詞",
@@ -594,7 +594,7 @@
     "answer": "速くない"
   },
   {
-    "korean": "빠르다",
+    "korean": "전철이 빨랐다",
     "japanese": "電車が____",
     "adjective": "速い",
     "type": "い形容詞",
@@ -603,7 +603,7 @@
     "answer": "速かった"
   },
   {
-    "korean": "빠르다",
+    "korean": "전철이 빠르지 않았다",
     "japanese": "電車が____",
     "adjective": "速い",
     "type": "い形容詞",
@@ -612,7 +612,7 @@
     "answer": "速くなかった"
   },
   {
-    "korean": "느리다",
+    "korean": "버스가 느리다",
     "japanese": "バスが____",
     "adjective": "遅い",
     "type": "い形容詞",
@@ -621,7 +621,7 @@
     "answer": "遅い"
   },
   {
-    "korean": "느리다",
+    "korean": "버스가 느리지 않다",
     "japanese": "バスが____",
     "adjective": "遅い",
     "type": "い形容詞",
@@ -630,7 +630,7 @@
     "answer": "遅くない"
   },
   {
-    "korean": "느리다",
+    "korean": "버스가 느렸다",
     "japanese": "バスが____",
     "adjective": "遅い",
     "type": "い形容詞",
@@ -639,7 +639,7 @@
     "answer": "遅かった"
   },
   {
-    "korean": "느리다",
+    "korean": "버스가 느리지 않았다",
     "japanese": "バスが____",
     "adjective": "遅い",
     "type": "い形容詞",
@@ -648,7 +648,7 @@
     "answer": "遅くなかった"
   },
   {
-    "korean": "이르다",
+    "korean": "아침이 이르다",
     "japanese": "朝が____",
     "adjective": "早い",
     "type": "い形容詞",
@@ -657,7 +657,7 @@
     "answer": "早い"
   },
   {
-    "korean": "이르다",
+    "korean": "아침이 이르지 않다",
     "japanese": "朝が____",
     "adjective": "早い",
     "type": "い形容詞",
@@ -666,7 +666,7 @@
     "answer": "早くない"
   },
   {
-    "korean": "이르다",
+    "korean": "아침이 일렀다",
     "japanese": "朝が____",
     "adjective": "早い",
     "type": "い形容詞",
@@ -675,7 +675,7 @@
     "answer": "早かった"
   },
   {
-    "korean": "이르다",
+    "korean": "아침이 이르지 않았다",
     "japanese": "朝が____",
     "adjective": "早い",
     "type": "い形容詞",
@@ -684,7 +684,7 @@
     "answer": "早くなかった"
   },
   {
-    "korean": "넓다",
+    "korean": "공원이 넓다",
     "japanese": "公園が____",
     "adjective": "広い",
     "type": "い形容詞",
@@ -693,7 +693,7 @@
     "answer": "広い"
   },
   {
-    "korean": "넓다",
+    "korean": "공원이 넓지 않다",
     "japanese": "公園が____",
     "adjective": "広い",
     "type": "い形容詞",
@@ -702,7 +702,7 @@
     "answer": "広くない"
   },
   {
-    "korean": "넓다",
+    "korean": "공원이 넓었다",
     "japanese": "公園が____",
     "adjective": "広い",
     "type": "い形容詞",
@@ -711,7 +711,7 @@
     "answer": "広かった"
   },
   {
-    "korean": "넓다",
+    "korean": "공원이 넓지 않았다",
     "japanese": "公園が____",
     "adjective": "広い",
     "type": "い形容詞",
@@ -720,7 +720,7 @@
     "answer": "広くなかった"
   },
   {
-    "korean": "좁다",
+    "korean": "길이 좁다",
     "japanese": "道が____",
     "adjective": "狭い",
     "type": "い形容詞",
@@ -729,7 +729,7 @@
     "answer": "狭い"
   },
   {
-    "korean": "좁다",
+    "korean": "길이 좁지 않다",
     "japanese": "道が____",
     "adjective": "狭い",
     "type": "い形容詞",
@@ -738,7 +738,7 @@
     "answer": "狭くない"
   },
   {
-    "korean": "좁다",
+    "korean": "길이 좁았다",
     "japanese": "道が____",
     "adjective": "狭い",
     "type": "い形容詞",
@@ -747,7 +747,7 @@
     "answer": "狭かった"
   },
   {
-    "korean": "좁다",
+    "korean": "길이 좁지 않았다",
     "japanese": "道が____",
     "adjective": "狭い",
     "type": "い形容詞",
@@ -756,7 +756,7 @@
     "answer": "狭くなかった"
   },
   {
-    "korean": "두껍다",
+    "korean": "책이 두껍다",
     "japanese": "本が____",
     "adjective": "厚い",
     "type": "い形容詞",
@@ -765,7 +765,7 @@
     "answer": "厚い"
   },
   {
-    "korean": "두껍다",
+    "korean": "책이 두껍지 않다",
     "japanese": "本が____",
     "adjective": "厚い",
     "type": "い形容詞",
@@ -774,7 +774,7 @@
     "answer": "厚くない"
   },
   {
-    "korean": "두껍다",
+    "korean": "책이 두꺼웠다",
     "japanese": "本が____",
     "adjective": "厚い",
     "type": "い形容詞",
@@ -783,7 +783,7 @@
     "answer": "厚かった"
   },
   {
-    "korean": "두껍다",
+    "korean": "책이 두껍지 않았다",
     "japanese": "本が____",
     "adjective": "厚い",
     "type": "い形容詞",
@@ -792,7 +792,7 @@
     "answer": "厚くなかった"
   },
   {
-    "korean": "얇다",
+    "korean": "종이가 얇다",
     "japanese": "紙が____",
     "adjective": "薄い",
     "type": "い形容詞",
@@ -801,7 +801,7 @@
     "answer": "薄い"
   },
   {
-    "korean": "얇다",
+    "korean": "종이가 얇지 않다",
     "japanese": "紙が____",
     "adjective": "薄い",
     "type": "い形容詞",
@@ -810,7 +810,7 @@
     "answer": "薄くない"
   },
   {
-    "korean": "얇다",
+    "korean": "종이가 얇았다",
     "japanese": "紙が____",
     "adjective": "薄い",
     "type": "い形容詞",
@@ -819,7 +819,7 @@
     "answer": "薄かった"
   },
   {
-    "korean": "얇다",
+    "korean": "종이가 얇지 않았다",
     "japanese": "紙が____",
     "adjective": "薄い",
     "type": "い形容詞",
@@ -828,7 +828,7 @@
     "answer": "薄くなかった"
   },
   {
-    "korean": "무겁다",
+    "korean": "짐이 무겁다",
     "japanese": "荷物が____",
     "adjective": "重い",
     "type": "い形容詞",
@@ -837,7 +837,7 @@
     "answer": "重い"
   },
   {
-    "korean": "무겁다",
+    "korean": "짐이 무겁지 않다",
     "japanese": "荷物が____",
     "adjective": "重い",
     "type": "い形容詞",
@@ -846,7 +846,7 @@
     "answer": "重くない"
   },
   {
-    "korean": "무겁다",
+    "korean": "짐이 무거웠다",
     "japanese": "荷物が____",
     "adjective": "重い",
     "type": "い形容詞",
@@ -855,7 +855,7 @@
     "answer": "重かった"
   },
   {
-    "korean": "무겁다",
+    "korean": "짐이 무겁지 않았다",
     "japanese": "荷物が____",
     "adjective": "重い",
     "type": "い形容詞",
@@ -864,7 +864,7 @@
     "answer": "重くなかった"
   },
   {
-    "korean": "가볍다",
+    "korean": "가방이 가볍다",
     "japanese": "カバンが____",
     "adjective": "軽い",
     "type": "い形容詞",
@@ -873,7 +873,7 @@
     "answer": "軽い"
   },
   {
-    "korean": "가볍다",
+    "korean": "가방이 가볍지 않다",
     "japanese": "カバンが____",
     "adjective": "軽い",
     "type": "い形容詞",
@@ -882,7 +882,7 @@
     "answer": "軽くない"
   },
   {
-    "korean": "가볍다",
+    "korean": "가방이 가벼웠다",
     "japanese": "カバンが____",
     "adjective": "軽い",
     "type": "い形容詞",
@@ -891,7 +891,7 @@
     "answer": "軽かった"
   },
   {
-    "korean": "가볍다",
+    "korean": "가방이 가볍지 않았다",
     "japanese": "カバンが____",
     "adjective": "軽い",
     "type": "い形容詞",
@@ -900,7 +900,7 @@
     "answer": "軽くなかった"
   },
   {
-    "korean": "강하다",
+    "korean": "힘이 강하다",
     "japanese": "力が____",
     "adjective": "強い",
     "type": "い形容詞",
@@ -909,7 +909,7 @@
     "answer": "強い"
   },
   {
-    "korean": "강하다",
+    "korean": "힘이 강하지 않다",
     "japanese": "力が____",
     "adjective": "強い",
     "type": "い形容詞",
@@ -918,7 +918,7 @@
     "answer": "強くない"
   },
   {
-    "korean": "강하다",
+    "korean": "힘이 강했다",
     "japanese": "力が____",
     "adjective": "強い",
     "type": "い形容詞",
@@ -927,7 +927,7 @@
     "answer": "強かった"
   },
   {
-    "korean": "강하다",
+    "korean": "힘이 강하지 않았다",
     "japanese": "力が____",
     "adjective": "強い",
     "type": "い形容詞",
@@ -936,7 +936,7 @@
     "answer": "強くなかった"
   },
   {
-    "korean": "약하다",
+    "korean": "바람이 약하다",
     "japanese": "風が____",
     "adjective": "弱い",
     "type": "い形容詞",
@@ -945,7 +945,7 @@
     "answer": "弱い"
   },
   {
-    "korean": "약하다",
+    "korean": "바람이 약하지 않다",
     "japanese": "風が____",
     "adjective": "弱い",
     "type": "い形容詞",
@@ -954,7 +954,7 @@
     "answer": "弱くない"
   },
   {
-    "korean": "약하다",
+    "korean": "바람이 약했다",
     "japanese": "風が____",
     "adjective": "弱い",
     "type": "い形容詞",
@@ -963,7 +963,7 @@
     "answer": "弱かった"
   },
   {
-    "korean": "약하다",
+    "korean": "바람이 약하지 않았다",
     "japanese": "風が____",
     "adjective": "弱い",
     "type": "い形容詞",
@@ -972,7 +972,7 @@
     "answer": "弱くなかった"
   },
   {
-    "korean": "밝다",
+    "korean": "방이 밝다",
     "japanese": "部屋が____",
     "adjective": "明るい",
     "type": "い形容詞",
@@ -981,7 +981,7 @@
     "answer": "明るい"
   },
   {
-    "korean": "밝다",
+    "korean": "방이 밝지 않다",
     "japanese": "部屋が____",
     "adjective": "明るい",
     "type": "い形容詞",
@@ -990,7 +990,7 @@
     "answer": "明るくない"
   },
   {
-    "korean": "밝다",
+    "korean": "방이 밝았다",
     "japanese": "部屋が____",
     "adjective": "明るい",
     "type": "い形容詞",
@@ -999,7 +999,7 @@
     "answer": "明るかった"
   },
   {
-    "korean": "밝다",
+    "korean": "방이 밝지 않았다",
     "japanese": "部屋が____",
     "adjective": "明るい",
     "type": "い形容詞",
@@ -1008,7 +1008,7 @@
     "answer": "明るくなかった"
   },
   {
-    "korean": "어둡다",
+    "korean": "밤이 어둡다",
     "japanese": "夜が____",
     "adjective": "暗い",
     "type": "い形容詞",
@@ -1017,7 +1017,7 @@
     "answer": "暗い"
   },
   {
-    "korean": "어둡다",
+    "korean": "밤이 어둡지 않다",
     "japanese": "夜が____",
     "adjective": "暗い",
     "type": "い形容詞",
@@ -1026,7 +1026,7 @@
     "answer": "暗くない"
   },
   {
-    "korean": "어둡다",
+    "korean": "밤이 어두웠다",
     "japanese": "夜が____",
     "adjective": "暗い",
     "type": "い形容詞",
@@ -1035,7 +1035,7 @@
     "answer": "暗かった"
   },
   {
-    "korean": "어둡다",
+    "korean": "밤이 어둡지 않았다",
     "japanese": "夜が____",
     "adjective": "暗い",
     "type": "い形容詞",
@@ -1044,7 +1044,7 @@
     "answer": "暗くなかった"
   },
   {
-    "korean": "많다",
+    "korean": "사람이 많다",
     "japanese": "人が____",
     "adjective": "多い",
     "type": "い形容詞",
@@ -1053,7 +1053,7 @@
     "answer": "多い"
   },
   {
-    "korean": "많다",
+    "korean": "사람이 많지 않다",
     "japanese": "人が____",
     "adjective": "多い",
     "type": "い形容詞",
@@ -1062,7 +1062,7 @@
     "answer": "多くない"
   },
   {
-    "korean": "많다",
+    "korean": "사람이 많았다",
     "japanese": "人が____",
     "adjective": "多い",
     "type": "い形容詞",
@@ -1071,7 +1071,7 @@
     "answer": "多かった"
   },
   {
-    "korean": "많다",
+    "korean": "사람이 많지 않았다",
     "japanese": "人が____",
     "adjective": "多い",
     "type": "い形容詞",
@@ -1080,7 +1080,7 @@
     "answer": "多くなかった"
   },
   {
-    "korean": "적다",
+    "korean": "시간이 적다",
     "japanese": "時間が____",
     "adjective": "少ない",
     "type": "い形容詞",
@@ -1089,7 +1089,7 @@
     "answer": "少ない"
   },
   {
-    "korean": "적다",
+    "korean": "시간이 적지 않다",
     "japanese": "時間が____",
     "adjective": "少ない",
     "type": "い形容詞",
@@ -1098,7 +1098,7 @@
     "answer": "少なくない"
   },
   {
-    "korean": "적다",
+    "korean": "시간이 적었다",
     "japanese": "時間が____",
     "adjective": "少ない",
     "type": "い形容詞",
@@ -1107,7 +1107,7 @@
     "answer": "少なかった"
   },
   {
-    "korean": "적다",
+    "korean": "시간이 적지 않았다",
     "japanese": "時間が____",
     "adjective": "少ない",
     "type": "い形容詞",
@@ -1116,7 +1116,7 @@
     "answer": "少なくなかった"
   },
   {
-    "korean": "가깝다",
+    "korean": "역이 가깝다",
     "japanese": "駅が____",
     "adjective": "近い",
     "type": "い形容詞",
@@ -1125,7 +1125,7 @@
     "answer": "近い"
   },
   {
-    "korean": "가깝다",
+    "korean": "역이 가깝지 않다",
     "japanese": "駅が____",
     "adjective": "近い",
     "type": "い形容詞",
@@ -1134,7 +1134,7 @@
     "answer": "近くない"
   },
   {
-    "korean": "가깝다",
+    "korean": "역이 가까웠다",
     "japanese": "駅が____",
     "adjective": "近い",
     "type": "い形容詞",
@@ -1143,7 +1143,7 @@
     "answer": "近かった"
   },
   {
-    "korean": "가깝다",
+    "korean": "역이 가깝지 않았다",
     "japanese": "駅が____",
     "adjective": "近い",
     "type": "い形容詞",
@@ -1152,7 +1152,7 @@
     "answer": "近くなかった"
   },
   {
-    "korean": "멀다",
+    "korean": "학교가 멀다",
     "japanese": "学校が____",
     "adjective": "遠い",
     "type": "い形容詞",
@@ -1161,7 +1161,7 @@
     "answer": "遠い"
   },
   {
-    "korean": "멀다",
+    "korean": "학교가 멀지 않다",
     "japanese": "学校が____",
     "adjective": "遠い",
     "type": "い形容詞",
@@ -1170,7 +1170,7 @@
     "answer": "遠くない"
   },
   {
-    "korean": "멀다",
+    "korean": "학교가 멀었다",
     "japanese": "学校が____",
     "adjective": "遠い",
     "type": "い形容詞",
@@ -1179,7 +1179,7 @@
     "answer": "遠かった"
   },
   {
-    "korean": "멀다",
+    "korean": "학교가 멀지 않았다",
     "japanese": "学校が____",
     "adjective": "遠い",
     "type": "い形容詞",
@@ -1188,7 +1188,7 @@
     "answer": "遠くなかった"
   },
   {
-    "korean": "어렵다",
+    "korean": "시험이 어렵다",
     "japanese": "試験が____",
     "adjective": "難しい",
     "type": "い形容詞",
@@ -1197,7 +1197,7 @@
     "answer": "難しい"
   },
   {
-    "korean": "어렵다",
+    "korean": "시험이 어렵지 않다",
     "japanese": "試験が____",
     "adjective": "難しい",
     "type": "い形容詞",
@@ -1206,7 +1206,7 @@
     "answer": "難しくない"
   },
   {
-    "korean": "어렵다",
+    "korean": "시험이 어려웠다",
     "japanese": "試験が____",
     "adjective": "難しい",
     "type": "い形容詞",
@@ -1215,7 +1215,7 @@
     "answer": "難しかった"
   },
   {
-    "korean": "어렵다",
+    "korean": "시험이 어렵지 않았다",
     "japanese": "試験が____",
     "adjective": "難しい",
     "type": "い形容詞",
@@ -1224,7 +1224,7 @@
     "answer": "難しくなかった"
   },
   {
-    "korean": "쉽다",
+    "korean": "문제가 쉽다",
     "japanese": "問題が____",
     "adjective": "易しい",
     "type": "い形容詞",
@@ -1233,7 +1233,7 @@
     "answer": "易しい"
   },
   {
-    "korean": "쉽다",
+    "korean": "문제가 쉽지 않다",
     "japanese": "問題が____",
     "adjective": "易しい",
     "type": "い形容詞",
@@ -1242,7 +1242,7 @@
     "answer": "易しくない"
   },
   {
-    "korean": "쉽다",
+    "korean": "문제가 쉬웠다",
     "japanese": "問題が____",
     "adjective": "易しい",
     "type": "い形容詞",
@@ -1251,7 +1251,7 @@
     "answer": "易しかった"
   },
   {
-    "korean": "쉽다",
+    "korean": "문제가 쉽지 않았다",
     "japanese": "問題が____",
     "adjective": "易しい",
     "type": "い形容詞",
@@ -1260,7 +1260,7 @@
     "answer": "易しくなかった"
   },
   {
-    "korean": "재미있다",
+    "korean": "게임이 재미있다",
     "japanese": "ゲームが____",
     "adjective": "面白い",
     "type": "い形容詞",
@@ -1269,7 +1269,7 @@
     "answer": "面白い"
   },
   {
-    "korean": "재미있다",
+    "korean": "게임이 재미없다",
     "japanese": "ゲームが____",
     "adjective": "面白い",
     "type": "い形容詞",
@@ -1278,7 +1278,7 @@
     "answer": "面白くない"
   },
   {
-    "korean": "재미있다",
+    "korean": "게임이 재미있었다",
     "japanese": "ゲームが____",
     "adjective": "面白い",
     "type": "い形容詞",
@@ -1287,7 +1287,7 @@
     "answer": "面白かった"
   },
   {
-    "korean": "재미있다",
+    "korean": "게임이 재미없었다",
     "japanese": "ゲームが____",
     "adjective": "面白い",
     "type": "い形容詞",
@@ -1296,7 +1296,7 @@
     "answer": "面白くなかった"
   },
   {
-    "korean": "맛있다",
+    "korean": "요리가 맛있다",
     "japanese": "料理が____",
     "adjective": "美味しい",
     "type": "い形容詞",
@@ -1305,7 +1305,7 @@
     "answer": "美味しい"
   },
   {
-    "korean": "맛있다",
+    "korean": "요리가 맛없다",
     "japanese": "料理が____",
     "adjective": "美味しい",
     "type": "い形容詞",
@@ -1314,7 +1314,7 @@
     "answer": "美味しくない"
   },
   {
-    "korean": "맛있다",
+    "korean": "요리가 맛있었다",
     "japanese": "料理が____",
     "adjective": "美味しい",
     "type": "い形容詞",
@@ -1323,7 +1323,7 @@
     "answer": "美味しかった"
   },
   {
-    "korean": "맛있다",
+    "korean": "요리가 맛없었다",
     "japanese": "料理が____",
     "adjective": "美味しい",
     "type": "い形容詞",
@@ -1332,7 +1332,7 @@
     "answer": "美味しくなかった"
   },
   {
-    "korean": "맛없다",
+    "korean": "이 생선은 맛없다",
     "japanese": "この魚は____",
     "adjective": "まずい",
     "type": "い形容詞",
@@ -1341,7 +1341,7 @@
     "answer": "まずい"
   },
   {
-    "korean": "맛없다",
+    "korean": "이 생선은 맛없지 않다",
     "japanese": "この魚は____",
     "adjective": "まずい",
     "type": "い形容詞",
@@ -1350,7 +1350,7 @@
     "answer": "まずくない"
   },
   {
-    "korean": "맛없다",
+    "korean": "이 생선은 맛없었다",
     "japanese": "この魚は____",
     "adjective": "まずい",
     "type": "い形容詞",
@@ -1359,7 +1359,7 @@
     "answer": "まずかった"
   },
   {
-    "korean": "맛없다",
+    "korean": "이 생선은 맛없지 않았다",
     "japanese": "この魚は____",
     "adjective": "まずい",
     "type": "い形容詞",
@@ -1368,7 +1368,7 @@
     "answer": "まずくなかった"
   },
   {
-    "korean": "비싸다",
+    "korean": "시계가 비싸다",
     "japanese": "時計が____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -1377,7 +1377,7 @@
     "answer": "高い"
   },
   {
-    "korean": "비싸다",
+    "korean": "시계가 비싸지 않다",
     "japanese": "時計が____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -1386,7 +1386,7 @@
     "answer": "高くない"
   },
   {
-    "korean": "비싸다",
+    "korean": "시계가 비쌌다",
     "japanese": "時計が____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -1395,7 +1395,7 @@
     "answer": "高かった"
   },
   {
-    "korean": "비싸다",
+    "korean": "시계가 비싸지 않았다",
     "japanese": "時計が____",
     "adjective": "高い",
     "type": "い形容詞",
@@ -1404,7 +1404,7 @@
     "answer": "高くなかった"
   },
   {
-    "korean": "싸다",
+    "korean": "야채가 싸다",
     "japanese": "野菜が____",
     "adjective": "安い",
     "type": "い形容詞",
@@ -1413,7 +1413,7 @@
     "answer": "安い"
   },
   {
-    "korean": "싸다",
+    "korean": "야채가 싸지 않다",
     "japanese": "野菜が____",
     "adjective": "安い",
     "type": "い形容詞",
@@ -1422,7 +1422,7 @@
     "answer": "安くない"
   },
   {
-    "korean": "싸다",
+    "korean": "야채가 쌌다",
     "japanese": "野菜が____",
     "adjective": "安い",
     "type": "い形容詞",
@@ -1431,7 +1431,7 @@
     "answer": "安かった"
   },
   {
-    "korean": "싸다",
+    "korean": "야채가 싸지 않았다",
     "japanese": "野菜が____",
     "adjective": "安い",
     "type": "い形容詞",
@@ -1440,7 +1440,7 @@
     "answer": "安くなかった"
   },
   {
-    "korean": "젊다",
+    "korean": "그녀는 젊다",
     "japanese": "彼女は____",
     "adjective": "若い",
     "type": "い形容詞",
@@ -1449,7 +1449,7 @@
     "answer": "若い"
   },
   {
-    "korean": "젊다",
+    "korean": "그녀는 젊지 않다",
     "japanese": "彼女は____",
     "adjective": "若い",
     "type": "い形容詞",
@@ -1458,7 +1458,7 @@
     "answer": "若くない"
   },
   {
-    "korean": "젊다",
+    "korean": "그녀는 젊었다",
     "japanese": "彼女は____",
     "adjective": "若い",
     "type": "い形容詞",
@@ -1467,7 +1467,7 @@
     "answer": "若かった"
   },
   {
-    "korean": "젊다",
+    "korean": "그녀는 젊지 않았다",
     "japanese": "彼女は____",
     "adjective": "若い",
     "type": "い形容詞",
@@ -1476,7 +1476,7 @@
     "answer": "若くなかった"
   },
   {
-    "korean": "붉다",
+    "korean": "꽃이 붉다",
     "japanese": "花が____",
     "adjective": "赤い",
     "type": "い形容詞",
@@ -1485,7 +1485,7 @@
     "answer": "赤い"
   },
   {
-    "korean": "붉다",
+    "korean": "꽃이 붉지 않다",
     "japanese": "花が____",
     "adjective": "赤い",
     "type": "い形容詞",
@@ -1494,7 +1494,7 @@
     "answer": "赤くない"
   },
   {
-    "korean": "붉다",
+    "korean": "꽃이 붉었다",
     "japanese": "花が____",
     "adjective": "赤い",
     "type": "い形容詞",
@@ -1503,7 +1503,7 @@
     "answer": "赤かった"
   },
   {
-    "korean": "붉다",
+    "korean": "꽃이 붉지 않았다",
     "japanese": "花が____",
     "adjective": "赤い",
     "type": "い形容詞",
@@ -1512,7 +1512,7 @@
     "answer": "赤くなかった"
   },
   {
-    "korean": "파랗다",
+    "korean": "하늘이 파랗다",
     "japanese": "空が____",
     "adjective": "青い",
     "type": "い形容詞",
@@ -1521,7 +1521,7 @@
     "answer": "青い"
   },
   {
-    "korean": "파랗다",
+    "korean": "하늘이 파랗지 않다",
     "japanese": "空が____",
     "adjective": "青い",
     "type": "い形容詞",
@@ -1530,7 +1530,7 @@
     "answer": "青くない"
   },
   {
-    "korean": "파랗다",
+    "korean": "하늘이 파랬다",
     "japanese": "空が____",
     "adjective": "青い",
     "type": "い形容詞",
@@ -1539,7 +1539,7 @@
     "answer": "青かった"
   },
   {
-    "korean": "파랗다",
+    "korean": "하늘이 파랗지 않았다",
     "japanese": "空が____",
     "adjective": "青い",
     "type": "い形容詞",
@@ -1548,7 +1548,7 @@
     "answer": "青くなかった"
   },
   {
-    "korean": "하얗다",
+    "korean": "눈이 하얗다",
     "japanese": "雪が____",
     "adjective": "白い",
     "type": "い形容詞",
@@ -1557,7 +1557,7 @@
     "answer": "白い"
   },
   {
-    "korean": "하얗다",
+    "korean": "눈이 하얗지 않다",
     "japanese": "雪が____",
     "adjective": "白い",
     "type": "い形容詞",
@@ -1566,7 +1566,7 @@
     "answer": "白くない"
   },
   {
-    "korean": "하얗다",
+    "korean": "눈이 하얬다",
     "japanese": "雪が____",
     "adjective": "白い",
     "type": "い形容詞",
@@ -1575,7 +1575,7 @@
     "answer": "白かった"
   },
   {
-    "korean": "하얗다",
+    "korean": "눈이 하얗지 않았다",
     "japanese": "雪が____",
     "adjective": "白い",
     "type": "い形容詞",
@@ -1584,7 +1584,7 @@
     "answer": "白くなかった"
   },
   {
-    "korean": "검다",
+    "korean": "고양이가 검다",
     "japanese": "猫が____",
     "adjective": "黒い",
     "type": "い形容詞",
@@ -1593,7 +1593,7 @@
     "answer": "黒い"
   },
   {
-    "korean": "검다",
+    "korean": "고양이가 검지 않다",
     "japanese": "猫が____",
     "adjective": "黒い",
     "type": "い形容詞",
@@ -1602,7 +1602,7 @@
     "answer": "黒くない"
   },
   {
-    "korean": "검다",
+    "korean": "고양이가 검었다",
     "japanese": "猫が____",
     "adjective": "黒い",
     "type": "い形容詞",
@@ -1611,7 +1611,7 @@
     "answer": "黒かった"
   },
   {
-    "korean": "검다",
+    "korean": "고양이가 검지 않았다",
     "japanese": "猫が____",
     "adjective": "黒い",
     "type": "い形容詞",
@@ -1620,7 +1620,7 @@
     "answer": "黒くなかった"
   },
   {
-    "korean": "노랗다",
+    "korean": "바나나가 노랗다",
     "japanese": "バナナが____",
     "adjective": "黄色い",
     "type": "い形容詞",
@@ -1629,7 +1629,7 @@
     "answer": "黄色い"
   },
   {
-    "korean": "노랗다",
+    "korean": "바나나가 노랗지 않다",
     "japanese": "バナナが____",
     "adjective": "黄色い",
     "type": "い形容詞",
@@ -1638,7 +1638,7 @@
     "answer": "黄色くない"
   },
   {
-    "korean": "노랗다",
+    "korean": "바나나가 노랬다",
     "japanese": "バナナが____",
     "adjective": "黄色い",
     "type": "い形容詞",
@@ -1647,7 +1647,7 @@
     "answer": "黄色かった"
   },
   {
-    "korean": "노랗다",
+    "korean": "바나나가 노랗지 않았다",
     "japanese": "バナナが____",
     "adjective": "黄色い",
     "type": "い形容詞",
@@ -1656,7 +1656,7 @@
     "answer": "黄色くなかった"
   },
   {
-    "korean": "갈색이다",
+    "korean": "구두가 갈색이다",
     "japanese": "靴が____",
     "adjective": "茶色い",
     "type": "い形容詞",
@@ -1665,7 +1665,7 @@
     "answer": "茶色い"
   },
   {
-    "korean": "갈색이다",
+    "korean": "구두가 갈색이 아니다",
     "japanese": "靴が____",
     "adjective": "茶色い",
     "type": "い形容詞",
@@ -1674,7 +1674,7 @@
     "answer": "茶色くない"
   },
   {
-    "korean": "갈색이다",
+    "korean": "구두가 갈색이었다",
     "japanese": "靴が____",
     "adjective": "茶色い",
     "type": "い形容詞",
@@ -1683,7 +1683,7 @@
     "answer": "茶色かった"
   },
   {
-    "korean": "갈색이다",
+    "korean": "구두가 갈색이 아니었다",
     "japanese": "靴が____",
     "adjective": "茶色い",
     "type": "い形容詞",
@@ -1692,7 +1692,7 @@
     "answer": "茶色くなかった"
   },
   {
-    "korean": "둥글다",
+    "korean": "공이 둥글다",
     "japanese": "ボールが____",
     "adjective": "丸い",
     "type": "い形容詞",
@@ -1701,7 +1701,7 @@
     "answer": "丸い"
   },
   {
-    "korean": "둥글다",
+    "korean": "공이 둥글지 않다",
     "japanese": "ボールが____",
     "adjective": "丸い",
     "type": "い形容詞",
@@ -1710,7 +1710,7 @@
     "answer": "丸くない"
   },
   {
-    "korean": "둥글다",
+    "korean": "공이 둥글었다",
     "japanese": "ボールが____",
     "adjective": "丸い",
     "type": "い形容詞",
@@ -1719,7 +1719,7 @@
     "answer": "丸かった"
   },
   {
-    "korean": "둥글다",
+    "korean": "공이 둥글지 않았다",
     "japanese": "ボールが____",
     "adjective": "丸い",
     "type": "い形容詞",
@@ -1728,7 +1728,7 @@
     "answer": "丸くなかった"
   },
   {
-    "korean": "귀엽다",
+    "korean": "강아지가 귀엽다",
     "japanese": "犬が____",
     "adjective": "可愛い",
     "type": "い形容詞",
@@ -1737,7 +1737,7 @@
     "answer": "可愛い"
   },
   {
-    "korean": "귀엽다",
+    "korean": "강아지가 귀엽지 않다",
     "japanese": "犬が____",
     "adjective": "可愛い",
     "type": "い形容詞",
@@ -1746,7 +1746,7 @@
     "answer": "可愛くない"
   },
   {
-    "korean": "귀엽다",
+    "korean": "강아지가 귀여웠다",
     "japanese": "犬が____",
     "adjective": "可愛い",
     "type": "い形容詞",
@@ -1755,7 +1755,7 @@
     "answer": "可愛かった"
   },
   {
-    "korean": "귀엽다",
+    "korean": "강아지가 귀엽지 않았다",
     "japanese": "犬が____",
     "adjective": "可愛い",
     "type": "い形容詞",
@@ -1764,7 +1764,7 @@
     "answer": "可愛くなかった"
   },
   {
-    "korean": "무섭다",
+    "korean": "영화가 무섭다",
     "japanese": "映画が____",
     "adjective": "怖い",
     "type": "い形容詞",
@@ -1773,7 +1773,7 @@
     "answer": "怖い"
   },
   {
-    "korean": "무섭다",
+    "korean": "영화가 무섭지 않다",
     "japanese": "映画が____",
     "adjective": "怖い",
     "type": "い形容詞",
@@ -1782,7 +1782,7 @@
     "answer": "怖くない"
   },
   {
-    "korean": "무섭다",
+    "korean": "영화가 무서웠다",
     "japanese": "映画が____",
     "adjective": "怖い",
     "type": "い形容詞",
@@ -1791,7 +1791,7 @@
     "answer": "怖かった"
   },
   {
-    "korean": "무섭다",
+    "korean": "영화가 무섭지 않았다",
     "japanese": "映画が____",
     "adjective": "怖い",
     "type": "い形容詞",
@@ -1800,7 +1800,7 @@
     "answer": "怖くなかった"
   },
   {
-    "korean": "슬프다",
+    "korean": "이야기가 슬프다",
     "japanese": "話が____",
     "adjective": "悲しい",
     "type": "い形容詞",
@@ -1809,7 +1809,7 @@
     "answer": "悲しい"
   },
   {
-    "korean": "슬프다",
+    "korean": "이야기가 슬프지 않다",
     "japanese": "話が____",
     "adjective": "悲しい",
     "type": "い形容詞",
@@ -1818,7 +1818,7 @@
     "answer": "悲しくない"
   },
   {
-    "korean": "슬프다",
+    "korean": "이야기가 슬펐다",
     "japanese": "話が____",
     "adjective": "悲しい",
     "type": "い形容詞",
@@ -1827,7 +1827,7 @@
     "answer": "悲しかった"
   },
   {
-    "korean": "슬프다",
+    "korean": "이야기가 슬프지 않았다",
     "japanese": "話が____",
     "adjective": "悲しい",
     "type": "い形容詞",
@@ -1836,7 +1836,7 @@
     "answer": "悲しくなかった"
   },
   {
-    "korean": "기쁘다",
+    "korean": "그는 기쁘다",
     "japanese": "彼は____",
     "adjective": "嬉しい",
     "type": "い形容詞",
@@ -1845,7 +1845,7 @@
     "answer": "嬉しい"
   },
   {
-    "korean": "기쁘다",
+    "korean": "그는 기쁘지 않다",
     "japanese": "彼は____",
     "adjective": "嬉しい",
     "type": "い形容詞",
@@ -1854,7 +1854,7 @@
     "answer": "嬉しくない"
   },
   {
-    "korean": "기쁘다",
+    "korean": "그는 기뻤다",
     "japanese": "彼は____",
     "adjective": "嬉しい",
     "type": "い形容詞",
@@ -1863,7 +1863,7 @@
     "answer": "嬉しかった"
   },
   {
-    "korean": "기쁘다",
+    "korean": "그는 기쁘지 않았다",
     "japanese": "彼は____",
     "adjective": "嬉しい",
     "type": "い形容詞",
@@ -1872,7 +1872,7 @@
     "answer": "嬉しくなかった"
   },
   {
-    "korean": "부끄럽다",
+    "korean": "나는 부끄럽다",
     "japanese": "私は____",
     "adjective": "恥ずかしい",
     "type": "い形容詞",
@@ -1881,7 +1881,7 @@
     "answer": "恥ずかしい"
   },
   {
-    "korean": "부끄럽다",
+    "korean": "나는 부끄럽지 않다",
     "japanese": "私は____",
     "adjective": "恥ずかしい",
     "type": "い形容詞",
@@ -1890,7 +1890,7 @@
     "answer": "恥ずかしくない"
   },
   {
-    "korean": "부끄럽다",
+    "korean": "나는 부끄러웠다",
     "japanese": "私は____",
     "adjective": "恥ずかしい",
     "type": "い形容詞",
@@ -1899,7 +1899,7 @@
     "answer": "恥ずかしかった"
   },
   {
-    "korean": "부끄럽다",
+    "korean": "나는 부끄럽지 않았다",
     "japanese": "私は____",
     "adjective": "恥ずかしい",
     "type": "い形容詞",
@@ -1908,7 +1908,7 @@
     "answer": "恥ずかしくなかった"
   },
   {
-    "korean": "즐겁다",
+    "korean": "파티가 즐겁다",
     "japanese": "パーティーが____",
     "adjective": "楽しい",
     "type": "い形容詞",
@@ -1917,7 +1917,7 @@
     "answer": "楽しい"
   },
   {
-    "korean": "즐겁다",
+    "korean": "파티가 즐겁지 않다",
     "japanese": "パーティーが____",
     "adjective": "楽しい",
     "type": "い形容詞",
@@ -1926,7 +1926,7 @@
     "answer": "楽しくない"
   },
   {
-    "korean": "즐겁다",
+    "korean": "파티가 즐거웠다",
     "japanese": "パーティーが____",
     "adjective": "楽しい",
     "type": "い形容詞",
@@ -1935,7 +1935,7 @@
     "answer": "楽しかった"
   },
   {
-    "korean": "즐겁다",
+    "korean": "파티가 즐겁지 않았다",
     "japanese": "パーティーが____",
     "adjective": "楽しい",
     "type": "い形容詞",
@@ -1944,7 +1944,7 @@
     "answer": "楽しくなかった"
   },
   {
-    "korean": "더럽다",
+    "korean": "신발이 더럽다",
     "japanese": "靴が____",
     "adjective": "汚い",
     "type": "い形容詞",
@@ -1953,7 +1953,7 @@
     "answer": "汚い"
   },
   {
-    "korean": "더럽다",
+    "korean": "신발이 더럽지 않다",
     "japanese": "靴が____",
     "adjective": "汚い",
     "type": "い形容詞",
@@ -1962,7 +1962,7 @@
     "answer": "汚くない"
   },
   {
-    "korean": "더럽다",
+    "korean": "신발이 더러웠다",
     "japanese": "靴が____",
     "adjective": "汚い",
     "type": "い形容詞",
@@ -1971,7 +1971,7 @@
     "answer": "汚かった"
   },
   {
-    "korean": "더럽다",
+    "korean": "신발이 더럽지 않았다",
     "japanese": "靴が____",
     "adjective": "汚い",
     "type": "い形容詞",
@@ -1980,7 +1980,7 @@
     "answer": "汚くなかった"
   },
   {
-    "korean": "훌륭하다",
+    "korean": "작품이 훌륭하다",
     "japanese": "作品が____",
     "adjective": "素晴らしい",
     "type": "い形容詞",
@@ -1989,7 +1989,7 @@
     "answer": "素晴らしい"
   },
   {
-    "korean": "훌륭하다",
+    "korean": "작품이 훌륭하지 않다",
     "japanese": "作品が____",
     "adjective": "素晴らしい",
     "type": "い形容詞",
@@ -1998,7 +1998,7 @@
     "answer": "素晴らしくない"
   },
   {
-    "korean": "훌륭하다",
+    "korean": "작품이 훌륭했다",
     "japanese": "作品が____",
     "adjective": "素晴らしい",
     "type": "い形容詞",
@@ -2007,7 +2007,7 @@
     "answer": "素晴らしかった"
   },
   {
-    "korean": "훌륭하다",
+    "korean": "작품이 훌륭하지 않았다",
     "japanese": "作品が____",
     "adjective": "素晴らしい",
     "type": "い形容詞",
@@ -2016,7 +2016,7 @@
     "answer": "素晴らしくなかった"
   },
   {
-    "korean": "바쁘다",
+    "korean": "어머니는 바쁘다",
     "japanese": "母は____",
     "adjective": "忙しい",
     "type": "い形容詞",
@@ -2025,7 +2025,7 @@
     "answer": "忙しい"
   },
   {
-    "korean": "바쁘다",
+    "korean": "어머니는 바쁘지 않다",
     "japanese": "母は____",
     "adjective": "忙しい",
     "type": "い形容詞",
@@ -2034,7 +2034,7 @@
     "answer": "忙しくない"
   },
   {
-    "korean": "바쁘다",
+    "korean": "어머니는 바빴다",
     "japanese": "母は____",
     "adjective": "忙しい",
     "type": "い形容詞",
@@ -2043,7 +2043,7 @@
     "answer": "忙しかった"
   },
   {
-    "korean": "바쁘다",
+    "korean": "어머니는 바쁘지 않았다",
     "japanese": "母は____",
     "adjective": "忙しい",
     "type": "い形容詞",
@@ -2052,7 +2052,7 @@
     "answer": "忙しくなかった"
   },
   {
-    "korean": "조용하다",
+    "korean": "이 장소는 조용하다",
     "japanese": "この場所は____",
     "adjective": "静か",
     "type": "な形容詞",
@@ -2061,7 +2061,7 @@
     "answer": "静かだ"
   },
   {
-    "korean": "조용하다",
+    "korean": "이 장소는 조용하지 않다",
     "japanese": "この場所は____",
     "adjective": "静か",
     "type": "な形容詞",
@@ -2070,7 +2070,7 @@
     "answer": "静かではない"
   },
   {
-    "korean": "조용하다",
+    "korean": "이 장소는 조용했다",
     "japanese": "この場所は____",
     "adjective": "静か",
     "type": "な形容詞",
@@ -2079,7 +2079,7 @@
     "answer": "静かだった"
   },
   {
-    "korean": "조용하다",
+    "korean": "이 장소는 조용하지 않았다",
     "japanese": "この場所は____",
     "adjective": "静か",
     "type": "な形容詞",
@@ -2088,7 +2088,7 @@
     "answer": "静かではなかった"
   },
   {
-    "korean": "시끄럽다",
+    "korean": "거리가 시끄럽다",
     "japanese": "通りが____",
     "adjective": "賑やか",
     "type": "な形容詞",
@@ -2097,7 +2097,7 @@
     "answer": "賑やかだ"
   },
   {
-    "korean": "시끄럽다",
+    "korean": "거리가 시끄럽지 않다",
     "japanese": "通りが____",
     "adjective": "賑やか",
     "type": "な形容詞",
@@ -2106,7 +2106,7 @@
     "answer": "賑やかではない"
   },
   {
-    "korean": "시끄럽다",
+    "korean": "거리가 시끄러웠다",
     "japanese": "通りが____",
     "adjective": "賑やか",
     "type": "な形容詞",
@@ -2115,7 +2115,7 @@
     "answer": "賑やかだった"
   },
   {
-    "korean": "시끄럽다",
+    "korean": "거리가 시끄럽지 않았다",
     "japanese": "通りが____",
     "adjective": "賑やか",
     "type": "な形容詞",
@@ -2124,7 +2124,7 @@
     "answer": "賑やかではなかった"
   },
   {
-    "korean": "편리하다",
+    "korean": "이 앱은 편리하다",
     "japanese": "このアプリは____",
     "adjective": "便利",
     "type": "な形容詞",
@@ -2133,7 +2133,7 @@
     "answer": "便利だ"
   },
   {
-    "korean": "편리하다",
+    "korean": "이 앱은 편리하지 않다",
     "japanese": "このアプリは____",
     "adjective": "便利",
     "type": "な形容詞",
@@ -2142,7 +2142,7 @@
     "answer": "便利ではない"
   },
   {
-    "korean": "편리하다",
+    "korean": "이 앱은 편리했다",
     "japanese": "このアプリは____",
     "adjective": "便利",
     "type": "な形容詞",
@@ -2151,7 +2151,7 @@
     "answer": "便利だった"
   },
   {
-    "korean": "편리하다",
+    "korean": "이 앱은 편리하지 않았다",
     "japanese": "このアプリは____",
     "adjective": "便利",
     "type": "な形容詞",
@@ -2160,7 +2160,7 @@
     "answer": "便利ではなかった"
   },
   {
-    "korean": "불편하다",
+    "korean": "이 신발은 불편하다",
     "japanese": "この靴は____",
     "adjective": "不便",
     "type": "な形容詞",
@@ -2169,7 +2169,7 @@
     "answer": "不便だ"
   },
   {
-    "korean": "불편하다",
+    "korean": "이 신발은 불편하지 않다",
     "japanese": "この靴は____",
     "adjective": "不便",
     "type": "な形容詞",
@@ -2178,7 +2178,7 @@
     "answer": "不便ではない"
   },
   {
-    "korean": "불편하다",
+    "korean": "이 신발은 불편했다",
     "japanese": "この靴は____",
     "adjective": "不便",
     "type": "な形容詞",
@@ -2187,7 +2187,7 @@
     "answer": "不便だった"
   },
   {
-    "korean": "불편하다",
+    "korean": "이 신발은 불편하지 않았다",
     "japanese": "この靴は____",
     "adjective": "不便",
     "type": "な形容詞",
@@ -2196,7 +2196,7 @@
     "answer": "不便ではなかった"
   },
   {
-    "korean": "유명하다",
+    "korean": "이 가수는 유명하다",
     "japanese": "この歌手は____",
     "adjective": "有名",
     "type": "な形容詞",
@@ -2205,7 +2205,7 @@
     "answer": "有名だ"
   },
   {
-    "korean": "유명하다",
+    "korean": "이 가수는 유명하지 않다",
     "japanese": "この歌手は____",
     "adjective": "有名",
     "type": "な形容詞",
@@ -2214,7 +2214,7 @@
     "answer": "有名ではない"
   },
   {
-    "korean": "유명하다",
+    "korean": "이 가수는 유명했다",
     "japanese": "この歌手は____",
     "adjective": "有名",
     "type": "な形容詞",
@@ -2223,7 +2223,7 @@
     "answer": "有名だった"
   },
   {
-    "korean": "유명하다",
+    "korean": "이 가수는 유명하지 않았다",
     "japanese": "この歌手は____",
     "adjective": "有名",
     "type": "な形容詞",
@@ -2232,7 +2232,7 @@
     "answer": "有名ではなかった"
   },
   {
-    "korean": "친절하다",
+    "korean": "점원이 친절하다",
     "japanese": "店員が____",
     "adjective": "親切",
     "type": "な形容詞",
@@ -2241,7 +2241,7 @@
     "answer": "親切だ"
   },
   {
-    "korean": "친절하다",
+    "korean": "점원이 친절하지 않다",
     "japanese": "店員が____",
     "adjective": "親切",
     "type": "な形容詞",
@@ -2250,7 +2250,7 @@
     "answer": "親切ではない"
   },
   {
-    "korean": "친절하다",
+    "korean": "점원이 친절했다",
     "japanese": "店員が____",
     "adjective": "親切",
     "type": "な形容詞",
@@ -2259,7 +2259,7 @@
     "answer": "親切だった"
   },
   {
-    "korean": "친절하다",
+    "korean": "점원이 친절하지 않았다",
     "japanese": "店員が____",
     "adjective": "親切",
     "type": "な形容詞",
@@ -2268,7 +2268,7 @@
     "answer": "親切ではなかった"
   },
   {
-    "korean": "깨끗하다",
+    "korean": "이 방은 깨끗하다",
     "japanese": "この部屋は____",
     "adjective": "きれい",
     "type": "な形容詞",
@@ -2277,7 +2277,7 @@
     "answer": "きれいだ"
   },
   {
-    "korean": "깨끗하다",
+    "korean": "이 방은 깨끗하지 않다",
     "japanese": "この部屋は____",
     "adjective": "きれい",
     "type": "な形容詞",
@@ -2286,7 +2286,7 @@
     "answer": "きれいではない"
   },
   {
-    "korean": "깨끗하다",
+    "korean": "이 방은 깨끗했다",
     "japanese": "この部屋は____",
     "adjective": "きれい",
     "type": "な形容詞",
@@ -2295,7 +2295,7 @@
     "answer": "きれいだった"
   },
   {
-    "korean": "깨끗하다",
+    "korean": "이 방은 깨끗하지 않았다",
     "japanese": "この部屋は____",
     "adjective": "きれい",
     "type": "な形容詞",
@@ -2304,7 +2304,7 @@
     "answer": "きれいではなかった"
   },
   {
-    "korean": "건강하다",
+    "korean": "그는 건강하다",
     "japanese": "彼は____",
     "adjective": "元気",
     "type": "な形容詞",
@@ -2313,7 +2313,7 @@
     "answer": "元気だ"
   },
   {
-    "korean": "건강하다",
+    "korean": "그는 건강하지 않다",
     "japanese": "彼は____",
     "adjective": "元気",
     "type": "な形容詞",
@@ -2322,7 +2322,7 @@
     "answer": "元気ではない"
   },
   {
-    "korean": "건강하다",
+    "korean": "그는 건강했다",
     "japanese": "彼は____",
     "adjective": "元気",
     "type": "な形容詞",
@@ -2331,7 +2331,7 @@
     "answer": "元気だった"
   },
   {
-    "korean": "건강하다",
+    "korean": "그는 건강하지 않았다",
     "japanese": "彼は____",
     "adjective": "元気",
     "type": "な形容詞",
@@ -2340,7 +2340,7 @@
     "answer": "元気ではなかった"
   },
   {
-    "korean": "좋아하다",
+    "korean": "나는 음악을 좋아한다",
     "japanese": "私は音楽が____",
     "adjective": "好き",
     "type": "な形容詞",
@@ -2349,7 +2349,7 @@
     "answer": "好きだ"
   },
   {
-    "korean": "좋아하다",
+    "korean": "나는 음악을 좋아하지 않다",
     "japanese": "私は音楽が____",
     "adjective": "好き",
     "type": "な形容詞",
@@ -2358,7 +2358,7 @@
     "answer": "好きではない"
   },
   {
-    "korean": "좋아하다",
+    "korean": "나는 음악을 좋아했다",
     "japanese": "私は音楽が____",
     "adjective": "好き",
     "type": "な形容詞",
@@ -2367,7 +2367,7 @@
     "answer": "好きだった"
   },
   {
-    "korean": "좋아하다",
+    "korean": "나는 음악을 좋아하지 않았다",
     "japanese": "私は音楽が____",
     "adjective": "好き",
     "type": "な形容詞",
@@ -2376,7 +2376,7 @@
     "answer": "好きではなかった"
   },
   {
-    "korean": "싫어하다",
+    "korean": "나는 야채를 싫어한다",
     "japanese": "私は野菜が____",
     "adjective": "嫌い",
     "type": "な形容詞",
@@ -2385,7 +2385,7 @@
     "answer": "嫌いだ"
   },
   {
-    "korean": "싫어하다",
+    "korean": "나는 야채를 싫어하지 않다",
     "japanese": "私は野菜が____",
     "adjective": "嫌い",
     "type": "な形容詞",
@@ -2394,7 +2394,7 @@
     "answer": "嫌いではない"
   },
   {
-    "korean": "싫어하다",
+    "korean": "나는 야채를 싫어했다",
     "japanese": "私は野菜が____",
     "adjective": "嫌い",
     "type": "な形容詞",
@@ -2403,7 +2403,7 @@
     "answer": "嫌いだった"
   },
   {
-    "korean": "싫어하다",
+    "korean": "나는 야채를 싫어하지 않았다",
     "japanese": "私は野菜が____",
     "adjective": "嫌い",
     "type": "な形容詞",
@@ -2412,7 +2412,7 @@
     "answer": "嫌いではなかった"
   },
   {
-    "korean": "간단하다",
+    "korean": "설명이 간단하다",
     "japanese": "説明が____",
     "adjective": "簡単",
     "type": "な形容詞",
@@ -2421,7 +2421,7 @@
     "answer": "簡単だ"
   },
   {
-    "korean": "간단하다",
+    "korean": "설명이 간단하지 않다",
     "japanese": "説明が____",
     "adjective": "簡単",
     "type": "な形容詞",
@@ -2430,7 +2430,7 @@
     "answer": "簡単ではない"
   },
   {
-    "korean": "간단하다",
+    "korean": "설명이 간단했다",
     "japanese": "説明が____",
     "adjective": "簡単",
     "type": "な形容詞",
@@ -2439,7 +2439,7 @@
     "answer": "簡単だった"
   },
   {
-    "korean": "간단하다",
+    "korean": "설명이 간단하지 않았다",
     "japanese": "説明が____",
     "adjective": "簡単",
     "type": "な形容詞",
@@ -2448,7 +2448,7 @@
     "answer": "簡単ではなかった"
   },
   {
-    "korean": "복잡하다",
+    "korean": "문제가 복잡하다",
     "japanese": "問題が____",
     "adjective": "複雑",
     "type": "な形容詞",
@@ -2457,7 +2457,7 @@
     "answer": "複雑だ"
   },
   {
-    "korean": "복잡하다",
+    "korean": "문제가 복잡하지 않다",
     "japanese": "問題が____",
     "adjective": "複雑",
     "type": "な形容詞",
@@ -2466,7 +2466,7 @@
     "answer": "複雑ではない"
   },
   {
-    "korean": "복잡하다",
+    "korean": "문제가 복잡했다",
     "japanese": "問題が____",
     "adjective": "複雑",
     "type": "な形容詞",
@@ -2475,7 +2475,7 @@
     "answer": "複雑だった"
   },
   {
-    "korean": "복잡하다",
+    "korean": "문제가 복잡하지 않았다",
     "japanese": "問題が____",
     "adjective": "複雑",
     "type": "な形容詞",
@@ -2484,7 +2484,7 @@
     "answer": "複雑ではなかった"
   },
   {
-    "korean": "특별하다",
+    "korean": "오늘은 특별하다",
     "japanese": "今日は____",
     "adjective": "特別",
     "type": "な形容詞",
@@ -2493,7 +2493,7 @@
     "answer": "特別だ"
   },
   {
-    "korean": "특별하다",
+    "korean": "오늘은 특별하지 않다",
     "japanese": "今日は____",
     "adjective": "特別",
     "type": "な形容詞",
@@ -2502,7 +2502,7 @@
     "answer": "特別ではない"
   },
   {
-    "korean": "특별하다",
+    "korean": "오늘은 특별했다",
     "japanese": "今日は____",
     "adjective": "特別",
     "type": "な形容詞",
@@ -2511,7 +2511,7 @@
     "answer": "特別だった"
   },
   {
-    "korean": "특별하다",
+    "korean": "오늘은 특별하지 않았다",
     "japanese": "今日は____",
     "adjective": "特別",
     "type": "な形容詞",
@@ -2520,7 +2520,7 @@
     "answer": "特別ではなかった"
   },
   {
-    "korean": "자유롭다",
+    "korean": "시간이 자유롭다",
     "japanese": "時間が____",
     "adjective": "自由",
     "type": "な形容詞",
@@ -2529,7 +2529,7 @@
     "answer": "自由だ"
   },
   {
-    "korean": "자유롭다",
+    "korean": "시간이 자유롭지 않다",
     "japanese": "時間が____",
     "adjective": "自由",
     "type": "な形容詞",
@@ -2538,7 +2538,7 @@
     "answer": "自由ではない"
   },
   {
-    "korean": "자유롭다",
+    "korean": "시간이 자유로웠다",
     "japanese": "時間が____",
     "adjective": "自由",
     "type": "な形容詞",
@@ -2547,7 +2547,7 @@
     "answer": "自由だった"
   },
   {
-    "korean": "자유롭다",
+    "korean": "시간이 자유롭지 않았다",
     "japanese": "時間が____",
     "adjective": "自由",
     "type": "な形容詞",
@@ -2556,7 +2556,7 @@
     "answer": "自由ではなかった"
   },
   {
-    "korean": "중요하다",
+    "korean": "이 일은 중요하다",
     "japanese": "この仕事は____",
     "adjective": "大切",
     "type": "な形容詞",
@@ -2565,7 +2565,7 @@
     "answer": "大切だ"
   },
   {
-    "korean": "중요하다",
+    "korean": "이 일은 중요하지 않다",
     "japanese": "この仕事は____",
     "adjective": "大切",
     "type": "な形容詞",
@@ -2574,7 +2574,7 @@
     "answer": "大切ではない"
   },
   {
-    "korean": "중요하다",
+    "korean": "이 일은 중요했다",
     "japanese": "この仕事は____",
     "adjective": "大切",
     "type": "な形容詞",
@@ -2583,7 +2583,7 @@
     "answer": "大切だった"
   },
   {
-    "korean": "중요하다",
+    "korean": "이 일은 중요하지 않았다",
     "japanese": "この仕事は____",
     "adjective": "大切",
     "type": "な形容詞",
@@ -2592,7 +2592,7 @@
     "answer": "大切ではなかった"
   },
   {
-    "korean": "필요하다",
+    "korean": "이것은 필요하다",
     "japanese": "これは____",
     "adjective": "必要",
     "type": "な形容詞",
@@ -2601,7 +2601,7 @@
     "answer": "必要だ"
   },
   {
-    "korean": "필요하다",
+    "korean": "이것은 필요하지 않다",
     "japanese": "これは____",
     "adjective": "必要",
     "type": "な形容詞",
@@ -2610,7 +2610,7 @@
     "answer": "必要ではない"
   },
   {
-    "korean": "필요하다",
+    "korean": "이것은 필요했다",
     "japanese": "これは____",
     "adjective": "必要",
     "type": "な形容詞",
@@ -2619,7 +2619,7 @@
     "answer": "必要だった"
   },
   {
-    "korean": "필요하다",
+    "korean": "이것은 필요하지 않았다",
     "japanese": "これは____",
     "adjective": "必要",
     "type": "な形容詞",
@@ -2628,7 +2628,7 @@
     "answer": "必要ではなかった"
   },
   {
-    "korean": "한가하다",
+    "korean": "오늘은 한가하다",
     "japanese": "今日は____",
     "adjective": "暇",
     "type": "な形容詞",
@@ -2637,7 +2637,7 @@
     "answer": "暇だ"
   },
   {
-    "korean": "한가하다",
+    "korean": "오늘은 한가하지 않다",
     "japanese": "今日は____",
     "adjective": "暇",
     "type": "な形容詞",
@@ -2646,7 +2646,7 @@
     "answer": "暇ではない"
   },
   {
-    "korean": "한가하다",
+    "korean": "오늘은 한가했다",
     "japanese": "今日は____",
     "adjective": "暇",
     "type": "な形容詞",
@@ -2655,7 +2655,7 @@
     "answer": "暇だった"
   },
   {
-    "korean": "한가하다",
+    "korean": "오늘은 한가하지 않았다",
     "japanese": "今日は____",
     "adjective": "暇",
     "type": "な形容詞",
@@ -2664,7 +2664,7 @@
     "answer": "暇ではなかった"
   },
   {
-    "korean": "안전하다",
+    "korean": "이 길은 안전하다",
     "japanese": "この道は____",
     "adjective": "安全",
     "type": "な形容詞",
@@ -2673,7 +2673,7 @@
     "answer": "安全だ"
   },
   {
-    "korean": "안전하다",
+    "korean": "이 길은 안전하지 않다",
     "japanese": "この道は____",
     "adjective": "安全",
     "type": "な形容詞",
@@ -2682,7 +2682,7 @@
     "answer": "安全ではない"
   },
   {
-    "korean": "안전하다",
+    "korean": "이 길은 안전했다",
     "japanese": "この道は____",
     "adjective": "安全",
     "type": "な形容詞",
@@ -2691,7 +2691,7 @@
     "answer": "安全だった"
   },
   {
-    "korean": "안전하다",
+    "korean": "이 길은 안전하지 않았다",
     "japanese": "この道は____",
     "adjective": "安全",
     "type": "な形容詞",
@@ -2700,7 +2700,7 @@
     "answer": "安全ではなかった"
   },
   {
-    "korean": "위험하다",
+    "korean": "여기는 위험하다",
     "japanese": "ここは____",
     "adjective": "危険",
     "type": "な形容詞",
@@ -2709,7 +2709,7 @@
     "answer": "危険だ"
   },
   {
-    "korean": "위험하다",
+    "korean": "여기는 위험하지 않다",
     "japanese": "ここは____",
     "adjective": "危険",
     "type": "な形容詞",
@@ -2718,7 +2718,7 @@
     "answer": "危険ではない"
   },
   {
-    "korean": "위험하다",
+    "korean": "여기는 위험했다",
     "japanese": "ここは____",
     "adjective": "危険",
     "type": "な形容詞",
@@ -2727,7 +2727,7 @@
     "answer": "危険だった"
   },
   {
-    "korean": "위험하다",
+    "korean": "여기는 위험하지 않았다",
     "japanese": "ここは____",
     "adjective": "危険",
     "type": "な形容詞",
@@ -2736,7 +2736,7 @@
     "answer": "危険ではなかった"
   },
   {
-    "korean": "이상하다",
+    "korean": "그의 행동은 이상하다",
     "japanese": "彼の行動は____",
     "adjective": "変",
     "type": "な形容詞",
@@ -2745,7 +2745,7 @@
     "answer": "変だ"
   },
   {
-    "korean": "이상하다",
+    "korean": "그의 행동은 이상하지 않다",
     "japanese": "彼の行動は____",
     "adjective": "変",
     "type": "な形容詞",
@@ -2754,7 +2754,7 @@
     "answer": "変ではない"
   },
   {
-    "korean": "이상하다",
+    "korean": "그의 행동은 이상했다",
     "japanese": "彼の行動は____",
     "adjective": "変",
     "type": "な形容詞",
@@ -2763,7 +2763,7 @@
     "answer": "変だった"
   },
   {
-    "korean": "이상하다",
+    "korean": "그의 행동은 이상하지 않았다",
     "japanese": "彼の行動は____",
     "adjective": "変",
     "type": "な形容詞",
