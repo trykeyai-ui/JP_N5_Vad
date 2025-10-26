@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5 형용사 활용 연습</title>
     
-    <!-- 미리보기 이미지 설정 -->
     <meta property="og:title" content="N5 형용사 활용 연습">
     <meta property="og:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
     <meta property="og:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://trykeyai-ui.github.io/N5-jpV/">
     
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="N5 형용사 활용 연습">
     <meta name="twitter:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
@@ -50,10 +48,10 @@
             const [showSummary, setShowSummary] = useState(false);
 
             const conjugationOptions = [
-                { jp: "現在肯定", kr: "현재형" },
+                { jp: "現在肯定", kr: "기본형" },
                 { jp: "現在否定", kr: "부정형" },
                 { jp: "過去肯定", kr: "과거형" },
-                { jp: "過去否定", kr: "과거부정" }
+                { jp: "過去否定", kr: "과거부정형" }
             ];
 
             useEffect(() => {
@@ -88,13 +86,17 @@
                 if (!questions[currentIndex]) return;
                 
                 const correctAdjective = questions[currentIndex].adjective;
-                const allAdjectives = [...new Set(allQuestions.map(q => q.adjective))];
-                const otherAdjectives = allAdjectives.filter(v => v !== correctAdjective);
+                const correctType = questions[currentIndex].type;
+                const allAdjectives = [...new Set(allQuestions.map(q => ({adj: q.adjective, type: q.type})))];
+                const otherAdjectives = allAdjectives.filter(v => v.adj !== correctAdjective);
                 
                 const shuffledOthers = otherAdjectives.sort(() => Math.random() - 0.5);
                 const wrongOptions = shuffledOthers.slice(0, 2);
                 
-                const options = [correctAdjective, ...wrongOptions].sort(() => Math.random() - 0.5);
+                const options = [
+                    {adj: correctAdjective, type: correctType}, 
+                    ...wrongOptions
+                ].sort(() => Math.random() - 0.5);
                 setAdjectiveOptions(options);
             };
 
@@ -256,17 +258,20 @@
                                                     1️⃣ 형용사 원형을 선택하세요
                                                 </label>
                                                 <div className="grid grid-cols-3 gap-2 md:gap-3">
-                                                    {adjectiveOptions.map((adjective, idx) => (
+                                                    {adjectiveOptions.map((option, idx) => (
                                                         <button
                                                             key={idx}
-                                                            onClick={() => setSelectedAdjective(adjective)}
+                                                            onClick={() => setSelectedAdjective(option.adj)}
                                                             className={`p-3 md:p-4 rounded-lg font-semibold text-base md:text-lg transition ${
-                                                                selectedAdjective === adjective
+                                                                selectedAdjective === option.adj
                                                                     ? 'bg-indigo-600 text-white'
                                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                                             }`}
                                                         >
-                                                            {adjective}
+                                                            <div>{option.adj}</div>
+                                                            <div className="text-xs mt-1 opacity-75">
+                                                                ({option.type === 'い形容詞' ? 'い형' : 'な형'})
+                                                            </div>
                                                         </button>
                                                     ))}
                                                 </div>
@@ -287,8 +292,7 @@
                                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                                             }`}
                                                         >
-                                                            <div>{option.jp}</div>
-                                                            <div className="text-xs opacity-75">({option.kr})</div>
+                                                            <div>{option.kr}</div>
                                                         </button>
                                                     ))}
                                                 </div>
@@ -439,8 +443,7 @@
                                                     return (
                                                         <div key={conj} className="flex items-center justify-between bg-white p-3 rounded-lg">
                                                             <div>
-                                                                <span className="font-semibold">{conj}</span>
-                                                                <span className="text-sm text-gray-600 ml-2">({option?.kr})</span>
+                                                                <span className="font-semibold">{option?.kr || conj}</span>
                                                             </div>
                                                             <div className="flex items-center gap-3">
                                                                 <span className="text-sm text-gray-600">{stats.correct}/{stats.total}</span>
@@ -469,7 +472,7 @@
                                                         <div className="text-sm space-y-1">
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">정답 형용사:</span>
-                                                                <span className="font-medium text-green-700">{item.question.adjective}</span>
+                                                                <span className="font-medium text-green-700">{item.question.adjective} ({item.question.type === 'い形容詞' ? 'い형' : 'な형'})</span>
                                                             </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">입력 형용사:</span>
@@ -477,11 +480,11 @@
                                                             </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">정답 활용형:</span>
-                                                                <span className="font-medium text-green-700">{item.question.conjugationType}</span>
+                                                                <span className="font-medium text-green-700">{conjugationOptions.find(o => o.jp === item.question.conjugationType)?.kr}</span>
                                                             </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">입력 활용형:</span>
-                                                                <span className="font-medium text-red-700">{item.userConjugation || '(선택 안함)'}</span>
+                                                                <span className="font-medium text-red-700">{conjugationOptions.find(o => o.jp === item.userConjugation)?.kr || '(선택 안함)'}</span>
                                                             </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">정답:</span>
