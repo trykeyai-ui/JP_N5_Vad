@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N5 형용사 활용 연습</title>
+    
+    <!-- 미리보기 이미지 설정 -->
+    <meta property="og:title" content="N5 형용사 활용 연습">
+    <meta property="og:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trykeyai-ui.github.io/N5-jpV/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="N5 형용사 활용 연습">
+    <meta name="twitter:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
+    
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        
+        const AdjectivePractice = () => {
+            const [allQuestions, setAllQuestions] = useState([]);
+            const [questions, setQuestions] = useState([]);
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [userAnswer, setUserAnswer] = useState('');
+            const [selectedConjugation, setSelectedConjugation] = useState('');
+            const [selectedAdjective, setSelectedAdjective] = useState('');
+            const [adjectiveOptions, setAdjectiveOptions] = useState([]);
+            const [showResult, setShowResult] = useState(false);
+            const [isCorrect, setIsCorrect] = useState(false);
+            const [conjugationCorrect, setConjugationCorrect] = useState(false);
+            const [adjectiveCorrect, setAdjectiveCorrect] = useState(false);
+            const [score, setScore] = useState(0);
+            const [showHint, setShowHint] = useState(false);
+            const [attemptCount, setAttemptCount] = useState(0);
+            const [canRetry, setCanRetry] = useState(false);
+            const [loading, setLoading] = useState(true);
+            const [studyHistory, setStudyHistory] = useState([]);
+            const [showSummary, setShowSummary] = useState(false);
+
+            const conjugationOptions = [
+                { jp: "現在肯定", kr: "현재형" },
+                { jp: "現在否定", kr: "부정형" },
+                { jp: "過去肯定", kr: "과거형" },
+                { jp: "過去否定", kr: "과거부정" }
+            ];
+
+            useEffect(() => {
+                loadQuestions();
+            }, []);
+
+            useEffect(() => {
+                if (questions.length > 0 && currentIndex < questions.length) {
+                    generateAdjectiveOptions();
+                }
+            }, [currentIndex, questions]);
+
+            const loadQuestions = async () => {
+                try {
+                    const response = await fetch('../data/adjectives.json');
+                    const data = await response.json();
+                    setAllQuestions(data);
+                    initializeQuestions(data);
+                    setLoading(false);
+                } catch (error) {
+                    alert('adjectives.json 파일을 찾을 수 없습니다. data 폴더에 adjectives.json이 있는지 확인하세요.');
+                    setLoading(false);
+                }
+            };
+
+            const initializeQuestions = (data) => {
+                const shuffled = [...data].sort(() => Math.random() - 0.5);
+                setQuestions(shuffled);
+            };
+
+            const generateAdjectiveOptions = () => {
+                if (!questions[currentIndex]) return;
+                
+                const correctAdjective = questions[currentIndex].adjective;
+                const allAdjectives = [...new Set(allQuestions.map(q => q.adjective))];
+                const otherAdjectives = allAdjectives.filter(v => v !== correctAdjective);
+                
+                const shuffledOthers = otherAdjectives.sort(() => Math.random() - 0.5);
+                const wrongOptions = shuffledOthers.slice(0, 2);
+                
+                const options = [correctAdjective, ...wrongOptions].sort(() => Math.random() - 0.5);
+                setAdjectiveOptions(options);
+            };
+
+            const checkAnswer = () => {
+                const answerCorrect = userAnswer.trim() === questions[currentIndex].answer;
+                const conjCorrect = selectedConjugation === questions[currentIndex].conjugationType;
+                const adjectiveCorrect = selectedAdjective === questions[currentIndex].adjective;
+                const isFullCorrect = answerCorrect && conjCorrect && adjectiveCorrect;
+                
+                setIsCorrect(isFullCorrect);
+                setConjugationCorrect(conjCorrect);
+                setAdjectiveCorrect(adjectiveCorrect);
+                setShowResult(true);
+                
+                const historyItem = {
+                    question: questions[currentIndex],
+                    userAnswer: userAnswer,
+                    userConjugation: selectedConjugation,
+                    userAdjective: selectedAdjective,
+                    isCorrect: isFullCorrect,
+                    attempt: attemptCount + 1
+                };
+                
+                if (isFullCorrect) {
+                    setScore(score + 1);
+                    setCanRetry(false);
+                    setStudyHistory([...studyHistory, historyItem]);
+                } else {
+                    if (attemptCount === 0) {
+                        setCanRetry(true);
+                        setAttemptCount(1);
+                    } else {
+                        setCanRetry(false);
+                        setStudyHistory([...studyHistory, historyItem]);
+                    }
+                }
+            };
+
+            const retry = () => {
+                setUserAnswer('');
+                setSelectedConjugation('');
+                setSelectedAdjective('');
+                setShowResult(false);
+                setShowHint(false);
+                setCanRetry(false);
+            };
+
+            const nextQuestion = () => {
+                if (currentIndex < questions.length - 1) {
+                    setCurrentIndex(currentIndex + 1);
+                    setUserAnswer('');
+                    setSelectedConjugation('');
+                    setSelectedAdjective('');
+                    setShowResult(false);
+                    setShowHint(false);
+                    setAttemptCount(0);
+                    setCanRetry(false);
+                } else {
+                    finishStudy();
+                }
+            };
+
+            const finishStudy = () => {
+                setShowSummary(true);
+            };
+
+            const reset = () => {
+                const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+                setQuestions(shuffled);
+                setCurrentIndex(0);
+                setUserAnswer('');
+                setSelectedConjugation('');
+                setSelectedAdjective('');
+                setShowResult(false);
+                setShowHint(false);
+                setScore(0);
+                setAttemptCount(0);
+                setCanRetry(false);
+                setStudyHistory([]);
+                setShowSummary(false);
+            };
+
+            const conjugationStats = studyHistory.reduce((acc, item) => {
+                const conj = item.question.conjugationType;
+                if (!acc[conj]) {
+                    acc[conj] = { correct: 0, total: 0 };
+                }
+                acc[conj].total++;
+                if (item.isCorrect) {
+                    acc[conj].correct++;
+                }
+                return acc;
+            }, {});
+
+            const wrongAnswers = studyHistory.filter(item => !item.isCorrect);
+
+            if (loading) {
+                return (
+                    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+                        <div className="text-xl md:text-2xl text-indigo-600 font-semibold">로딩 중...</div>
+                    </div>
+                );
+            }
+
+            if (questions.length === 0) {
+                return (
+                    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+                        <div className="text-xl md:text-2xl text-red-600 font-semibold">문제를 불러올 수 없습니다.</div>
+                    </div>
+                );
+            }
+
+            return (
+                <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-2 md:p-4 lg:p-6">
+                    <div className="max-w-4xl mx-auto">
+                        <div className="bg-white rounded-2xl shadow-2xl p-4 md:p-6 lg:p-8 mb-4 md:mb-6">
+                            <div className="flex items-center justify-between mb-4 md:mb-6">
+                                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-indigo-900">
+                                    🇯🇵 N5 형용사 활용 연습
+                                </h1>
+                                <button
+                                    onClick={reset}
+                                    className="px-3 md:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition text-sm md:text-base"
+                                >
+                                    🔄 리셋
+                                </button>
+                            </div>
+                            
+                            {!showSummary ? (
+                                <div>
+                                    <div className="flex justify-between items-center mb-4 md:mb-6">
+                                        <div className="text-base md:text-lg font-semibold text-gray-700">
+                                            문제 {currentIndex + 1} / {questions.length}
+                                        </div>
+                                        <div className="text-base md:text-lg font-semibold text-indigo-600">
+                                            점수: {score}
+                                        </div>
+                                    </div>
+
+                                    <div className="mb-4 md:mb-6 bg-indigo-50 p-4 md:p-6 rounded-xl border-2 border-indigo-200">
+                                        <div className="mb-3 md:mb-4">
+                                            <div className="text-xs md:text-sm text-gray-600 mb-1">한국어</div>
+                                            <div className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800">
+                                                {questions[currentIndex].korean}
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div className="text-xs md:text-sm text-gray-600 mb-1">일본어 (빈칸 채우기)</div>
+                                            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-900">
+                                                {questions[currentIndex].japanese}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {!showResult ? (
+                                        <div className="space-y-4 md:space-y-6">
+                                            <div>
+                                                <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
+                                                    1️⃣ 형용사 원형을 선택하세요
+                                                </label>
+                                                <div className="grid grid-cols-3 gap-2 md:gap-3">
+                                                    {adjectiveOptions.map((adjective, idx) => (
+                                                        <button
+                                                            key={idx}
+                                                            onClick={() => setSelectedAdjective(adjective)}
+                                                            className={`p-3 md:p-4 rounded-lg font-semibold text-base md:text-lg transition ${
+                                                                selectedAdjective === adjective
+                                                                    ? 'bg-indigo-600 text-white'
+                                                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                            }`}
+                                                        >
+                                                            {adjective}
+                                                        </button>
+                                                    ))}
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
+                                                    2️⃣ 활용형을 선택하세요
+                                                </label>
+                                                <div className="grid grid-cols-2 gap-2 md:gap-3">
+                                                    {conjugationOptions.map((option, idx) => (
+                                                        <button
+                                                            key={idx}
+                                                            onClick={() => setSelectedConjugation(option.jp)}
+                                                            className={`p-3 md:p-4 rounded-lg font-semibold text-sm md:text-base transition ${
+                                                                selectedConjugation === option.jp
+                                                                    ? 'bg-indigo-600 text-white'
+                                                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                            }`}
+                                                        >
+                                                            <div>{option.jp}</div>
+                                                            <div className="text-xs opacity-75">({option.kr})</div>
+                                                        </button>
+                                                    ))}
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
+                                                    3️⃣ 답을 입력하세요
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    value={userAnswer}
+                                                    onChange={(e) => setUserAnswer(e.target.value)}
+                                                    onKeyPress={(e) => {
+                                                        if (e.key === 'Enter' && userAnswer && selectedConjugation && selectedAdjective) {
+                                                            checkAnswer();
+                                                        }
+                                                    }}
+                                                    className="w-full px-4 md:px-6 py-3 md:py-4 text-lg md:text-xl border-2 border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500"
+                                                    placeholder="답을 입력하세요"
+                                                />
+                                            </div>
+
+                                            <button
+                                                onClick={() => setShowHint(!showHint)}
+                                                className="w-full px-4 md:px-6 py-2 md:py-3 bg-yellow-500 text-white rounded-lg font-semibold hover:bg-yellow-600 transition text-sm md:text-base"
+                                            >
+                                                {showHint ? '힌트 숨기기' : '💡 힌트 보기'}
+                                            </button>
+
+                                            {showHint && (
+                                                <div className="bg-yellow-50 p-4 rounded-lg border-2 border-yellow-200">
+                                                    <p className="text-sm md:text-base text-gray-700">
+                                                        <span className="font-semibold">힌트:</span> {questions[currentIndex].hint}
+                                                    </p>
+                                                </div>
+                                            )}
+
+                                            <div className="flex gap-3">
+                                                <button
+                                                    onClick={checkAnswer}
+                                                    disabled={!userAnswer || !selectedConjugation || !selectedAdjective}
+                                                    className={`flex-1 px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg transition ${
+                                                        userAnswer && selectedConjugation && selectedAdjective
+                                                            ? 'bg-indigo-600 text-white hover:bg-indigo-700'
+                                                            : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                                                    }`}
+                                                >
+                                                    정답 확인
+                                                </button>
+                                                <button
+                                                    onClick={finishStudy}
+                                                    className="px-4 md:px-6 py-3 md:py-4 bg-gray-500 text-white rounded-lg font-semibold hover:bg-gray-600 transition text-base md:text-lg whitespace-nowrap"
+                                                >
+                                                    끝내기
+                                                </button>
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <div className="space-y-4">
+                                            <div className={`p-4 md:p-6 rounded-xl border-2 text-center ${
+                                                isCorrect 
+                                                    ? 'bg-green-50 border-green-300' 
+                                                    : 'bg-red-50 border-red-300'
+                                            }`}>
+                                                <div style={{fontSize: '3rem'}} className="mb-2">
+                                                    {isCorrect ? '✅' : '❌'}
+                                                </div>
+                                                <div className="text-xl md:text-2xl font-bold mb-2">
+                                                    {isCorrect ? '정답입니다!' : '틀렸습니다'}
+                                                </div>
+                                            </div>
+
+                                            {!isCorrect && (
+                                                <div className="space-y-3">
+                                                    <div className={`p-3 rounded-lg ${selectedAdjective === questions[currentIndex].adjective ? 'bg-green-100' : 'bg-red-100'}`}>
+                                                        <p className="text-xs md:text-sm text-gray-700">
+                                                            형용사 원형: <span className="font-bold">{selectedAdjective || '(선택 안함)'}</span>
+                                                            {selectedAdjective !== questions[currentIndex].adjective && (
+                                                                <span className="text-red-700"> → 정답: <span className="font-bold">{questions[currentIndex].adjective}</span></span>
+                                                            )}
+                                                        </p>
+                                                    </div>
+                                                    <div className={`p-3 rounded-lg ${selectedConjugation === questions[currentIndex].conjugationType ? 'bg-green-100' : 'bg-red-100'}`}>
+                                                        <p className="text-xs md:text-sm text-gray-700">
+                                                            활용형: <span className="font-bold">{selectedConjugation || '(선택 안함)'}</span>
+                                                            {selectedConjugation !== questions[currentIndex].conjugationType && (
+                                                                <span className="text-red-700"> → 정답: <span className="font-bold">{questions[currentIndex].conjugationType}</span> (
+                                                                    {conjugationOptions.find(o => o.jp === questions[currentIndex].conjugationType)?.kr}
+                                                                )</span>
+                                                            )}
+                                                        </p>
+                                                    </div>
+                                                    <div className={`p-3 rounded-lg ${userAnswer.trim() === questions[currentIndex].answer ? 'bg-green-100' : 'bg-red-100'}`}>
+                                                        <p className="text-xs md:text-sm text-gray-700">
+                                                            입력: <span className="font-bold">{userAnswer || '(입력 안함)'}</span>
+                                                            {userAnswer.trim() !== questions[currentIndex].answer && (
+                                                                <span className="text-red-700"> → 정답: <span className="font-bold">{questions[currentIndex].answer}</span></span>
+                                                            )}
+                                                        </p>
+                                                    </div>
+                                                    <p className="text-xs md:text-sm text-gray-600 pt-2">{questions[currentIndex].hint}</p>
+                                                </div>
+                                            )}
+                                            
+                                            <div className="flex gap-3">
+                                                {canRetry && (
+                                                    <button
+                                                        onClick={retry}
+                                                        className="flex-1 bg-orange-600 text-white py-2 md:py-3 rounded-lg font-semibold hover:bg-orange-700 transition flex items-center justify-center gap-2 text-sm md:text-base"
+                                                    >
+                                                        <span>🔄</span>
+                                                        다시 도전
+                                                    </button>
+                                                )}
+                                                {!canRetry && (
+                                                    <button
+                                                        onClick={nextQuestion}
+                                                        className="flex-1 bg-indigo-600 text-white py-2 md:py-3 rounded-lg font-semibold hover:bg-indigo-700 transition text-sm md:text-base"
+                                                    >
+                                                        다음 문제
+                                                    </button>
+                                                )}
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+                            ) : (
+                                <div className="space-y-6">
+                                    <div className="text-center py-6 md:py-8">
+                                        <div style={{fontSize: '3rem'}} className="mb-4">🎉</div>
+                                        <h2 className="text-2xl md:text-3xl font-bold text-indigo-900 mb-4">학습 완료!</h2>
+                                        <p className="text-xl md:text-2xl text-gray-700 mb-2">
+                                            정답: <span className="font-bold text-indigo-600">{score}</span> / 시도: {studyHistory.length}
+                                        </p>
+                                        <p className="text-base md:text-lg text-gray-600 mb-6">
+                                            정답률: <span className="font-bold">{studyHistory.length > 0 ? Math.round((score / studyHistory.length) * 100) : 0}%</span>
+                                        </p>
+                                    </div>
+
+                                    {Object.keys(conjugationStats).length > 0 && (
+                                        <div className="bg-blue-50 p-4 md:p-6 rounded-xl border-2 border-blue-200">
+                                            <h3 className="text-lg md:text-xl font-bold text-blue-900 mb-4">📊 활용형별 정답률</h3>
+                                            <div className="space-y-2">
+                                                {Object.entries(conjugationStats).map(([conj, stats]) => {
+                                                    const rate = Math.round((stats.correct / stats.total) * 100);
+                                                    const option = conjugationOptions.find(o => o.jp === conj);
+                                                    return (
+                                                        <div key={conj} className="flex items-center justify-between bg-white p-3 rounded-lg">
+                                                            <div>
+                                                                <span className="font-semibold">{conj}</span>
+                                                                <span className="text-sm text-gray-600 ml-2">({option?.kr})</span>
+                                                            </div>
+                                                            <div className="flex items-center gap-3">
+                                                                <span className="text-sm text-gray-600">{stats.correct}/{stats.total}</span>
+                                                                <span className={`font-bold ${rate >= 80 ? 'text-green-600' : rate >= 60 ? 'text-yellow-600' : 'text-red-600'}`}>
+                                                                    {rate}%
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {wrongAnswers.length > 0 && (
+                                        <div className="bg-red-50 p-4 md:p-6 rounded-xl border-2 border-red-200">
+                                            <h3 className="text-lg md:text-xl font-bold text-red-900 mb-4">❌ 틀린 문제 ({wrongAnswers.length}개)</h3>
+                                            <div className="space-y-3">
+                                                {wrongAnswers.map((item, idx) => (
+                                                    <div key={idx} className="bg-white p-4 rounded-lg border border-red-200">
+                                                        <div className="mb-2">
+                                                            <span className="text-sm text-gray-600">문제:</span>
+                                                            <p className="font-semibold text-gray-800">{item.question.korean}</p>
+                                                            <p className="text-indigo-900">{item.question.japanese}</p>
+                                                        </div>
+                                                        <div className="text-sm space-y-1">
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">정답 형용사:</span>
+                                                                <span className="font-medium text-green-700">{item.question.adjective}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력 형용사:</span>
+                                                                <span className="font-medium text-red-700">{item.userAdjective || '(선택 안함)'}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">정답 활용형:</span>
+                                                                <span className="font-medium text-green-700">{item.question.conjugationType}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력 활용형:</span>
+                                                                <span className="font-medium text-red-700">{item.userConjugation || '(선택 안함)'}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">정답:</span>
+                                                                <span className="font-medium text-green-700">{item.question.answer}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력:</span>
+                                                                <span className="font-medium text-red-700">{item.userAnswer || '(입력 안함)'}</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    <button
+                                        onClick={() => window.location.href = '../index.html'}
+                                        className="w-full px-6 md:px-8 py-3 md:py-4 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition text-base md:text-lg"
+                                    >
+                                        메인으로 돌아가기
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<AdjectivePractice />, document.getElementById('root'));
+    </script>
+</body>
+</html>

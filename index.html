@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일본어 N5 활용 연습</title>
+    
+    <!-- 미리보기 이미지 설정 -->
+    <meta property="og:title" content="일본어 N5 활용 연습">
+    <meta property="og:description" content="일본어 N5 동사와 형용사 활용을 쉽게 연습해보세요!">
+    <meta property="og:image" content="./preview.png">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="일본어 N5 활용 연습">
+    <meta name="twitter:description" content="일본어 N5 동사와 형용사 활용을 쉽게 연습해보세요!">
+    <meta name="twitter:image" content="./preview.png">
+    
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .bg-pattern {
+            background-color: #f8f9ff;
+            background-image: 
+                radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(244, 114, 182, 0.05) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-pattern">
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useState } = React;
+        
+        const MainMenu = () => {
+            const menuItems = [
+                {
+                    id: 'verb',
+                    title: 'N5 동사 활용 연습',
+                    subtitle: '動詞の活用練習',
+                    description: '일본어 N5 동사의 다양한 활용형을 학습합니다',
+                    icon: '📝',
+                    color: 'from-indigo-500 to-purple-600',
+                    link: './pages/verb-practice.html',
+                    items: ['ます形', 'て形', 'ない形', 'た形', 'ば形', '意向形']
+                },
+                {
+                    id: 'adjective',
+                    title: 'N5 형용사 활용 연습',
+                    subtitle: '形容詞の活用練習',
+                    description: 'い형용사와 な형용사의 활용을 학습합니다',
+                    icon: '✨',
+                    color: 'from-pink-500 to-rose-600',
+                    link: './pages/adjective-practice.html',
+                    items: ['い形容詞', 'な形容詞', '否定形', '過去形']
+                },
+                {
+                    id: 'mixed',
+                    title: '동사+형용사 혼합 연습',
+                    subtitle: 'ミックス練習',
+                    description: '동사와 형용사를 무작위로 연습합니다',
+                    icon: '🎲',
+                    color: 'from-amber-500 to-orange-600',
+                    link: './pages/mixed-practice.html',
+                    items: ['ランダム出題', '総合実力テスト']
+                }
+            ];
+            
+            return (
+                <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
+                    <div className="max-w-6xl w-full">
+                        {/* 헤더 */}
+                        <div className="text-center mb-8 md:mb-12 fade-in">
+                            <img 
+                                src="./preview.png" 
+                                alt="일본어 학습" 
+                                className="w-full max-w-2xl mx-auto mb-6 rounded-2xl"
+                                style={{maxHeight: '300px', objectFit: 'cover'}}
+                            />
+                            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
+                                日本語 活用練習
+                            </h1>
+                            <p className="text-lg md:text-xl text-gray-600">
+                                N5 레벨 동사와 형용사 활용을 마스터하세요!
+                            </p>
+                        </div>
+                        
+                        {/* 메뉴 카드 */}
+                        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+                            {menuItems.map((item, index) => (
+                                <a
+                                    key={item.id}
+                                    href={item.link}
+                                    className="card-hover bg-white rounded-2xl shadow-lg overflow-hidden fade-in"
+                                    style={{animationDelay: `${index * 0.1}s`, opacity: 0}}
+                                >
+                                    <div className={`h-3 bg-gradient-to-r ${item.color}`}></div>
+                                    <div className="p-6 md:p-8">
+                                        <div className="text-5xl md:text-6xl mb-4">{item.icon}</div>
+                                        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-2">
+                                            {item.title}
+                                        </h2>
+                                        <p className="text-sm md:text-base text-gray-500 mb-4 font-medium">
+                                            {item.subtitle}
+                                        </p>
+                                        <p className="text-sm md:text-base text-gray-600 mb-6">
+                                            {item.description}
+                                        </p>
+                                        
+                                        <div className="flex flex-wrap gap-2 mb-6">
+                                            {item.items.map((tag, idx) => (
+                                                <span 
+                                                    key={idx}
+                                                    className="text-xs px-3 py-1 bg-gray-100 text-gray-700 rounded-full"
+                                                >
+                                                    {tag}
+                                                </span>
+                                            ))}
+                                        </div>
+                                        
+                                        <div className={`inline-flex items-center gap-2 text-white font-semibold px-6 py-3 rounded-lg bg-gradient-to-r ${item.color}`}>
+                                            <span>시작하기</span>
+                                            <span>→</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            ))}
+                        </div>
+                        
+                        {/* 푸터 */}
+                        <div className="text-center mt-12 fade-in" style={{animationDelay: '0.4s', opacity: 0}}>
+                            <div className="inline-block bg-white rounded-xl shadow-md px-6 py-4">
+                                <p className="text-sm md:text-base text-gray-600">
+                                    💡 <span className="font-semibold">학습 팁:</span> 매일 10분씩 꾸준히 연습하면 효과가 2배!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<MainMenu />, document.getElementById('root'));
+    </script>
+</body>
+</html>
