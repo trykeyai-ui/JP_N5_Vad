@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5 동사 활용 연습</title>
     
-    <!-- 미리보기 이미지 설정 -->
     <meta property="og:title" content="N5 동사 활용 연습">
     <meta property="og:description" content="일본어 N5 동사 문형을 쉽게 연습해보세요!">
     <meta property="og:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://trykeyai-ui.github.io/N5-jpV/">
     
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="N5 동사 활용 연습">
     <meta name="twitter:description" content="일본어 N5 동사 문형을 쉽게 연습해보세요!">
@@ -40,7 +38,7 @@
             const [showResult, setShowResult] = useState(false);
             const [isCorrect, setIsCorrect] = useState(false);
             const [conjugationCorrect, setConjugationCorrect] = useState(false);
-            const [verbCorrect, setVerbCorrect] = useState(false);
+            const [adjectiveCorrect, setAdjectiveCorrect] = useState(false);
             const [score, setScore] = useState(0);
             const [showHint, setShowHint] = useState(false);
             const [attemptCount, setAttemptCount] = useState(0);
@@ -48,18 +46,39 @@
             const [loading, setLoading] = useState(true);
             const [studyHistory, setStudyHistory] = useState([]);
             const [showSummary, setShowSummary] = useState(false);
+            const [isSpeaking, setIsSpeaking] = useState(false);
 
             const conjugationOptions = [
-                { jp: "ます形", kr: "정중형" },
-                { jp: "過去形", kr: "과거 정중형" },
-                { jp: "て形", kr: "て형" },
-                { jp: "ない形", kr: "부정형" },
-                { jp: "過去否定形", kr: "과거부정 정중형" },
                 { jp: "辞書形", kr: "사전형" },
+                { jp: "ます形", kr: "정중형" },
                 { jp: "た形", kr: "과거형" },
-                { jp: "ば形", kr: "가능형" },
-                { jp: "意向形", kr: "의지형" }
+                { jp: "て形", kr: "て형" },
+                { jp: "ない形", kr: "부정형" }
             ];
+
+            // 🔊 음성 재생 함수
+            const speak = (text) => {
+                if (!text || !('speechSynthesis' in window)) return;
+                
+                // 빈칸과 특수문자 제거
+                const cleanText = text.replace(/____/g, '').replace(/\s+/g, '').trim();
+                if (!cleanText) return;
+                
+                // 이전 음성 중지
+                window.speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(cleanText);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85; // 조금 느리게
+                utterance.pitch = 1;
+                utterance.volume = 1;
+                
+                utterance.onstart = () => setIsSpeaking(true);
+                utterance.onend = () => setIsSpeaking(false);
+                utterance.onerror = () => setIsSpeaking(false);
+                
+                window.speechSynthesis.speak(utterance);
+            };
 
             useEffect(() => {
                 loadQuestions();
@@ -96,12 +115,13 @@
                 const allVerbs = [...new Set(allQuestions.map(q => q.verb))];
                 const otherVerbs = allVerbs.filter(v => v !== correctVerb);
                 
-                // 랜덤하게 2개의 다른 동사 선택
                 const shuffledOthers = otherVerbs.sort(() => Math.random() - 0.5);
                 const wrongOptions = shuffledOthers.slice(0, 2);
                 
-                // 정답과 오답을 섞어서 3개 옵션 생성
-                const options = [correctVerb, ...wrongOptions].sort(() => Math.random() - 0.5);
+                const options = [
+                    correctVerb, 
+                    ...wrongOptions
+                ].sort(() => Math.random() - 0.5);
                 setVerbOptions(options);
             };
 
@@ -132,6 +152,7 @@
                 } else {
                     if (attemptCount === 0) {
                         setCanRetry(true);
+                        setAttemptCount(1);
                     } else {
                         setCanRetry(false);
                         setStudyHistory([...studyHistory, historyItem]);
@@ -145,7 +166,6 @@
                 setSelectedVerb('');
                 setShowResult(false);
                 setShowHint(false);
-                setAttemptCount(1);
                 setCanRetry(false);
             };
 
@@ -250,8 +270,21 @@
                                         </div>
                                         <div>
                                             <div className="text-xs md:text-sm text-gray-600 mb-1">일본어 (빈칸 채우기)</div>
-                                            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-900">
-                                                {questions[currentIndex].japanese}
+                                            <div className="flex items-center gap-3">
+                                                <div className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-900">
+                                                    {questions[currentIndex].japanese}
+                                                </div>
+                                                <button
+                                                    onClick={() => speak(questions[currentIndex].japanese)}
+                                                    className={`px-3 py-2 rounded-lg font-semibold text-base md:text-lg transition flex items-center gap-2 ${
+                                                        isSpeaking 
+                                                            ? 'bg-green-500 text-white animate-pulse' 
+                                                            : 'bg-blue-500 text-white hover:bg-blue-600'
+                                                    }`}
+                                                    title="문장 발음 듣기"
+                                                >
+                                                    🔊 듣기
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -283,21 +316,18 @@
                                                 <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
                                                     2️⃣ 활용형을 선택하세요
                                                 </label>
-                                                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
+                                                <div className="grid grid-cols-2 gap-2 md:gap-3">
                                                     {conjugationOptions.map((option, idx) => (
                                                         <button
                                                             key={idx}
                                                             onClick={() => setSelectedConjugation(option.jp)}
-                                                            className={`p-2 md:p-3 rounded-lg font-semibold text-sm md:text-base transition ${
+                                                            className={`p-3 md:p-4 rounded-lg font-semibold text-sm md:text-base transition ${
                                                                 selectedConjugation === option.jp
                                                                     ? 'bg-indigo-600 text-white'
                                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                                             }`}
                                                         >
-                                                            <div>{option.jp}</div>
-                                                            <div className="text-xs text-gray-500 dark:text-gray-300">
-                                                                {option.kr}
-                                                            </div>
+                                                            <div>{option.kr}</div>
                                                         </button>
                                                     ))}
                                                 </div>
@@ -305,7 +335,7 @@
 
                                             <div>
                                                 <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
-                                                    3️⃣ 정답을 입력하세요
+                                                    3️⃣ 답을 입력하세요
                                                 </label>
                                                 <input
                                                     type="text"
@@ -368,6 +398,26 @@
                                                 </div>
                                                 <div className="text-xl md:text-2xl font-bold mb-2">
                                                     {isCorrect ? '정답입니다!' : '틀렸습니다'}
+                                                </div>
+                                                
+                                                {/* 🔊 정답 발음 듣기 버튼 */}
+                                                <div className="flex items-center justify-center gap-3 mt-4">
+                                                    <div className="text-lg md:text-xl font-semibold">
+                                                        정답: {questions[currentIndex].answer}
+                                                    </div>
+                                                    <button
+                                                        onClick={() => speak(questions[currentIndex].answer)}
+                                                        className={`px-4 py-2 rounded-lg font-semibold text-base transition flex items-center gap-2 ${
+                                                            isSpeaking 
+                                                                ? 'bg-green-500 text-white animate-pulse' 
+                                                                : isCorrect
+                                                                    ? 'bg-green-600 text-white hover:bg-green-700'
+                                                                    : 'bg-red-600 text-white hover:bg-red-700'
+                                                        }`}
+                                                        title="정답 발음 듣기"
+                                                    >
+                                                        🔊 정답 듣기
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -448,8 +498,7 @@
                                                     return (
                                                         <div key={conj} className="flex items-center justify-between bg-white p-3 rounded-lg">
                                                             <div>
-                                                                <span className="font-semibold">{conj}</span>
-                                                                <span className="text-sm text-gray-600 ml-2">({option?.kr})</span>
+                                                                <span className="font-semibold">{option?.kr || conj}</span>
                                                             </div>
                                                             <div className="flex items-center gap-3">
                                                                 <span className="text-sm text-gray-600">{stats.correct}/{stats.total}</span>
@@ -476,6 +525,21 @@
                                                             <p className="text-indigo-900">{item.question.japanese}</p>
                                                         </div>
                                                         <div className="text-sm space-y-1">
+                                                            <div className="flex gap-2 items-center">
+                                                                <span className="text-gray-600">정답:</span>
+                                                                <span className="font-medium text-green-700">{item.question.answer}</span>
+                                                                <button
+                                                                    onClick={() => speak(item.question.answer)}
+                                                                    className="px-2 py-1 bg-green-500 text-white rounded text-xs hover:bg-green-600 transition"
+                                                                    title="정답 발음 듣기"
+                                                                >
+                                                                    🔊
+                                                                </button>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력:</span>
+                                                                <span className="font-medium text-red-700">{item.userAnswer || '(입력 안함)'}</span>
+                                                            </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">정답 동사:</span>
                                                                 <span className="font-medium text-green-700">{item.question.verb}</span>
@@ -483,22 +547,6 @@
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">입력 동사:</span>
                                                                 <span className="font-medium text-red-700">{item.userVerb || '(선택 안함)'}</span>
-                                                            </div>
-                                                            <div className="flex gap-2">
-                                                                <span className="text-gray-600">정답 활용형:</span>
-                                                                <span className="font-medium text-green-700">{item.question.conjugationType}</span>
-                                                            </div>
-                                                            <div className="flex gap-2">
-                                                                <span className="text-gray-600">입력 활용형:</span>
-                                                                <span className="font-medium text-red-700">{item.userConjugation || '(선택 안함)'}</span>
-                                                            </div>
-                                                            <div className="flex gap-2">
-                                                                <span className="text-gray-600">정답:</span>
-                                                                <span className="font-medium text-green-700">{item.question.answer}</span>
-                                                            </div>
-                                                            <div className="flex gap-2">
-                                                                <span className="text-gray-600">입력:</span>
-                                                                <span className="font-medium text-red-700">{item.userAnswer || '(입력 안함)'}</span>
                                                             </div>
                                                         </div>
                                                     </div>
