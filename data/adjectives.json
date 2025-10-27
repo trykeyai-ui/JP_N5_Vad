@@ -5,7 +5,7 @@
     "adjective": "大きい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "大きい"
   },
   {
@@ -14,7 +14,7 @@
     "adjective": "大きい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "大きくない"
   },
   {
@@ -23,7 +23,7 @@
     "adjective": "大きい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "大きかった"
   },
   {
@@ -32,7 +32,7 @@
     "adjective": "大きい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "大きくなかった"
   },
   {
@@ -41,7 +41,7 @@
     "adjective": "小さい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "小さい"
   },
   {
@@ -50,7 +50,7 @@
     "adjective": "小さい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "小さくない"
   },
   {
@@ -59,7 +59,7 @@
     "adjective": "小さい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "小さかった"
   },
   {
@@ -68,7 +68,7 @@
     "adjective": "小さい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "小さくなかった"
   },
   {
@@ -77,7 +77,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (높이)",
+    "hint": "기본형",
     "answer": "高い"
   },
   {
@@ -86,7 +86,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (높이)",
+    "hint": "부정형",
     "answer": "高くない"
   },
   {
@@ -95,7 +95,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (높이)",
+    "hint": "과거형",
     "answer": "高かった"
   },
   {
@@ -104,7 +104,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (높이)",
+    "hint": "과거부정형",
     "answer": "高くなかった"
   },
   {
@@ -113,7 +113,7 @@
     "adjective": "低い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "低い"
   },
   {
@@ -122,7 +122,7 @@
     "adjective": "低い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "低くない"
   },
   {
@@ -131,7 +131,7 @@
     "adjective": "低い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "低かった"
   },
   {
@@ -140,7 +140,7 @@
     "adjective": "低い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "低くなかった"
   },
   {
@@ -149,7 +149,7 @@
     "adjective": "良い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (불규칙)",
+    "hint": "기본형",
     "answer": "良い"
   },
   {
@@ -158,7 +158,7 @@
     "adjective": "良い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (불규칙)",
+    "hint": "부정형",
     "answer": "良くない"
   },
   {
@@ -167,7 +167,7 @@
     "adjective": "良い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (불규칙)",
+    "hint": "과거형",
     "answer": "良かった"
   },
   {
@@ -176,7 +176,7 @@
     "adjective": "良い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (불규칙)",
+    "hint": "과거부정형",
     "answer": "良くなかった"
   },
   {
@@ -185,7 +185,7 @@
     "adjective": "悪い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "悪い"
   },
   {
@@ -194,7 +194,7 @@
     "adjective": "悪い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "悪くない"
   },
   {
@@ -203,7 +203,7 @@
     "adjective": "悪い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "悪かった"
   },
   {
@@ -212,7 +212,7 @@
     "adjective": "悪い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "悪くなかった"
   },
   {
@@ -221,7 +221,7 @@
     "adjective": "新しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "新しい"
   },
   {
@@ -230,7 +230,7 @@
     "adjective": "新しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "新しくない"
   },
   {
@@ -239,7 +239,7 @@
     "adjective": "新しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "新しかった"
   },
   {
@@ -248,7 +248,7 @@
     "adjective": "新しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "新しくなかった"
   },
   {
@@ -257,7 +257,7 @@
     "adjective": "古い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "古い"
   },
   {
@@ -266,7 +266,7 @@
     "adjective": "古い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "古くない"
   },
   {
@@ -275,7 +275,7 @@
     "adjective": "古い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "古かった"
   },
   {
@@ -284,7 +284,7 @@
     "adjective": "古い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "古くなかった"
   },
   {
@@ -293,7 +293,7 @@
     "adjective": "暑い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (날씨)",
+    "hint": "기본형",
     "answer": "暑い"
   },
   {
@@ -302,7 +302,7 @@
     "adjective": "暑い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (날씨)",
+    "hint": "부정형",
     "answer": "暑くない"
   },
   {
@@ -311,7 +311,7 @@
     "adjective": "暑い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (날씨)",
+    "hint": "과거형",
     "answer": "暑かった"
   },
   {
@@ -320,7 +320,7 @@
     "adjective": "暑い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (날씨)",
+    "hint": "과거부정형",
     "answer": "暑くなかった"
   },
   {
@@ -329,7 +329,7 @@
     "adjective": "寒い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (날씨)",
+    "hint": "기본형",
     "answer": "寒い"
   },
   {
@@ -338,7 +338,7 @@
     "adjective": "寒い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (날씨)",
+    "hint": "부정형",
     "answer": "寒くない"
   },
   {
@@ -347,7 +347,7 @@
     "adjective": "寒い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (날씨)",
+    "hint": "과거형",
     "answer": "寒かった"
   },
   {
@@ -356,7 +356,7 @@
     "adjective": "寒い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (날씨)",
+    "hint": "과거부정형",
     "answer": "寒くなかった"
   },
   {
@@ -365,7 +365,7 @@
     "adjective": "暖かい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "暖かい"
   },
   {
@@ -374,7 +374,7 @@
     "adjective": "暖かい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "暖かくない"
   },
   {
@@ -383,7 +383,7 @@
     "adjective": "暖かい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "暖かかった"
   },
   {
@@ -392,7 +392,7 @@
     "adjective": "暖かい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "暖かくなかった"
   },
   {
@@ -401,7 +401,7 @@
     "adjective": "涼しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "涼しい"
   },
   {
@@ -410,7 +410,7 @@
     "adjective": "涼しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "涼しくない"
   },
   {
@@ -419,7 +419,7 @@
     "adjective": "涼しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "涼しかった"
   },
   {
@@ -428,7 +428,7 @@
     "adjective": "涼しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "涼しくなかった"
   },
   {
@@ -437,7 +437,7 @@
     "adjective": "熱い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (온도)",
+    "hint": "기본형",
     "answer": "熱い"
   },
   {
@@ -446,7 +446,7 @@
     "adjective": "熱い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (온도)",
+    "hint": "부정형",
     "answer": "熱くない"
   },
   {
@@ -455,7 +455,7 @@
     "adjective": "熱い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (온도)",
+    "hint": "과거형",
     "answer": "熱かった"
   },
   {
@@ -464,7 +464,7 @@
     "adjective": "熱い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (온도)",
+    "hint": "과거부정형",
     "answer": "熱くなかった"
   },
   {
@@ -473,7 +473,7 @@
     "adjective": "冷たい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (온도)",
+    "hint": "기본형",
     "answer": "冷たい"
   },
   {
@@ -482,7 +482,7 @@
     "adjective": "冷たい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (온도)",
+    "hint": "부정형",
     "answer": "冷たくない"
   },
   {
@@ -491,7 +491,7 @@
     "adjective": "冷たい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (온도)",
+    "hint": "과거형",
     "answer": "冷たかった"
   },
   {
@@ -500,7 +500,7 @@
     "adjective": "冷たい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (온도)",
+    "hint": "과거부정형",
     "answer": "冷たくなかった"
   },
   {
@@ -509,7 +509,7 @@
     "adjective": "長い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "長い"
   },
   {
@@ -518,7 +518,7 @@
     "adjective": "長い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "長くない"
   },
   {
@@ -527,7 +527,7 @@
     "adjective": "長い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "長かった"
   },
   {
@@ -536,7 +536,7 @@
     "adjective": "長い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "長くなかった"
   },
   {
@@ -545,7 +545,7 @@
     "adjective": "短い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "短い"
   },
   {
@@ -554,7 +554,7 @@
     "adjective": "短い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "短くない"
   },
   {
@@ -563,7 +563,7 @@
     "adjective": "短い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "短かった"
   },
   {
@@ -572,7 +572,7 @@
     "adjective": "短い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "短くなかった"
   },
   {
@@ -581,7 +581,7 @@
     "adjective": "速い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (속도)",
+    "hint": "기본형",
     "answer": "速い"
   },
   {
@@ -590,7 +590,7 @@
     "adjective": "速い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (속도)",
+    "hint": "부정형",
     "answer": "速くない"
   },
   {
@@ -599,7 +599,7 @@
     "adjective": "速い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (속도)",
+    "hint": "과거형",
     "answer": "速かった"
   },
   {
@@ -608,7 +608,7 @@
     "adjective": "速い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (속도)",
+    "hint": "과거부정형",
     "answer": "速くなかった"
   },
   {
@@ -617,7 +617,7 @@
     "adjective": "遅い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (속도)",
+    "hint": "기본형",
     "answer": "遅い"
   },
   {
@@ -626,7 +626,7 @@
     "adjective": "遅い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (속도)",
+    "hint": "부정형",
     "answer": "遅くない"
   },
   {
@@ -635,7 +635,7 @@
     "adjective": "遅い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (속도)",
+    "hint": "과거형",
     "answer": "遅かった"
   },
   {
@@ -644,7 +644,7 @@
     "adjective": "遅い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (속도)",
+    "hint": "과거부정형",
     "answer": "遅くなかった"
   },
   {
@@ -653,7 +653,7 @@
     "adjective": "早い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (시간)",
+    "hint": "기본형",
     "answer": "早い"
   },
   {
@@ -662,7 +662,7 @@
     "adjective": "早い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (시간)",
+    "hint": "부정형",
     "answer": "早くない"
   },
   {
@@ -671,7 +671,7 @@
     "adjective": "早い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (시간)",
+    "hint": "과거형",
     "answer": "早かった"
   },
   {
@@ -680,7 +680,7 @@
     "adjective": "早い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (시간)",
+    "hint": "과거부정형",
     "answer": "早くなかった"
   },
   {
@@ -689,7 +689,7 @@
     "adjective": "広い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "広い"
   },
   {
@@ -698,7 +698,7 @@
     "adjective": "広い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "広くない"
   },
   {
@@ -707,7 +707,7 @@
     "adjective": "広い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "広かった"
   },
   {
@@ -716,7 +716,7 @@
     "adjective": "広い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "広くなかった"
   },
   {
@@ -725,7 +725,7 @@
     "adjective": "狭い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "狭い"
   },
   {
@@ -734,7 +734,7 @@
     "adjective": "狭い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "狭くない"
   },
   {
@@ -743,7 +743,7 @@
     "adjective": "狭い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "狭かった"
   },
   {
@@ -752,7 +752,7 @@
     "adjective": "狭い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "狭くなかった"
   },
   {
@@ -761,7 +761,7 @@
     "adjective": "厚い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "厚い"
   },
   {
@@ -770,7 +770,7 @@
     "adjective": "厚い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "厚くない"
   },
   {
@@ -779,7 +779,7 @@
     "adjective": "厚い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "厚かった"
   },
   {
@@ -788,7 +788,7 @@
     "adjective": "厚い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "厚くなかった"
   },
   {
@@ -797,7 +797,7 @@
     "adjective": "薄い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "薄い"
   },
   {
@@ -806,7 +806,7 @@
     "adjective": "薄い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "薄くない"
   },
   {
@@ -815,7 +815,7 @@
     "adjective": "薄い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "薄かった"
   },
   {
@@ -824,7 +824,7 @@
     "adjective": "薄い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "薄くなかった"
   },
   {
@@ -833,7 +833,7 @@
     "adjective": "重い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "重い"
   },
   {
@@ -842,7 +842,7 @@
     "adjective": "重い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "重くない"
   },
   {
@@ -851,7 +851,7 @@
     "adjective": "重い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "重かった"
   },
   {
@@ -860,7 +860,7 @@
     "adjective": "重い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "重くなかった"
   },
   {
@@ -869,7 +869,7 @@
     "adjective": "軽い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "軽い"
   },
   {
@@ -878,7 +878,7 @@
     "adjective": "軽い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "軽くない"
   },
   {
@@ -887,7 +887,7 @@
     "adjective": "軽い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "軽かった"
   },
   {
@@ -896,7 +896,7 @@
     "adjective": "軽い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "軽くなかった"
   },
   {
@@ -905,7 +905,7 @@
     "adjective": "強い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "強い"
   },
   {
@@ -914,7 +914,7 @@
     "adjective": "強い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "強くない"
   },
   {
@@ -923,7 +923,7 @@
     "adjective": "強い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "強かった"
   },
   {
@@ -932,7 +932,7 @@
     "adjective": "強い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "強くなかった"
   },
   {
@@ -941,7 +941,7 @@
     "adjective": "弱い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "弱い"
   },
   {
@@ -950,7 +950,7 @@
     "adjective": "弱い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "弱くない"
   },
   {
@@ -959,7 +959,7 @@
     "adjective": "弱い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "弱かった"
   },
   {
@@ -968,7 +968,7 @@
     "adjective": "弱い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "弱くなかった"
   },
   {
@@ -977,7 +977,7 @@
     "adjective": "明るい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "明るい"
   },
   {
@@ -986,7 +986,7 @@
     "adjective": "明るい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "明るくない"
   },
   {
@@ -995,7 +995,7 @@
     "adjective": "明るい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "明るかった"
   },
   {
@@ -1004,7 +1004,7 @@
     "adjective": "明るい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "明るくなかった"
   },
   {
@@ -1013,7 +1013,7 @@
     "adjective": "暗い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "暗い"
   },
   {
@@ -1022,7 +1022,7 @@
     "adjective": "暗い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "暗くない"
   },
   {
@@ -1031,7 +1031,7 @@
     "adjective": "暗い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "暗かった"
   },
   {
@@ -1040,7 +1040,7 @@
     "adjective": "暗い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "暗くなかった"
   },
   {
@@ -1049,7 +1049,7 @@
     "adjective": "多い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "多い"
   },
   {
@@ -1058,7 +1058,7 @@
     "adjective": "多い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "多くない"
   },
   {
@@ -1067,7 +1067,7 @@
     "adjective": "多い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "多かった"
   },
   {
@@ -1076,7 +1076,7 @@
     "adjective": "多い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "多くなかった"
   },
   {
@@ -1085,7 +1085,7 @@
     "adjective": "少ない",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "少ない"
   },
   {
@@ -1094,7 +1094,7 @@
     "adjective": "少ない",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "少なくない"
   },
   {
@@ -1103,7 +1103,7 @@
     "adjective": "少ない",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "少なかった"
   },
   {
@@ -1112,7 +1112,7 @@
     "adjective": "少ない",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "少なくなかった"
   },
   {
@@ -1121,7 +1121,7 @@
     "adjective": "近い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "近い"
   },
   {
@@ -1130,7 +1130,7 @@
     "adjective": "近い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "近くない"
   },
   {
@@ -1139,7 +1139,7 @@
     "adjective": "近い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "近かった"
   },
   {
@@ -1148,7 +1148,7 @@
     "adjective": "近い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "近くなかった"
   },
   {
@@ -1157,7 +1157,7 @@
     "adjective": "遠い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "遠い"
   },
   {
@@ -1166,7 +1166,7 @@
     "adjective": "遠い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "遠くない"
   },
   {
@@ -1175,7 +1175,7 @@
     "adjective": "遠い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "遠かった"
   },
   {
@@ -1184,7 +1184,7 @@
     "adjective": "遠い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "遠くなかった"
   },
   {
@@ -1193,7 +1193,7 @@
     "adjective": "難しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "難しい"
   },
   {
@@ -1202,7 +1202,7 @@
     "adjective": "難しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "難しくない"
   },
   {
@@ -1211,7 +1211,7 @@
     "adjective": "難しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "難しかった"
   },
   {
@@ -1220,7 +1220,7 @@
     "adjective": "難しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "難しくなかった"
   },
   {
@@ -1229,7 +1229,7 @@
     "adjective": "易しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "易しい"
   },
   {
@@ -1238,7 +1238,7 @@
     "adjective": "易しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "易しくない"
   },
   {
@@ -1247,7 +1247,7 @@
     "adjective": "易しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "易しかった"
   },
   {
@@ -1256,7 +1256,7 @@
     "adjective": "易しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "易しくなかった"
   },
   {
@@ -1265,7 +1265,7 @@
     "adjective": "面白い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "面白い"
   },
   {
@@ -1274,7 +1274,7 @@
     "adjective": "面白い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "面白くない"
   },
   {
@@ -1283,7 +1283,7 @@
     "adjective": "面白い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "面白かった"
   },
   {
@@ -1292,7 +1292,7 @@
     "adjective": "面白い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "面白くなかった"
   },
   {
@@ -1301,7 +1301,7 @@
     "adjective": "美味しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "美味しい"
   },
   {
@@ -1310,7 +1310,7 @@
     "adjective": "美味しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "美味しくない"
   },
   {
@@ -1319,7 +1319,7 @@
     "adjective": "美味しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "美味しかった"
   },
   {
@@ -1328,7 +1328,7 @@
     "adjective": "美味しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "美味しくなかった"
   },
   {
@@ -1337,7 +1337,7 @@
     "adjective": "まずい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "まずい"
   },
   {
@@ -1346,7 +1346,7 @@
     "adjective": "まずい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "まずくない"
   },
   {
@@ -1355,7 +1355,7 @@
     "adjective": "まずい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "まずかった"
   },
   {
@@ -1364,7 +1364,7 @@
     "adjective": "まずい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "まずくなかった"
   },
   {
@@ -1373,7 +1373,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (가격)",
+    "hint": "기본형",
     "answer": "高い"
   },
   {
@@ -1382,7 +1382,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (가격)",
+    "hint": "부정형",
     "answer": "高くない"
   },
   {
@@ -1391,7 +1391,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (가격)",
+    "hint": "과거형",
     "answer": "高かった"
   },
   {
@@ -1400,7 +1400,7 @@
     "adjective": "高い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (가격)",
+    "hint": "과거부정형",
     "answer": "高くなかった"
   },
   {
@@ -1409,7 +1409,7 @@
     "adjective": "安い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "安い"
   },
   {
@@ -1418,7 +1418,7 @@
     "adjective": "安い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "安くない"
   },
   {
@@ -1427,7 +1427,7 @@
     "adjective": "安い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "安かった"
   },
   {
@@ -1436,7 +1436,7 @@
     "adjective": "安い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "安くなかった"
   },
   {
@@ -1445,7 +1445,7 @@
     "adjective": "若い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "若い"
   },
   {
@@ -1454,7 +1454,7 @@
     "adjective": "若い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "若くない"
   },
   {
@@ -1463,7 +1463,7 @@
     "adjective": "若い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "若かった"
   },
   {
@@ -1472,7 +1472,7 @@
     "adjective": "若い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "若くなかった"
   },
   {
@@ -1481,7 +1481,7 @@
     "adjective": "赤い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "赤い"
   },
   {
@@ -1490,7 +1490,7 @@
     "adjective": "赤い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "赤くない"
   },
   {
@@ -1499,7 +1499,7 @@
     "adjective": "赤い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "赤かった"
   },
   {
@@ -1508,7 +1508,7 @@
     "adjective": "赤い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "赤くなかった"
   },
   {
@@ -1517,7 +1517,7 @@
     "adjective": "青い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "青い"
   },
   {
@@ -1526,7 +1526,7 @@
     "adjective": "青い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "青くない"
   },
   {
@@ -1535,7 +1535,7 @@
     "adjective": "青い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "青かった"
   },
   {
@@ -1544,7 +1544,7 @@
     "adjective": "青い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "青くなかった"
   },
   {
@@ -1553,7 +1553,7 @@
     "adjective": "白い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "白い"
   },
   {
@@ -1562,7 +1562,7 @@
     "adjective": "白い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "白くない"
   },
   {
@@ -1571,7 +1571,7 @@
     "adjective": "白い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "白かった"
   },
   {
@@ -1580,7 +1580,7 @@
     "adjective": "白い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "白くなかった"
   },
   {
@@ -1589,7 +1589,7 @@
     "adjective": "黒い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "黒い"
   },
   {
@@ -1598,7 +1598,7 @@
     "adjective": "黒い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "黒くない"
   },
   {
@@ -1607,7 +1607,7 @@
     "adjective": "黒い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "黒かった"
   },
   {
@@ -1616,7 +1616,7 @@
     "adjective": "黒い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "黒くなかった"
   },
   {
@@ -1625,7 +1625,7 @@
     "adjective": "黄色い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "黄色い"
   },
   {
@@ -1634,7 +1634,7 @@
     "adjective": "黄色い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "黄色くない"
   },
   {
@@ -1643,7 +1643,7 @@
     "adjective": "黄色い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "黄色かった"
   },
   {
@@ -1652,7 +1652,7 @@
     "adjective": "黄色い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "黄色くなかった"
   },
   {
@@ -1661,7 +1661,7 @@
     "adjective": "茶色い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사 (색)",
+    "hint": "기본형",
     "answer": "茶色い"
   },
   {
@@ -1670,7 +1670,7 @@
     "adjective": "茶色い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사 (색)",
+    "hint": "부정형",
     "answer": "茶色くない"
   },
   {
@@ -1679,7 +1679,7 @@
     "adjective": "茶色い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사 (색)",
+    "hint": "과거형",
     "answer": "茶色かった"
   },
   {
@@ -1688,7 +1688,7 @@
     "adjective": "茶色い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사 (색)",
+    "hint": "과거부정형",
     "answer": "茶色くなかった"
   },
   {
@@ -1697,7 +1697,7 @@
     "adjective": "丸い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "丸い"
   },
   {
@@ -1706,7 +1706,7 @@
     "adjective": "丸い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "丸くない"
   },
   {
@@ -1715,7 +1715,7 @@
     "adjective": "丸い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "丸かった"
   },
   {
@@ -1724,7 +1724,7 @@
     "adjective": "丸い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "丸くなかった"
   },
   {
@@ -1733,7 +1733,7 @@
     "adjective": "可愛い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "可愛い"
   },
   {
@@ -1742,7 +1742,7 @@
     "adjective": "可愛い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "可愛くない"
   },
   {
@@ -1751,7 +1751,7 @@
     "adjective": "可愛い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "可愛かった"
   },
   {
@@ -1760,7 +1760,7 @@
     "adjective": "可愛い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "可愛くなかった"
   },
   {
@@ -1769,7 +1769,7 @@
     "adjective": "怖い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "怖い"
   },
   {
@@ -1778,7 +1778,7 @@
     "adjective": "怖い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "怖くない"
   },
   {
@@ -1787,7 +1787,7 @@
     "adjective": "怖い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "怖かった"
   },
   {
@@ -1796,7 +1796,7 @@
     "adjective": "怖い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "怖くなかった"
   },
   {
@@ -1805,7 +1805,7 @@
     "adjective": "悲しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "悲しい"
   },
   {
@@ -1814,7 +1814,7 @@
     "adjective": "悲しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "悲しくない"
   },
   {
@@ -1823,7 +1823,7 @@
     "adjective": "悲しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "悲しかった"
   },
   {
@@ -1832,7 +1832,7 @@
     "adjective": "悲しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "悲しくなかった"
   },
   {
@@ -1841,7 +1841,7 @@
     "adjective": "嬉しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "嬉しい"
   },
   {
@@ -1850,7 +1850,7 @@
     "adjective": "嬉しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "嬉しくない"
   },
   {
@@ -1859,7 +1859,7 @@
     "adjective": "嬉しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "嬉しかった"
   },
   {
@@ -1868,7 +1868,7 @@
     "adjective": "嬉しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "嬉しくなかった"
   },
   {
@@ -1877,7 +1877,7 @@
     "adjective": "恥ずかしい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "恥ずかしい"
   },
   {
@@ -1886,7 +1886,7 @@
     "adjective": "恥ずかしい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "恥ずかしくない"
   },
   {
@@ -1895,7 +1895,7 @@
     "adjective": "恥ずかしい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "恥ずかしかった"
   },
   {
@@ -1904,7 +1904,7 @@
     "adjective": "恥ずかしい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "恥ずかしくなかった"
   },
   {
@@ -1913,7 +1913,7 @@
     "adjective": "楽しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "楽しい"
   },
   {
@@ -1922,7 +1922,7 @@
     "adjective": "楽しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "楽しくない"
   },
   {
@@ -1931,7 +1931,7 @@
     "adjective": "楽しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "楽しかった"
   },
   {
@@ -1940,7 +1940,7 @@
     "adjective": "楽しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "楽しくなかった"
   },
   {
@@ -1949,7 +1949,7 @@
     "adjective": "汚い",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "汚い"
   },
   {
@@ -1958,7 +1958,7 @@
     "adjective": "汚い",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "汚くない"
   },
   {
@@ -1967,7 +1967,7 @@
     "adjective": "汚い",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "汚かった"
   },
   {
@@ -1976,7 +1976,7 @@
     "adjective": "汚い",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "汚くなかった"
   },
   {
@@ -1985,7 +1985,7 @@
     "adjective": "素晴らしい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "素晴らしい"
   },
   {
@@ -1994,7 +1994,7 @@
     "adjective": "素晴らしい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "素晴らしくない"
   },
   {
@@ -2003,7 +2003,7 @@
     "adjective": "素晴らしい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "素晴らしかった"
   },
   {
@@ -2012,7 +2012,7 @@
     "adjective": "素晴らしい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "素晴らしくなかった"
   },
   {
@@ -2021,7 +2021,7 @@
     "adjective": "忙しい",
     "type": "い形容詞",
     "conjugationType": "現在肯定",
-    "hint": "い형용사",
+    "hint": "기본형",
     "answer": "忙しい"
   },
   {
@@ -2030,7 +2030,7 @@
     "adjective": "忙しい",
     "type": "い形容詞",
     "conjugationType": "現在否定",
-    "hint": "い형용사",
+    "hint": "부정형",
     "answer": "忙しくない"
   },
   {
@@ -2039,7 +2039,7 @@
     "adjective": "忙しい",
     "type": "い形容詞",
     "conjugationType": "過去肯定",
-    "hint": "い형용사",
+    "hint": "과거형",
     "answer": "忙しかった"
   },
   {
@@ -2048,7 +2048,7 @@
     "adjective": "忙しい",
     "type": "い形容詞",
     "conjugationType": "過去否定",
-    "hint": "い형용사",
+    "hint": "과거부정형",
     "answer": "忙しくなかった"
   },
   {
@@ -2057,7 +2057,7 @@
     "adjective": "静か",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "静かだ"
   },
   {
@@ -2066,7 +2066,7 @@
     "adjective": "静か",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "静かではない"
   },
   {
@@ -2075,7 +2075,7 @@
     "adjective": "静か",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "静かだった"
   },
   {
@@ -2084,7 +2084,7 @@
     "adjective": "静か",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "静かではなかった"
   },
   {
@@ -2093,7 +2093,7 @@
     "adjective": "賑やか",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "賑やかだ"
   },
   {
@@ -2102,7 +2102,7 @@
     "adjective": "賑やか",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "賑やかではない"
   },
   {
@@ -2111,7 +2111,7 @@
     "adjective": "賑やか",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "賑やかだった"
   },
   {
@@ -2120,7 +2120,7 @@
     "adjective": "賑やか",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "賑やかではなかった"
   },
   {
@@ -2129,7 +2129,7 @@
     "adjective": "便利",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "便利だ"
   },
   {
@@ -2138,7 +2138,7 @@
     "adjective": "便利",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "便利ではない"
   },
   {
@@ -2147,7 +2147,7 @@
     "adjective": "便利",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "便利だった"
   },
   {
@@ -2156,7 +2156,7 @@
     "adjective": "便利",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "便利ではなかった"
   },
   {
@@ -2165,7 +2165,7 @@
     "adjective": "不便",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "不便だ"
   },
   {
@@ -2174,7 +2174,7 @@
     "adjective": "不便",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "不便ではない"
   },
   {
@@ -2183,7 +2183,7 @@
     "adjective": "不便",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "不便だった"
   },
   {
@@ -2192,7 +2192,7 @@
     "adjective": "不便",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "不便ではなかった"
   },
   {
@@ -2201,7 +2201,7 @@
     "adjective": "有名",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "有名だ"
   },
   {
@@ -2210,7 +2210,7 @@
     "adjective": "有名",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "有名ではない"
   },
   {
@@ -2219,7 +2219,7 @@
     "adjective": "有名",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "有名だった"
   },
   {
@@ -2228,7 +2228,7 @@
     "adjective": "有名",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "有名ではなかった"
   },
   {
@@ -2237,7 +2237,7 @@
     "adjective": "親切",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "親切だ"
   },
   {
@@ -2246,7 +2246,7 @@
     "adjective": "親切",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "親切ではない"
   },
   {
@@ -2255,7 +2255,7 @@
     "adjective": "親切",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "親切だった"
   },
   {
@@ -2264,7 +2264,7 @@
     "adjective": "親切",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "親切ではなかった"
   },
   {
@@ -2273,7 +2273,7 @@
     "adjective": "きれい",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "きれいだ"
   },
   {
@@ -2282,7 +2282,7 @@
     "adjective": "きれい",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "きれいではない"
   },
   {
@@ -2291,7 +2291,7 @@
     "adjective": "きれい",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "きれいだった"
   },
   {
@@ -2300,7 +2300,7 @@
     "adjective": "きれい",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "きれいではなかった"
   },
   {
@@ -2309,7 +2309,7 @@
     "adjective": "元気",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "元気だ"
   },
   {
@@ -2318,7 +2318,7 @@
     "adjective": "元気",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "元気ではない"
   },
   {
@@ -2327,7 +2327,7 @@
     "adjective": "元気",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "元気だった"
   },
   {
@@ -2336,7 +2336,7 @@
     "adjective": "元気",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "元気ではなかった"
   },
   {
@@ -2345,7 +2345,7 @@
     "adjective": "好き",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "好きだ"
   },
   {
@@ -2354,7 +2354,7 @@
     "adjective": "好き",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "好きではない"
   },
   {
@@ -2363,7 +2363,7 @@
     "adjective": "好き",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "好きだった"
   },
   {
@@ -2372,7 +2372,7 @@
     "adjective": "好き",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "好きではなかった"
   },
   {
@@ -2381,7 +2381,7 @@
     "adjective": "嫌い",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "嫌いだ"
   },
   {
@@ -2390,7 +2390,7 @@
     "adjective": "嫌い",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "嫌いではない"
   },
   {
@@ -2399,7 +2399,7 @@
     "adjective": "嫌い",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "嫌いだった"
   },
   {
@@ -2408,7 +2408,7 @@
     "adjective": "嫌い",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "嫌いではなかった"
   },
   {
@@ -2417,7 +2417,7 @@
     "adjective": "簡単",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "簡単だ"
   },
   {
@@ -2426,7 +2426,7 @@
     "adjective": "簡単",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "簡単ではない"
   },
   {
@@ -2435,7 +2435,7 @@
     "adjective": "簡単",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "簡単だった"
   },
   {
@@ -2444,7 +2444,7 @@
     "adjective": "簡単",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "簡単ではなかった"
   },
   {
@@ -2453,7 +2453,7 @@
     "adjective": "複雑",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "複雑だ"
   },
   {
@@ -2462,7 +2462,7 @@
     "adjective": "複雑",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "複雑ではない"
   },
   {
@@ -2471,7 +2471,7 @@
     "adjective": "複雑",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "複雑だった"
   },
   {
@@ -2480,7 +2480,7 @@
     "adjective": "複雑",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "複雑ではなかった"
   },
   {
@@ -2489,7 +2489,7 @@
     "adjective": "特別",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "特別だ"
   },
   {
@@ -2498,7 +2498,7 @@
     "adjective": "特別",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "特別ではない"
   },
   {
@@ -2507,7 +2507,7 @@
     "adjective": "特別",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "特別だった"
   },
   {
@@ -2516,7 +2516,7 @@
     "adjective": "特別",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "特別ではなかった"
   },
   {
@@ -2525,7 +2525,7 @@
     "adjective": "自由",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "自由だ"
   },
   {
@@ -2534,7 +2534,7 @@
     "adjective": "自由",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "自由ではない"
   },
   {
@@ -2543,7 +2543,7 @@
     "adjective": "自由",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "自由だった"
   },
   {
@@ -2552,7 +2552,7 @@
     "adjective": "自由",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "自由ではなかった"
   },
   {
@@ -2561,7 +2561,7 @@
     "adjective": "大切",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "大切だ"
   },
   {
@@ -2570,7 +2570,7 @@
     "adjective": "大切",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "大切ではない"
   },
   {
@@ -2579,7 +2579,7 @@
     "adjective": "大切",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "大切だった"
   },
   {
@@ -2588,7 +2588,7 @@
     "adjective": "大切",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "大切ではなかった"
   },
   {
@@ -2597,7 +2597,7 @@
     "adjective": "必要",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "必要だ"
   },
   {
@@ -2606,7 +2606,7 @@
     "adjective": "必要",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "必要ではない"
   },
   {
@@ -2615,7 +2615,7 @@
     "adjective": "必要",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "必要だった"
   },
   {
@@ -2624,7 +2624,7 @@
     "adjective": "必要",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "必要ではなかった"
   },
   {
@@ -2633,7 +2633,7 @@
     "adjective": "暇",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "暇だ"
   },
   {
@@ -2642,7 +2642,7 @@
     "adjective": "暇",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "暇ではない"
   },
   {
@@ -2651,7 +2651,7 @@
     "adjective": "暇",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "暇だった"
   },
   {
@@ -2660,7 +2660,7 @@
     "adjective": "暇",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "暇ではなかった"
   },
   {
@@ -2669,7 +2669,7 @@
     "adjective": "安全",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "安全だ"
   },
   {
@@ -2678,7 +2678,7 @@
     "adjective": "安全",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "安全ではない"
   },
   {
@@ -2687,7 +2687,7 @@
     "adjective": "安全",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "安全だった"
   },
   {
@@ -2696,7 +2696,7 @@
     "adjective": "安全",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "安全ではなかった"
   },
   {
@@ -2705,7 +2705,7 @@
     "adjective": "危険",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "危険だ"
   },
   {
@@ -2714,7 +2714,7 @@
     "adjective": "危険",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "危険ではない"
   },
   {
@@ -2723,7 +2723,7 @@
     "adjective": "危険",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "危険だった"
   },
   {
@@ -2732,7 +2732,7 @@
     "adjective": "危険",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "危険ではなかった"
   },
   {
@@ -2741,7 +2741,7 @@
     "adjective": "変",
     "type": "な形容詞",
     "conjugationType": "現在肯定",
-    "hint": "な형용사",
+    "hint": "기본형",
     "answer": "変だ"
   },
   {
@@ -2750,7 +2750,7 @@
     "adjective": "変",
     "type": "な形容詞",
     "conjugationType": "現在否定",
-    "hint": "な형용사",
+    "hint": "부정형",
     "answer": "変ではない"
   },
   {
@@ -2759,7 +2759,7 @@
     "adjective": "変",
     "type": "な形容詞",
     "conjugationType": "過去肯定",
-    "hint": "な형용사",
+    "hint": "과거형",
     "answer": "変だった"
   },
   {
@@ -2768,7 +2768,7 @@
     "adjective": "変",
     "type": "な形容詞",
     "conjugationType": "過去否定",
-    "hint": "な형용사",
+    "hint": "과거부정형",
     "answer": "変ではなかった"
   }
 ]
