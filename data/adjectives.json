@@ -1,310 +1,2774 @@
 [
-  {"korean":"크다 (현재긍정)","japanese":"この部屋は____","adjective":"大きい","type":"い形容詞","conjugationType":"現在肯定","answer":"大きい","hint":"기본형"},
-  {"korean":"크지 않다 (현재부정)","japanese":"この部屋は____","adjective":"大きい","type":"い形容詞","conjugationType":"現在否定","answer":"大きくない","hint":"い → くない"},
-  {"korean":"컸다 (과거긍정)","japanese":"この部屋は____","adjective":"大きい","type":"い形容詞","conjugationType":"過去肯定","answer":"大きかった","hint":"い → かった"},
-  {"korean":"크지 않았다 (과거부정)","japanese":"この部屋は____","adjective":"大きい","type":"い形容詞","conjugationType":"過去否定","answer":"大きくなかった","hint":"くない → くなかった"},
-  {"korean":"작다 (현재긍정)","japanese":"この箱は____","adjective":"小さい","type":"い形容詞","conjugationType":"現在肯定","answer":"小さい","hint":"기본형"},
-  {"korean":"작지 않다 (현재부정)","japanese":"この箱は____","adjective":"小さい","type":"い形容詞","conjugationType":"現在否定","answer":"小さくない","hint":"い → くない"},
-  {"korean":"작았다 (과거긍정)","japanese":"この箱は____","adjective":"小さい","type":"い形容詞","conjugationType":"過去肯定","answer":"小さかった","hint":"い → かった"},
-  {"korean":"작지 않았다 (과거부정)","japanese":"この箱は____","adjective":"小さい","type":"い形容詞","conjugationType":"過去否定","answer":"小さくなかった","hint":"くない → くなかった"},
-  {"korean":"높다 (현재긍정)","japanese":"この山は____","adjective":"高い","type":"い形容詞","conjugationType":"現在肯定","answer":"高い","hint":"기본형"},
-  {"korean":"높지 않다 (현재부정)","japanese":"この山は____","adjective":"高い","type":"い形容詞","conjugationType":"現在否定","answer":"高くない","hint":"い → くない"},
-  {"korean":"높았다 (과거긍정)","japanese":"この山は____","adjective":"高い","type":"い形容詞","conjugationType":"過去肯定","answer":"高かった","hint":"い → かった"},
-  {"korean":"높지 않았다 (과거부정)","japanese":"この山は____","adjective":"高い","type":"い形容詞","conjugationType":"過去否定","answer":"高くなかった","hint":"くない → くなかった"},
-  {"korean":"낮다 (현재긍정)","japanese":"この建物は____","adjective":"低い","type":"い形容詞","conjugationType":"現在肯定","answer":"低い","hint":"기본형"},
-  {"korean":"낮지 않다 (현재부정)","japanese":"この建物は____","adjective":"低い","type":"い形容詞","conjugationType":"現在否定","answer":"低くない","hint":"い → くない"},
-  {"korean":"낮았다 (과거긍정)","japanese":"この建物は____","adjective":"低い","type":"い形容詞","conjugationType":"過去肯定","answer":"低かった","hint":"い → かった"},
-  {"korean":"낮지 않았다 (과거부정)","japanese":"この建物は____","adjective":"低い","type":"い形容詞","conjugationType":"過去否定","answer":"低くなかった","hint":"くない → くなかった"},
-  {"korean":"좋다 (현재긍정)","japanese":"この映画は____","adjective":"良い","type":"い形容詞","conjugationType":"現在肯定","answer":"良い","hint":"기본형 (いい도 가능)"},
-  {"korean":"좋지 않다 (현재부정)","japanese":"この映画は____","adjective":"良い","type":"い形容詞","conjugationType":"現在否定","answer":"良くない","hint":"よい → よくない"},
-  {"korean":"좋았다 (과거긍정)","japanese":"この映画は____","adjective":"良い","type":"い形容詞","conjugationType":"過去肯定","answer":"良かった","hint":"よい → よかった"},
-  {"korean":"좋지 않았다 (과거부정)","japanese":"この映画は____","adjective":"良い","type":"い形容詞","conjugationType":"過去否定","answer":"良くなかった","hint":"よくない → よくなかった"},
-  {"korean":"나쁘다 (현재긍정)","japanese":"天気が____","adjective":"悪い","type":"い形容詞","conjugationType":"現在肯定","answer":"悪い","hint":"기본형"},
-  {"korean":"나쁘지 않다 (현재부정)","japanese":"天気が____","adjective":"悪い","type":"い形容詞","conjugationType":"現在否定","answer":"悪くない","hint":"い → くない"},
-  {"korean":"나빴다 (과거긍정)","japanese":"天気が____","adjective":"悪い","type":"い形容詞","conjugationType":"過去肯定","answer":"悪かった","hint":"い → かった"},
-  {"korean":"나쁘지 않았다 (과거부정)","japanese":"天気が____","adjective":"悪い","type":"い形容詞","conjugationType":"過去否定","answer":"悪くなかった","hint":"くない → くなかった"},
-  {"korean":"새롭다 (현재긍정)","japanese":"この車は____","adjective":"新しい","type":"い形容詞","conjugationType":"現在肯定","answer":"新しい","hint":"기본형"},
-  {"korean":"새롭지 않다 (현재부정)","japanese":"この車は____","adjective":"新しい","type":"い形容詞","conjugationType":"現在否定","answer":"新しくない","hint":"い → くない"},
-  {"korean":"새로웠다 (과거긍정)","japanese":"この車は____","adjective":"新しい","type":"い形容詞","conjugationType":"過去肯定","answer":"新しかった","hint":"い → かった"},
-  {"korean":"새롭지 않았다 (과거부정)","japanese":"この車は____","adjective":"新しい","type":"い形容詞","conjugationType":"過去否定","answer":"新しくなかった","hint":"くない → くなかった"},
-  {"korean":"오래되다 (현재긍정)","japanese":"この家は____","adjective":"古い","type":"い形容詞","conjugationType":"現在肯定","answer":"古い","hint":"기본형"},
-  {"korean":"오래되지 않다 (현재부정)","japanese":"この家は____","adjective":"古い","type":"い形容詞","conjugationType":"現在否定","answer":"古くない","hint":"い → くない"},
-  {"korean":"오래되었다 (과거긍정)","japanese":"この家は____","adjective":"古い","type":"い形容詞","conjugationType":"過去肯定","answer":"古かった","hint":"い → かった"},
-  {"korean":"오래되지 않았다 (과거부정)","japanese":"この家は____","adjective":"古い","type":"い形容詞","conjugationType":"過去否定","answer":"古くなかった","hint":"くない → くなかった"},
-  {"korean":"덥다 (현재긍정)","japanese":"今日は____","adjective":"暑い","type":"い形容詞","conjugationType":"現在肯定","answer":"暑い","hint":"기본형"},
-  {"korean":"덥지 않다 (현재부정)","japanese":"今日は____","adjective":"暑い","type":"い形容詞","conjugationType":"現在否定","answer":"暑くない","hint":"い → くない"},
-  {"korean":"더웠다 (과거긍정)","japanese":"昨日は____","adjective":"暑い","type":"い形容詞","conjugationType":"過去肯定","answer":"暑かった","hint":"い → かった"},
-  {"korean":"덥지 않았다 (과거부정)","japanese":"昨日は____","adjective":"暑い","type":"い形容詞","conjugationType":"過去否定","answer":"暑くなかった","hint":"くない → くなかった"},
-  {"korean":"춥다 (현재긍정)","japanese":"今日は____","adjective":"寒い","type":"い形容詞","conjugationType":"現在肯定","answer":"寒い","hint":"기본형"},
-  {"korean":"춥지 않다 (현재부정)","japanese":"今日は____","adjective":"寒い","type":"い形容詞","conjugationType":"現在否定","answer":"寒くない","hint":"い → くない"},
-  {"korean":"추웠다 (과거긍정)","japanese":"昨日は____","adjective":"寒い","type":"い形容詞","conjugationType":"過去肯定","answer":"寒かった","hint":"い → かった"},
-  {"korean":"춥지 않았다 (과거부정)","japanese":"昨日は____","adjective":"寒い","type":"い形容詞","conjugationType":"過去否定","answer":"寒くなかった","hint":"くない → くなかった"},
-  {"korean":"따뜻하다 (현재긍정)","japanese":"部屋が____","adjective":"暖かい","type":"い形容詞","conjugationType":"現在肯定","answer":"暖かい","hint":"기본형"},
-  {"korean":"따뜻하지 않다 (현재부정)","japanese":"部屋が____","adjective":"暖かい","type":"い形容詞","conjugationType":"現在否定","answer":"暖かくない","hint":"い → くない"},
-  {"korean":"따뜻했다 (과거긍정)","japanese":"部屋が____","adjective":"暖かい","type":"い形容詞","conjugationType":"過去肯定","answer":"暖かかった","hint":"い → かった"},
-  {"korean":"따뜻하지 않았다 (과거부정)","japanese":"部屋が____","adjective":"暖かい","type":"い形容詞","conjugationType":"過去否定","answer":"暖かくなかった","hint":"くない → くなかった"},
-  {"korean":"시원하다 (현재긍정)","japanese":"風が____","adjective":"涼しい","type":"い形容詞","conjugationType":"現在肯定","answer":"涼しい","hint":"기본형"},
-  {"korean":"시원하지 않다 (현재부정)","japanese":"風が____","adjective":"涼しい","type":"い形容詞","conjugationType":"現在否定","answer":"涼しくない","hint":"い → くない"},
-  {"korean":"시원했다 (과거긍정)","japanese":"風が____","adjective":"涼しい","type":"い形容詞","conjugationType":"過去肯定","answer":"涼しかった","hint":"い → かった"},
-  {"korean":"시원하지 않았다 (과거부정)","japanese":"風が____","adjective":"涼しい","type":"い形容詞","conjugationType":"過去否定","answer":"涼しくなかった","hint":"くない → くなかった"},
-  {"korean":"뜨겁다 (현재긍정)","japanese":"コーヒーが____","adjective":"熱い","type":"い形容詞","conjugationType":"現在肯定","answer":"熱い","hint":"기본형"},
-  {"korean":"뜨겁지 않다 (현재부정)","japanese":"コーヒーが____","adjective":"熱い","type":"い形容詞","conjugationType":"現在否定","answer":"熱くない","hint":"い → くない"},
-  {"korean":"뜨거웠다 (과거긍정)","japanese":"コーヒーが____","adjective":"熱い","type":"い形容詞","conjugationType":"過去肯定","answer":"熱かった","hint":"い → かった"},
-  {"korean":"뜨겁지 않았다 (과거부정)","japanese":"コーヒーが____","adjective":"熱い","type":"い形容詞","conjugationType":"過去否定","answer":"熱くなかった","hint":"くない → くなかった"},
-  {"korean":"차갑다 (현재긍정)","japanese":"水が____","adjective":"冷たい","type":"い形容詞","conjugationType":"現在肯定","answer":"冷たい","hint":"기본형"},
-  {"korean":"차갑지 않다 (현재부정)","japanese":"水が____","adjective":"冷たい","type":"い形容詞","conjugationType":"現在否定","answer":"冷たくない","hint":"い → くない"},
-  {"korean":"차가웠다 (과거긍정)","japanese":"水が____","adjective":"冷たい","type":"い形容詞","conjugationType":"過去肯定","answer":"冷たかった","hint":"い → かった"},
-  {"korean":"차갑지 않았다 (과거부정)","japanese":"水が____","adjective":"冷たい","type":"い形容詞","conjugationType":"過去否定","answer":"冷たくなかった","hint":"くない → くなかった"},
-  {"korean":"길다 (현재긍정)","japanese":"この道は____","adjective":"長い","type":"い形容詞","conjugationType":"現在肯定","answer":"長い","hint":"기본형"},
-  {"korean":"길지 않다 (현재부정)","japanese":"この道は____","adjective":"長い","type":"い形容詞","conjugationType":"現在否定","answer":"長くない","hint":"い → くない"},
-  {"korean":"길었다 (과거긍정)","japanese":"この道は____","adjective":"長い","type":"い形容詞","conjugationType":"過去肯定","answer":"長かった","hint":"い → かった"},
-  {"korean":"길지 않았다 (과거부정)","japanese":"この道は____","adjective":"長い","type":"い形容詞","conjugationType":"過去否定","answer":"長くなかった","hint":"くない → くなかった"},
-  {"korean":"짧다 (현재긍정)","japanese":"スカートが____","adjective":"短い","type":"い形容詞","conjugationType":"現在肯定","answer":"短い","hint":"기본형"},
-  {"korean":"짧지 않다 (현재부정)","japanese":"スカートが____","adjective":"短い","type":"い形容詞","conjugationType":"現在否定","answer":"短くない","hint":"い → くない"},
-  {"korean":"짧았다 (과거긍정)","japanese":"スカートが____","adjective":"短い","type":"い形容詞","conjugationType":"過去肯定","answer":"短かった","hint":"い → かった"},
-  {"korean":"짧지 않았다 (과거부정)","japanese":"スカートが____","adjective":"短い","type":"い形容詞","conjugationType":"過去否定","answer":"短くなかった","hint":"くない → くなかった"},
-  {"korean":"빠르다 (현재긍정)","japanese":"電車が____","adjective":"速い","type":"い形容詞","conjugationType":"現在肯定","answer":"速い","hint":"기본형"},
-  {"korean":"빠르지 않다 (현재부정)","japanese":"電車が____","adjective":"速い","type":"い形容詞","conjugationType":"現在否定","answer":"速くない","hint":"い → くない"},
-  {"korean":"빨랐다 (과거긍정)","japanese":"電車が____","adjective":"速い","type":"い形容詞","conjugationType":"過去肯定","answer":"速かった","hint":"い → かった"},
-  {"korean":"빠르지 않았다 (과거부정)","japanese":"電車が____","adjective":"速い","type":"い形容詞","conjugationType":"過去否定","answer":"速くなかった","hint":"くない → くなかった"},
-  {"korean":"느리다 (현재긍정)","japanese":"バスが____","adjective":"遅い","type":"い形容詞","conjugationType":"現在肯定","answer":"遅い","hint":"기본형"},
-  {"korean":"느리지 않다 (현재부정)","japanese":"バスが____","adjective":"遅い","type":"い形容詞","conjugationType":"現在否定","answer":"遅くない","hint":"い → くない"},
-  {"korean":"느렸다 (과거긍정)","japanese":"バスが____","adjective":"遅い","type":"い形容詞","conjugationType":"過去肯定","answer":"遅かった","hint":"い → かった"},
-  {"korean":"느리지 않았다 (과거부정)","japanese":"バスが____","adjective":"遅い","type":"い形容詞","conjugationType":"過去否定","answer":"遅くなかった","hint":"くない → くなかった"},
-  {"korean":"이르다/빠르다 (현재긍정)","japanese":"朝が____","adjective":"早い","type":"い形容詞","conjugationType":"現在肯定","answer":"早い","hint":"기본형"},
-  {"korean":"이르지/빠르지 않다 (현재부정)","japanese":"朝が____","adjective":"早い","type":"い形容詞","conjugationType":"現在否定","answer":"早くない","hint":"い → くない"},
-  {"korean":"일렀다/빨랐다 (과거긍정)","japanese":"朝が____","adjective":"早い","type":"い形容詞","conjugationType":"過去肯定","answer":"早かった","hint":"い → かった"},
-  {"korean":"이르지/빠르지 않았다 (과거부정)","japanese":"朝が____","adjective":"早い","type":"い形容詞","conjugationType":"過去否定","answer":"早くなかった","hint":"くない → くなかった"},
-  {"korean":"넓다 (현재긍정)","japanese":"公園が____","adjective":"広い","type":"い形容詞","conjugationType":"現在肯定","answer":"広い","hint":"기본형"},
-  {"korean":"넓지 않다 (현재부정)","japanese":"公園が____","adjective":"広い","type":"い形容詞","conjugationType":"現在否定","answer":"広くない","hint":"い → くない"},
-  {"korean":"넓었다 (과거긍정)","japanese":"公園が____","adjective":"広い","type":"い形容詞","conjugationType":"過去肯定","answer":"広かった","hint":"い → かった"},
-  {"korean":"넓지 않았다 (과거부정)","japanese":"公園が____","adjective":"広い","type":"い形容詞","conjugationType":"過去否定","answer":"広くなかった","hint":"くない → くなかった"},
-  {"korean":"좁다 (현재긍정)","japanese":"道が____","adjective":"狭い","type":"い形容詞","conjugationType":"現在肯定","answer":"狭い","hint":"기본형"},
-  {"korean":"좁지 않다 (현재부정)","japanese":"道が____","adjective":"狭い","type":"い形容詞","conjugationType":"現在否定","answer":"狭くない","hint":"い → くない"},
-  {"korean":"좁았다 (과거긍정)","japanese":"道が____","adjective":"狭い","type":"い形容詞","conjugationType":"過去肯定","answer":"狭かった","hint":"い → かった"},
-  {"korean":"좁지 않았다 (과거부정)","japanese":"道が____","adjective":"狭い","type":"い形容詞","conjugationType":"過去否定","answer":"狭くなかった","hint":"くない → くなかった"},
-  {"korean":"두껍다 (현재긍정)","japanese":"本が____","adjective":"厚い","type":"い形容詞","conjugationType":"現在肯定","answer":"厚い","hint":"기본형"},
-  {"korean":"두껍지 않다 (현재부정)","japanese":"本が____","adjective":"厚い","type":"い形容詞","conjugationType":"現在否定","answer":"厚くない","hint":"い → くない"},
-  {"korean":"두꺼웠다 (과거긍정)","japanese":"本が____","adjective":"厚い","type":"い形容詞","conjugationType":"過去肯定","answer":"厚かった","hint":"い → かった"},
-  {"korean":"두껍지 않았다 (과거부정)","japanese":"本が____","adjective":"厚い","type":"い形容詞","conjugationType":"過去否定","answer":"厚くなかった","hint":"くない → くなかった"},
-  {"korean":"얇다 (현재긍정)","japanese":"紙が____","adjective":"薄い","type":"い形容詞","conjugationType":"現在肯定","answer":"薄い","hint":"기본형"},
-  {"korean":"얇지 않다 (현재부정)","japanese":"紙が____","adjective":"薄い","type":"い形容詞","conjugationType":"現在否定","answer":"薄くない","hint":"い → くない"},
-  {"korean":"얇았다 (과거긍정)","japanese":"紙が____","adjective":"薄い","type":"い形容詞","conjugationType":"過去肯定","answer":"薄かった","hint":"い → かった"},
-  {"korean":"얇지 않았다 (과거부정)","japanese":"紙が____","adjective":"薄い","type":"い形容詞","conjugationType":"過去否定","answer":"薄くなかった","hint":"くない → くなかった"},
-  {"korean":"무겁다 (현재긍정)","japanese":"荷物が____","adjective":"重い","type":"い形容詞","conjugationType":"現在肯定","answer":"重い","hint":"기본형"},
-  {"korean":"무겁지 않다 (현재부정)","japanese":"荷物が____","adjective":"重い","type":"い形容詞","conjugationType":"現在否定","answer":"重くない","hint":"い → くない"},
-  {"korean":"무거웠다 (과거긍정)","japanese":"荷物が____","adjective":"重い","type":"い形容詞","conjugationType":"過去肯定","answer":"重かった","hint":"い → かった"},
-  {"korean":"무겁지 않았다 (과거부정)","japanese":"荷物が____","adjective":"重い","type":"い形容詞","conjugationType":"過去否定","answer":"重くなかった","hint":"くない → くなかった"},
-  {"korean":"가볍다 (현재긍정)","japanese":"カバンが____","adjective":"軽い","type":"い形容詞","conjugationType":"現在肯定","answer":"軽い","hint":"기본형"},
-  {"korean":"가볍지 않다 (현재부정)","japanese":"カバンが____","adjective":"軽い","type":"い形容詞","conjugationType":"現在否定","answer":"軽くない","hint":"い → くない"},
-  {"korean":"가벼웠다 (과거긍정)","japanese":"カバンが____","adjective":"軽い","type":"い形容詞","conjugationType":"過去肯定","answer":"軽かった","hint":"い → かった"},
-  {"korean":"가볍지 않았다 (과거부정)","japanese":"カバンが____","adjective":"軽い","type":"い形容詞","conjugationType":"過去否定","answer":"軽くなかった","hint":"くない → くなかった"},
-  {"korean":"강하다 (현재긍정)","japanese":"力が____","adjective":"強い","type":"い形容詞","conjugationType":"現在肯定","answer":"強い","hint":"기본형"},
-  {"korean":"강하지 않다 (현재부정)","japanese":"力が____","adjective":"強い","type":"い形容詞","conjugationType":"現在否定","answer":"強くない","hint":"い → くない"},
-  {"korean":"강했다 (과거긍정)","japanese":"力が____","adjective":"強い","type":"い形容詞","conjugationType":"過去肯定","answer":"強かった","hint":"い → かった"},
-  {"korean":"강하지 않았다 (과거부정)","japanese":"力が____","adjective":"強い","type":"い形容詞","conjugationType":"過去否定","answer":"強くなかった","hint":"くない → くなかった"},
-  {"korean":"약하다 (현재긍정)","japanese":"風が____","adjective":"弱い","type":"い形容詞","conjugationType":"現在肯定","answer":"弱い","hint":"기본형"},
-  {"korean":"약하지 않다 (현재부정)","japanese":"風が____","adjective":"弱い","type":"い形容詞","conjugationType":"現在否定","answer":"弱くない","hint":"い → くない"},
-  {"korean":"약했다 (과거긍정)","japanese":"風が____","adjective":"弱い","type":"い形容詞","conjugationType":"過去肯定","answer":"弱かった","hint":"い → かった"},
-  {"korean":"약하지 않았다 (과거부정)","japanese":"風が____","adjective":"弱い","type":"い形容詞","conjugationType":"過去否定","answer":"弱くなかった","hint":"くない → くなかった"},
-  {"korean":"밝다 (현재긍정)","japanese":"部屋が____","adjective":"明るい","type":"い形容詞","conjugationType":"現在肯定","answer":"明るい","hint":"기본형"},
-  {"korean":"밝지 않다 (현재부정)","japanese":"部屋が____","adjective":"明るい","type":"い形容詞","conjugationType":"現在否定","answer":"明るくない","hint":"い → くない"},
-  {"korean":"밝았다 (과거긍정)","japanese":"部屋が____","adjective":"明るい","type":"い形容詞","conjugationType":"過去肯定","answer":"明るかった","hint":"い → かった"},
-  {"korean":"밝지 않았다 (과거부정)","japanese":"部屋が____","adjective":"明るい","type":"い形容詞","conjugationType":"過去否定","answer":"明るくなかった","hint":"くない → くなかった"},
-  {"korean":"어둡다 (현재긍정)","japanese":"夜が____","adjective":"暗い","type":"い形容詞","conjugationType":"現在肯定","answer":"暗い","hint":"기본형"},
-  {"korean":"어둡지 않다 (현재부정)","japanese":"夜が____","adjective":"暗い","type":"い形容詞","conjugationType":"現在否定","answer":"暗くない","hint":"い → くない"},
-  {"korean":"어두웠다 (과거긍정)","japanese":"夜が____","adjective":"暗い","type":"い形容詞","conjugationType":"過去肯定","answer":"暗かった","hint":"い → かった"},
-  {"korean":"어둡지 않았다 (과거부정)","japanese":"夜が____","adjective":"暗い","type":"い形容詞","conjugationType":"過去否定","answer":"暗くなかった","hint":"くない → くなかった"},
-  {"korean":"많다 (현재긍정)","japanese":"人が____","adjective":"多い","type":"い形容詞","conjugationType":"現在肯定","answer":"多い","hint":"기본형"},
-  {"korean":"많지 않다 (현재부정)","japanese":"人が____","adjective":"多い","type":"い形容詞","conjugationType":"現在否定","answer":"多くない","hint":"い → くない"},
-  {"korean":"많았다 (과거긍정)","japanese":"人が____","adjective":"多い","type":"い形容詞","conjugationType":"過去肯定","answer":"多かった","hint":"い → かった"},
-  {"korean":"많지 않았다 (과거부정)","japanese":"人が____","adjective":"多い","type":"い形容詞","conjugationType":"過去否定","answer":"多くなかった","hint":"くない → くなかった"},
-  {"korean":"적다 (현재긍정)","japanese":"時間が____","adjective":"少ない","type":"い形容詞","conjugationType":"現在肯定","answer":"少ない","hint":"기본형"},
-  {"korean":"적지 않다 (현재부정)","japanese":"時間が____","adjective":"少ない","type":"い形容詞","conjugationType":"現在否定","answer":"少なくない","hint":"い → くない"},
-  {"korean":"적었다 (과거긍정)","japanese":"時間が____","adjective":"少ない","type":"い形容詞","conjugationType":"過去肯定","answer":"少なかった","hint":"い → かった"},
-  {"korean":"적지 않았다 (과거부정)","japanese":"時間が____","adjective":"少ない","type":"い形容詞","conjugationType":"過去否定","answer":"少なくなかった","hint":"くない → くなかった"},
-  {"korean":"가깝다 (현재긍정)","japanese":"駅が____","adjective":"近い","type":"い形容詞","conjugationType":"現在肯定","answer":"近い","hint":"기본형"},
-  {"korean":"가깝지 않다 (현재부정)","japanese":"駅が____","adjective":"近い","type":"い形容詞","conjugationType":"現在否定","answer":"近くない","hint":"い → くない"},
-  {"korean":"가까웠다 (과거긍정)","japanese":"駅が____","adjective":"近い","type":"い形容詞","conjugationType":"過去肯定","answer":"近かった","hint":"い → かった"},
-  {"korean":"가깝지 않았다 (과거부정)","japanese":"駅が____","adjective":"近い","type":"い形容詞","conjugationType":"過去否定","answer":"近くなかった","hint":"くない → くなかった"},
-  {"korean":"멀다 (현재긍정)","japanese":"学校が____","adjective":"遠い","type":"い形容詞","conjugationType":"現在肯定","answer":"遠い","hint":"기본형"},
-  {"korean":"멀지 않다 (현재부정)","japanese":"学校が____","adjective":"遠い","type":"い形容詞","conjugationType":"現在否定","answer":"遠くない","hint":"い → くない"},
-  {"korean":"멀었다 (과거긍정)","japanese":"学校が____","adjective":"遠い","type":"い形容詞","conjugationType":"過去肯定","answer":"遠かった","hint":"い → かった"},
-  {"korean":"멀지 않았다 (과거부정)","japanese":"学校が____","adjective":"遠い","type":"い形容詞","conjugationType":"過去否定","answer":"遠くなかった","hint":"くない → くなかった"},
-  {"korean":"어렵다 (현재긍정)","japanese":"試験が____","adjective":"難しい","type":"い形容詞","conjugationType":"現在肯定","answer":"難しい","hint":"기본형"},
-  {"korean":"어렵지 않다 (현재부정)","japanese":"試験が____","adjective":"難しい","type":"い形容詞","conjugationType":"現在否定","answer":"難しくない","hint":"い → くない"},
-  {"korean":"어려웠다 (과거긍정)","japanese":"試験が____","adjective":"難しい","type":"い形容詞","conjugationType":"過去肯定","answer":"難しかった","hint":"い → かった"},
-  {"korean":"어렵지 않았다 (과거부정)","japanese":"試験が____","adjective":"難しい","type":"い形容詞","conjugationType":"過去否定","answer":"難しくなかった","hint":"くない → くなかった"},
-  {"korean":"쉽다 (현재긍정)","japanese":"問題が____","adjective":"易しい","type":"い形容詞","conjugationType":"現在肯定","answer":"易しい","hint":"기본형"},
-  {"korean":"쉽지 않다 (현재부정)","japanese":"問題が____","adjective":"易しい","type":"い形容詞","conjugationType":"現在否定","answer":"易しくない","hint":"い → くない"},
-  {"korean":"쉬웠다 (과거긍정)","japanese":"問題が____","adjective":"易しい","type":"い形容詞","conjugationType":"過去肯定","answer":"易しかった","hint":"い → かった"},
-  {"korean":"쉽지 않았다 (과거부정)","japanese":"問題が____","adjective":"易しい","type":"い形容詞","conjugationType":"過去否定","answer":"易しくなかった","hint":"くない → くなかった"},
-  {"korean":"재미있다 (현재긍정)","japanese":"ゲームが____","adjective":"面白い","type":"い形容詞","conjugationType":"現在肯定","answer":"面白い","hint":"기본형"},
-  {"korean":"재미없다 (현재부정)","japanese":"ゲームが____","adjective":"面白い","type":"い形容詞","conjugationType":"現在否定","answer":"面白くない","hint":"い → くない"},
-  {"korean":"재미있었다 (과거긍정)","japanese":"ゲームが____","adjective":"面白い","type":"い形容詞","conjugationType":"過去肯定","answer":"面白かった","hint":"い → かった"},
-  {"korean":"재미없었다 (과거부정)","japanese":"ゲームが____","adjective":"面白い","type":"い形容詞","conjugationType":"過去否定","answer":"面白くなかった","hint":"くない → くなかった"},
-  {"korean":"맛있다 (현재긍정)","japanese":"料理が____","adjective":"美味しい","type":"い形容詞","conjugationType":"現在肯定","answer":"美味しい","hint":"기본형"},
-  {"korean":"맛없다 (현재부정)","japanese":"料理が____","adjective":"美味しい","type":"い形容詞","conjugationType":"現在否定","answer":"美味しくない","hint":"い → くない"},
-  {"korean":"맛있었다 (과거긍정)","japanese":"料理が____","adjective":"美味しい","type":"い形容詞","conjugationType":"過去肯定","answer":"美味しかった","hint":"い → かった"},
-  {"korean":"맛없었다 (과거부정)","japanese":"料理が____","adjective":"美味しい","type":"い形容詞","conjugationType":"過去否定","answer":"美味しくなかった","hint":"くない → くなかった"},
-  {"korean":"맛없다 (현재긍정)","japanese":"この魚は____","adjective":"まずい","type":"い形容詞","conjugationType":"現在肯定","answer":"まずい","hint":"기본형"},
-  {"korean":"맛없지 않다 (현재부정)","japanese":"この魚は____","adjective":"まずい","type":"い形容詞","conjugationType":"現在否定","answer":"まずくない","hint":"い → くない"},
-  {"korean":"맛없었다 (과거긍정)","japanese":"この魚は____","adjective":"まずい","type":"い形容詞","conjugationType":"過去肯定","answer":"まずかった","hint":"い → かった"},
-  {"korean":"맛없지 않았다 (과거부정)","japanese":"この魚は____","adjective":"まずい","type":"い形容詞","conjugationType":"過去否定","answer":"まずくなかった","hint":"くない → くなかった"},
-  {"korean":"비싸다 (현재긍정)","japanese":"時計が____","adjective":"高い","type":"い形容詞","conjugationType":"現在肯定","answer":"高い","hint":"기본형 (가격)"},
-  {"korean":"비싸지 않다 (현재부정)","japanese":"時計が____","adjective":"高い","type":"い形容詞","conjugationType":"現在否定","answer":"高くない","hint":"い → くない"},
-  {"korean":"비쌌다 (과거긍정)","japanese":"時計が____","adjective":"高い","type":"い形容詞","conjugationType":"過去肯定","answer":"高かった","hint":"い → かった"},
-  {"korean":"비싸지 않았다 (과거부정)","japanese":"時計が____","adjective":"高い","type":"い形容詞","conjugationType":"過去否定","answer":"高くなかった","hint":"くない → くなかった"},
-  {"korean":"싸다 (현재긍정)","japanese":"野菜が____","adjective":"安い","type":"い形容詞","conjugationType":"現在肯定","answer":"安い","hint":"기본형"},
-  {"korean":"싸지 않다 (현재부정)","japanese":"野菜が____","adjective":"安い","type":"い形容詞","conjugationType":"現在否定","answer":"安くない","hint":"い → くない"},
-  {"korean":"쌌다 (과거긍정)","japanese":"野菜が____","adjective":"安い","type":"い形容詞","conjugationType":"過去肯定","answer":"安かった","hint":"い → かった"},
-  {"korean":"싸지 않았다 (과거부정)","japanese":"野菜が____","adjective":"安い","type":"い形容詞","conjugationType":"過去否定","answer":"安くなかった","hint":"くない → くなかった"},
-  {"korean":"젊다 (현재긍정)","japanese":"彼女は____","adjective":"若い","type":"い形容詞","conjugationType":"現在肯定","answer":"若い","hint":"기본형"},
-  {"korean":"젊지 않다 (현재부정)","japanese":"彼女は____","adjective":"若い","type":"い形容詞","conjugationType":"現在否定","answer":"若くない","hint":"い → くない"},
-  {"korean":"젊었다 (과거긍정)","japanese":"彼女は____","adjective":"若い","type":"い形容詞","conjugationType":"過去肯定","answer":"若かった","hint":"い → かった"},
-  {"korean":"젊지 않았다 (과거부정)","japanese":"彼女は____","adjective":"若い","type":"い形容詞","conjugationType":"過去否定","answer":"若くなかった","hint":"くない → くなかった"},
-  {"korean":"붉다 (현재긍정)","japanese":"花が____","adjective":"赤い","type":"い形容詞","conjugationType":"現在肯定","answer":"赤い","hint":"기본형"},
-  {"korean":"붉지 않다 (현재부정)","japanese":"花が____","adjective":"赤い","type":"い形容詞","conjugationType":"現在否定","answer":"赤くない","hint":"い → くない"},
-  {"korean":"붉었다 (과거긍정)","japanese":"花が____","adjective":"赤い","type":"い形容詞","conjugationType":"過去肯定","answer":"赤かった","hint":"い → かった"},
-  {"korean":"붉지 않았다 (과거부정)","japanese":"花が____","adjective":"赤い","type":"い形容詞","conjugationType":"過去否定","answer":"赤くなかった","hint":"くない → くなかった"},
-  {"korean":"파랗다 (현재긍정)","japanese":"空が____","adjective":"青い","type":"い形容詞","conjugationType":"現在肯定","answer":"青い","hint":"기본형"},
-  {"korean":"파랗지 않다 (현재부정)","japanese":"空が____","adjective":"青い","type":"い形容詞","conjugationType":"現在否定","answer":"青くない","hint":"い → くない"},
-  {"korean":"파랬다 (과거긍정)","japanese":"空が____","adjective":"青い","type":"い形容詞","conjugationType":"過去肯定","answer":"青かった","hint":"い → かった"},
-  {"korean":"파랗지 않았다 (과거부정)","japanese":"空が____","adjective":"青い","type":"い形容詞","conjugationType":"過去否定","answer":"青くなかった","hint":"くない → くなかった"},
-  {"korean":"하얗다 (현재긍정)","japanese":"雪が____","adjective":"白い","type":"い形容詞","conjugationType":"現在肯定","answer":"白い","hint":"기본형"},
-  {"korean":"하얗지 않다 (현재부정)","japanese":"雪が____","adjective":"白い","type":"い形容詞","conjugationType":"現在否定","answer":"白くない","hint":"い → くない"},
-  {"korean":"하얬다 (과거긍정)","japanese":"雪が____","adjective":"白い","type":"い形容詞","conjugationType":"過去肯定","answer":"白かった","hint":"い → かった"},
-  {"korean":"하얗지 않았다 (과거부정)","japanese":"雪が____","adjective":"白い","type":"い形容詞","conjugationType":"過去否定","answer":"白くなかった","hint":"くない → くなかった"},
-  {"korean":"검다 (현재긍정)","japanese":"猫が____","adjective":"黒い","type":"い形容詞","conjugationType":"現在肯定","answer":"黒い","hint":"기본형"},
-  {"korean":"검지 않다 (현재부정)","japanese":"猫が____","adjective":"黒い","type":"い形容詞","conjugationType":"現在否定","answer":"黒くない","hint":"い → くない"},
-  {"korean":"검었다 (과거긍정)","japanese":"猫が____","adjective":"黒い","type":"い形容詞","conjugationType":"過去肯定","answer":"黒かった","hint":"い → かった"},
-  {"korean":"검지 않았다 (과거부정)","japanese":"猫が____","adjective":"黒い","type":"い形容詞","conjugationType":"過去否定","answer":"黒くなかった","hint":"くない → くなかった"},
-  {"korean":"노랗다 (현재긍정)","japanese":"バナナが____","adjective":"黄色い","type":"い形容詞","conjugationType":"現在肯定","answer":"黄色い","hint":"기본형"},
-  {"korean":"노랗지 않다 (현재부정)","japanese":"バナナが____","adjective":"黄色い","type":"い形容詞","conjugationType":"現在否定","answer":"黄色くない","hint":"い → くない"},
-  {"korean":"노랬다 (과거긍정)","japanese":"バナナが____","adjective":"黄色い","type":"い形容詞","conjugationType":"過去肯定","answer":"黄色かった","hint":"い → かった"},
-  {"korean":"노랗지 않았다 (과거부정)","japanese":"バナナが____","adjective":"黄色い","type":"い形容詞","conjugationType":"過去否定","answer":"黄色くなかった","hint":"くない → くなかった"},
-  {"korean":"갈색이다 (현재긍정)","japanese":"靴が____","adjective":"茶色い","type":"い形容詞","conjugationType":"現在肯定","answer":"茶色い","hint":"기본형"},
-  {"korean":"갈색이 아니다 (현재부정)","japanese":"靴が____","adjective":"茶色い","type":"い形容詞","conjugationType":"現在否定","answer":"茶色くない","hint":"い → くない"},
-  {"korean":"갈색이었다 (과거긍정)","japanese":"靴が____","adjective":"茶色い","type":"い形容詞","conjugationType":"過去肯定","answer":"茶色かった","hint":"い → かった"},
-  {"korean":"갈색이 아니었다 (과거부정)","japanese":"靴が____","adjective":"茶色い","type":"い形容詞","conjugationType":"過去否定","answer":"茶色くなかった","hint":"くない → くなかった"},
-  {"korean":"둥글다 (현재긍정)","japanese":"ボールが____","adjective":"丸い","type":"い形容詞","conjugationType":"現在肯定","answer":"丸い","hint":"기본형"},
-  {"korean":"둥글지 않다 (현재부정)","japanese":"ボールが____","adjective":"丸い","type":"い形容詞","conjugationType":"現在否定","answer":"丸くない","hint":"い → くない"},
-  {"korean":"둥글었다 (과거긍정)","japanese":"ボールが____","adjective":"丸い","type":"い形容詞","conjugationType":"過去肯定","answer":"丸かった","hint":"い → かった"},
-  {"korean":"둥글지 않았다 (과거부정)","japanese":"ボールが____","adjective":"丸い","type":"い形容詞","conjugationType":"過去否定","answer":"丸くなかった","hint":"くない → くなかった"},
-  {"korean":"귀엽다 (현재긍정)","japanese":"犬が____","adjective":"可愛い","type":"い形容詞","conjugationType":"現在肯定","answer":"可愛い","hint":"기본형"},
-  {"korean":"귀엽지 않다 (현재부정)","japanese":"犬が____","adjective":"可愛い","type":"い形容詞","conjugationType":"現在否定","answer":"可愛くない","hint":"い → くない"},
-  {"korean":"귀여웠다 (과거긍정)","japanese":"犬が____","adjective":"可愛い","type":"い形容詞","conjugationType":"過去肯定","answer":"可愛かった","hint":"い → かった"},
-  {"korean":"귀엽지 않았다 (과거부정)","japanese":"犬が____","adjective":"可愛い","type":"い形容詞","conjugationType":"過去否定","answer":"可愛くなかった","hint":"くない → くなかった"},
-  {"korean":"무섭다 (현재긍정)","japanese":"映画が____","adjective":"怖い","type":"い形容詞","conjugationType":"現在肯定","answer":"怖い","hint":"기본형"},
-  {"korean":"무섭지 않다 (현재부정)","japanese":"映画が____","adjective":"怖い","type":"い形容詞","conjugationType":"現在否定","answer":"怖くない","hint":"い → くない"},
-  {"korean":"무서웠다 (과거긍정)","japanese":"映画が____","adjective":"怖い","type":"い形容詞","conjugationType":"過去肯定","answer":"怖かった","hint":"い → かった"},
-  {"korean":"무섭지 않았다 (과거부정)","japanese":"映画が____","adjective":"怖い","type":"い形容詞","conjugationType":"過去否定","answer":"怖くなかった","hint":"くない → くなかった"},
-  {"korean":"슬프다 (현재긍정)","japanese":"話が____","adjective":"悲しい","type":"い形容詞","conjugationType":"現在肯定","answer":"悲しい","hint":"기본형"},
-  {"korean":"슬프지 않다 (현재부정)","japanese":"話が____","adjective":"悲しい","type":"い形容詞","conjugationType":"現在否定","answer":"悲しくない","hint":"い → くない"},
-  {"korean":"슬펐다 (과거긍정)","japanese":"話が____","adjective":"悲しい","type":"い形容詞","conjugationType":"過去肯定","answer":"悲しかった","hint":"い → かった"},
-  {"korean":"슬프지 않았다 (과거부정)","japanese":"話が____","adjective":"悲しい","type":"い形容詞","conjugationType":"過去否定","answer":"悲しくなかった","hint":"くない → くなかった"},
-  {"korean":"기쁘다 (현재긍정)","japanese":"彼は____","adjective":"嬉しい","type":"い形容詞","conjugationType":"現在肯定","answer":"嬉しい","hint":"기본형"},
-  {"korean":"기쁘지 않다 (현재부정)","japanese":"彼は____","adjective":"嬉しい","type":"い形容詞","conjugationType":"現在否定","answer":"嬉しくない","hint":"い → くない"},
-  {"korean":"기뻤다 (과거긍정)","japanese":"彼は____","adjective":"嬉しい","type":"い形容詞","conjugationType":"過去肯定","answer":"嬉しかった","hint":"い → かった"},
-  {"korean":"기쁘지 않았다 (과거부정)","japanese":"彼は____","adjective":"嬉しい","type":"い形容詞","conjugationType":"過去否定","answer":"嬉しくなかった","hint":"くない → くなかった"},
-  {"korean":"부끄럽다 (현재긍정)","japanese":"私は____","adjective":"恥ずかしい","type":"い形容詞","conjugationType":"現在肯定","answer":"恥ずかしい","hint":"기본형"},
-  {"korean":"부끄럽지 않다 (현재부정)","japanese":"私は____","adjective":"恥ずかしい","type":"い形容詞","conjugationType":"現在否定","answer":"恥ずかしくない","hint":"い → くない"},
-  {"korean":"부끄러웠다 (과거긍정)","japanese":"私は____","adjective":"恥ずかしい","type":"い形容詞","conjugationType":"過去肯定","answer":"恥ずかしかった","hint":"い → かった"},
-  {"korean":"부끄럽지 않았다 (과거부정)","japanese":"私は____","adjective":"恥ずかしい","type":"い形容詞","conjugationType":"過去否定","answer":"恥ずかしくなかった","hint":"くない → くなかった"},
-  {"korean":"즐겁다 (현재긍정)","japanese":"パーティーが____","adjective":"楽しい","type":"い形容詞","conjugationType":"現在肯定","answer":"楽しい","hint":"기본형"},
-  {"korean":"즐겁지 않다 (현재부정)","japanese":"パーティーが____","adjective":"楽しい","type":"い形容詞","conjugationType":"現在否定","answer":"楽しくない","hint":"い → くない"},
-  {"korean":"즐거웠다 (과거긍정)","japanese":"パーティーが____","adjective":"楽しい","type":"い形容詞","conjugationType":"過去肯定","answer":"楽しかった","hint":"い → かった"},
-  {"korean":"즐겁지 않았다 (과거부정)","japanese":"パーティーが____","adjective":"楽しい","type":"い形容詞","conjugationType":"過去否定","answer":"楽しくなかった","hint":"くない → くなかった"},
-  {"korean":"더럽다 (현재긍정)","japanese":"靴が____","adjective":"汚い","type":"い形容詞","conjugationType":"現在肯定","answer":"汚い","hint":"기본형"},
-  {"korean":"더럽지 않다 (현재부정)","japanese":"靴が____","adjective":"汚い","type":"い形容詞","conjugationType":"現在否定","answer":"汚くない","hint":"い → くない"},
-  {"korean":"더러웠다 (과거긍정)","japanese":"靴が____","adjective":"汚い","type":"い形容詞","conjugationType":"過去肯定","answer":"汚かった","hint":"い → かった"},
-  {"korean":"더럽지 않았다 (과거부정)","japanese":"靴が____","adjective":"汚い","type":"い形容詞","conjugationType":"過去否定","answer":"汚くなかった","hint":"くない → くなかった"},
-  {"korean":"훌륭하다 (현재긍정)","japanese":"作品が____","adjective":"素晴らしい","type":"い形容詞","conjugationType":"現在肯定","answer":"素晴らしい","hint":"기본형"},
-  {"korean":"훌륭하지 않다 (현재부정)","japanese":"作品が____","adjective":"素晴らしい","type":"い形容詞","conjugationType":"現在否定","answer":"素晴らしくない","hint":"い → くない"},
-  {"korean":"훌륭했다 (과거긍정)","japanese":"作品が____","adjective":"素晴らしい","type":"い形容詞","conjugationType":"過去肯定","answer":"素晴らしかった","hint":"い → かった"},
-  {"korean":"훌륭하지 않았다 (과거부정)","japanese":"作品が____","adjective":"素晴らしい","type":"い形容詞","conjugationType":"過去否定","answer":"素晴らしくなかった","hint":"くない → くなかった"},
-  {"korean":"바쁘다 (현재긍정)","japanese":"母は____","adjective":"忙しい","type":"い形容詞","conjugationType":"現在肯定","answer":"忙しい","hint":"기본형"},
-  {"korean":"바쁘지 않다 (현재부정)","japanese":"母は____","adjective":"忙しい","type":"い形容詞","conjugationType":"現在否定","answer":"忙しくない","hint":"い → くない"},
-  {"korean":"바빴다 (과거긍정)","japanese":"母は____","adjective":"忙しい","type":"い形容詞","conjugationType":"過去肯定","answer":"忙しかった","hint":"い → かった"},
-  {"korean":"바쁘지 않았다 (과거부정)","japanese":"母は____","adjective":"忙しい","type":"い形容詞","conjugationType":"過去否定","answer":"忙しくなかった","hint":"くない → くなかった"},
-  {"korean":"조용하다 (현재긍정)","japanese":"この場所は____","adjective":"静か","type":"な形容詞","conjugationType":"現在肯定","answer":"静かだ","hint":"な형용사 + だ"},
-  {"korean":"조용하지 않다 (현재부정)","japanese":"この場所は____","adjective":"静か","type":"な形容詞","conjugationType":"現在否定","answer":"静かではない","hint":"だ → ではない (じゃない)"},
-  {"korean":"조용했다 (과거긍정)","japanese":"この場所は____","adjective":"静か","type":"な形容詞","conjugationType":"過去肯定","answer":"静かだった","hint":"だ → だった"},
-  {"korean":"조용하지 않았다 (과거부정)","japanese":"この場所は____","adjective":"静か","type":"な形容詞","conjugationType":"過去否定","answer":"静かではなかった","hint":"ではない → ではなかった"},
-  {"korean":"시끄럽다 (현재긍정)","japanese":"通りが____","adjective":"賑やか","type":"な形容詞","conjugationType":"現在肯定","answer":"賑やかだ","hint":"な형용사 + だ"},
-  {"korean":"시끄럽지 않다 (현재부정)","japanese":"通りが____","adjective":"賑やか","type":"な形容詞","conjugationType":"現在否定","answer":"賑やかではない","hint":"だ → ではない"},
-  {"korean":"시끄러웠다 (과거긍정)","japanese":"通りが____","adjective":"賑やか","type":"な형용詞","conjugationType":"過去肯定","answer":"賑やかだった","hint":"だ → だった"},
-  {"korean":"시끄럽지 않았다 (과거부정)","japanese":"通りが____","adjective":"賑やか","type":"な형용詞","conjugationType":"過去否定","answer":"賑やかではなかった","hint":"ではない → ではなかった"},
-  {"korean":"편리하다 (현재긍정)","japanese":"このアプリは____","adjective":"便利","type":"な形容詞","conjugationType":"現在肯定","answer":"便利だ","hint":"な형용사 + だ"},
-  {"korean":"편리하지 않다 (현재부정)","japanese":"このアプリは____","adjective":"便利","type":"な形容詞","conjugationType":"現在否定","answer":"便利ではない","hint":"だ → ではない"},
-  {"korean":"편리했다 (과거긍정)","japanese":"このアプリは____","adjective":"便利","type":"な형용詞","conjugationType":"過去肯定","answer":"便利だった","hint":"だ → だった"},
-  {"korean":"편리하지 않았다 (과거부정)","japanese":"このアプリは____","adjective":"便利","type":"な형용詞","conjugationType":"過去否定","answer":"便利ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"불편하다 (현재긍정)","japanese":"この靴は____","adjective":"不便","type":"な形容詞","conjugationType":"現在肯定","answer":"不便だ","hint":"な형용사 + だ"},
-  {"korean":"불편하지 않다 (현재부정)","japanese":"この靴は____","adjective":"不便","type":"な形容詞","conjugationType":"現在否定","answer":"不便ではない","hint":"だ → ではない"},
-  {"korean":"불편했다 (과거긍정)","japanese":"この靴は____","adjective":"不便","type":"な형용詞","conjugationType":"過去肯定","answer":"不便だった","hint":"だ → だった"},
-  {"korean":"불편하지 않았다 (과거부정)","japanese":"この靴は____","adjective":"不便","type":"な形容詞","conjugationType":"過去否定","answer":"不便ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"유명하다 (현재긍정)","japanese":"この歌手は____","adjective":"有名","type":"な形容詞","conjugationType":"現在肯定","answer":"有名だ","hint":"な형용사 + だ"},
-  {"korean":"유명하지 않다 (현재부정)","japanese":"この歌手は____","adjective":"有名","type":"な形容詞","conjugationType":"現在否定","answer":"有名ではない","hint":"だ → ではない"},
-  {"korean":"유명했다 (과거긍정)","japanese":"この歌手は____","adjective":"有名","type":"な형용詞","conjugationType":"過去肯定","answer":"有名だった","hint":"だ → だった"},
-  {"korean":"유명하지 않았다 (과거부정)","japanese":"この歌手は____","adjective":"有名","type":"な형용詞","conjugationType":"過去否定","answer":"有名ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"친절하다 (현재긍정)","japanese":"店員が____","adjective":"親切","type":"な形容詞","conjugationType":"現在肯定","answer":"親切だ","hint":"な형용사 + だ"},
-  {"korean":"친절하지 않다 (현재부정)","japanese":"店員が____","adjective":"親切","type":"な形容詞","conjugationType":"現在否定","answer":"親切ではない","hint":"だ → ではない"},
-  {"korean":"친절했다 (과거긍정)","japanese":"店員が____","adjective":"親切","type":"な형용詞","conjugationType":"過去肯定","answer":"親切だった","hint":"だ → だった"},
-  {"korean":"친절하지 않았다 (과거부정)","japanese":"店員が____","adjective":"親切","type":"な形容詞","conjugationType":"過去否定","answer":"親切ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"깨끗하다 (현재긍정)","japanese":"この部屋は____","adjective":"きれい","type":"な형용詞","conjugationType":"現在肯定","answer":"きれいだ","hint":"な형용사 + だ"},
-  {"korean":"깨끗하지 않다 (현재부정)","japanese":"この部屋は____","adjective":"きれい","type":"な形容詞","conjugationType":"現在否定","answer":"きれいではない","hint":"だ → ではない"},
-  {"korean":"깨끗했다 (과거긍정)","japanese":"この部屋は____","adjective":"きれい","type":"な形용詞","conjugationType":"過去肯定","answer":"きれいだった","hint":"だ → だった"},
-  {"korean":"깨끗하지 않았다 (과거부정)","japanese":"この部屋は____","adjective":"きれい","type":"な形容詞","conjugationType":"過去否定","answer":"きれいではなかった","hint":"ではない → ではなかった"},
-  {"korean":"건강하다 (현재긍정)","japanese":"彼は____","adjective":"元気","type":"な形容詞","conjugationType":"現在肯定","answer":"元気だ","hint":"な형용사 + だ"},
-  {"korean":"건강하지 않다 (현재부정)","japanese":"彼は____","adjective":"元気","type":"な形容詞","conjugationType":"現在否定","answer":"元気ではない","hint":"だ → ではない"},
-  {"korean":"건강했다 (과거긍정)","japanese":"彼は____","adjective":"元気","type":"な形容詞","conjugationType":"過去肯定","answer":"元気だった","hint":"だ → だった"},
-  {"korean":"건강하지 않았다 (과거부정)","japanese":"彼は____","adjective":"元気","type":"な形용詞","conjugationType":"過去否定","answer":"元気ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"좋아하다 (현재긍정)","japanese":"私は音楽が____","adjective":"好き","type":"な형용詞","conjugationType":"現在肯定","answer":"好きだ","hint":"な형용사 + だ"},
-  {"korean":"좋아하지 않다 (현재부정)","japanese":"私は音楽が____","adjective":"好き","type":"な形容詞","conjugationType":"現在否定","answer":"好きではない","hint":"だ → ではない"},
-  {"korean":"좋아했다 (과거긍정)","japanese":"私は音楽が____","adjective":"好き","type":"な형용詞","conjugationType":"過去肯定","answer":"好きだった","hint":"だ → だった"},
-  {"korean":"좋아하지 않았다 (과거부정)","japanese":"私は音楽が____","adjective":"好き","type":"な형용詞","conjugationType":"過去否定","answer":"好きではなかった","hint":"ではない → ではなかった"},
-  {"korean":"싫어하다 (현재긍정)","japanese":"私は野菜が____","adjective":"嫌い","type":"な形容詞","conjugationType":"現在肯定","answer":"嫌いだ","hint":"な형용사 + だ"},
-  {"korean":"싫어하지 않다 (현재부정)","japanese":"私は野菜が____","adjective":"嫌い","type":"な形容詞","conjugationType":"現在否定","answer":"嫌いではない","hint":"だ → ではない"},
-  {"korean":"싫어했다 (과거긍정)","japanese":"私は野菜が____","adjective":"嫌い","type":"な형용詞","conjugationType":"過去肯定","answer":"嫌いだった","hint":"だ → だった"},
-  {"korean":"싫어하지 않았다 (과거부정)","japanese":"私は野菜が____","adjective":"嫌い","type":"な형용詞","conjugationType":"過去否定","answer":"嫌いではなかった","hint":"ではない → ではなかった"},
-  {"korean":"간단하다 (현재긍정)","japanese":"説明が____","adjective":"簡単","type":"な形容詞","conjugationType":"現在肯定","answer":"簡単だ","hint":"な형용사 + だ"},
-  {"korean":"간단하지 않다 (현재부정)","japanese":"説明が____","adjective":"簡単","type":"な형용詞","conjugationType":"現在否定","answer":"簡単ではない","hint":"だ → ではない"},
-  {"korean":"간단했다 (과거긍정)","japanese":"説明が____","adjective":"簡単","type":"な형용詞","conjugationType":"過去肯定","answer":"簡単だった","hint":"だ → だった"},
-  {"korean":"간단하지 않았다 (과거부정)","japanese":"説明が____","adjective":"簡単","type":"な형용詞","conjugationType":"過去否定","answer":"簡単ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"복잡하다 (현재긍정)","japanese":"問題が____","adjective":"複雑","type":"な形容詞","conjugationType":"現在肯定","answer":"複雑だ","hint":"な형용사 + だ"},
-  {"korean":"복잡하지 않다 (현재부정)","japanese":"問題が____","adjective":"複雑","type":"な형용詞","conjugationType":"現在否定","answer":"複雑ではない","hint":"だ → ではない"},
-  {"korean":"복잡했다 (과거긍정)","japanese":"問題が____","adjective":"複雑","type":"な형용詞","conjugationType":"過去肯定","answer":"複雑だった","hint":"だ → だった"},
-  {"korean":"복잡하지 않았다 (과거부정)","japanese":"問題が____","adjective":"複雑","type":"な형용詞","conjugationType":"過去否定","answer":"複雑ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"특별하다 (현재긍정)","japanese":"今日は____","adjective":"特別","type":"な形容詞","conjugationType":"現在肯定","answer":"特別だ","hint":"な형용사 + だ"},
-  {"korean":"특별하지 않다 (현재부정)","japanese":"今日は____","adjective":"特別","type":"な형용詞","conjugationType":"現在否定","answer":"特別ではない","hint":"だ → ではない"},
-  {"korean":"특별했다 (과거긍정)","japanese":"今日は____","adjective":"特別","type":"な形용詞","conjugationType":"過去肯定","answer":"特別だった","hint":"だ → だった"},
-  {"korean":"특별하지 않았다 (과거부정)","japanese":"今日は____","adjective":"特別","type":"な형용詞","conjugationType":"過去否定","answer":"特別ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"자유롭다 (현재긍정)","japanese":"時間が____","adjective":"自由","type":"な形容詞","conjugationType":"現在肯定","answer":"自由だ","hint":"な형용사 + だ"},
-  {"korean":"자유롭지 않다 (현재부정)","japanese":"時間が____","adjective":"自由","type":"な형용詞","conjugationType":"現在否定","answer":"自由ではない","hint":"だ → ではない"},
-  {"korean":"자유로웠다 (과거긍정)","japanese":"時間が____","adjective":"自由","type":"な형용詞","conjugationType":"過去肯정","answer":"自由だった","hint":"だ → だった"},
-  {"korean":"자유롭지 않았다 (과거부정)","japanese":"時間が____","adjective":"自由","type":"な형용詞","conjugationType":"過去否定","answer":"自由ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"중요하다 (현재긍정)","japanese":"この仕事は____","adjective":"大切","type":"な形容詞","conjugationType":"現在肯定","answer":"大切だ","hint":"な형용사 + だ"},
-  {"korean":"중요하지 않다 (현재부정)","japanese":"この仕事は____","adjective":"大切","type":"な형용詞","conjugationType":"現在否定","answer":"大切ではない","hint":"だ → ではない"},
-  {"korean":"중요했다 (과거긍정)","japanese":"この仕事は____","adjective":"大切","type":"な형용詞","conjugationType":"過去肯정","answer":"大切だった","hint":"だ → だった"},
-  {"korean":"중요하지 않았다 (과거부정)","japanese":"この仕事は____","adjective":"大切","type":"な형용詞","conjugationType":"過去否定","answer":"大切ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"필요하다 (현재긍정)","japanese":"これは____","adjective":"必要","type":"な形容詞","conjugationType":"現在肯定","answer":"必要だ","hint":"な형용사 + だ"},
-  {"korean":"필요하지 않다 (현재부정)","japanese":"これは____","adjective":"必要","type":"な형용詞","conjugationType":"現在否定","answer":"必要ではない","hint":"だ → ではない"},
-  {"korean":"필요했다 (과거긍정)","japanese":"これは____","adjective":"必要","type":"な형용詞","conjugationType":"過去肯정","answer":"必要だった","hint":"だ → だった"},
-  {"korean":"필요하지 않았다 (과거부정)","japanese":"これは____","adjective":"必要","type":"な형용詞","conjugationType":"過去否定","answer":"必要ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"한가하다 (현재긍정)","japanese":"今日は____","adjective":"暇","type":"な形容詞","conjugationType":"現在肯定","answer":"暇だ","hint":"な형용사 + だ"},
-  {"korean":"한가하지 않다 (현재부정)","japanese":"今日は____","adjective":"暇","type":"な형용詞","conjugationType":"現在否定","answer":"暇ではない","hint":"だ → ではない"},
-  {"korean":"한가했다 (과거긍정)","japanese":"今日は____","adjective":"暇","type":"な형용詞","conjugationType":"過去肯정","answer":"暇だった","hint":"だ → だった"},
-  {"korean":"한가하지 않았다 (과거부정)","japanese":"今日は____","adjective":"暇","type":"な형용詞","conjugationType":"過去否定","answer":"暇ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"안전하다 (현재긍정)","japanese":"この道は____","adjective":"安全","type":"な形容詞","conjugationType":"現在肯定","answer":"安全だ","hint":"な형용사 + だ"},
-  {"korean":"안전하지 않다 (현재부정)","japanese":"この道は____","adjective":"安全","type":"な형용詞","conjugationType":"現在否定","answer":"安全ではない","hint":"だ → ではない"},
-  {"korean":"안전했다 (과거긍정)","japanese":"この道は____","adjective":"安全","type":"な형용詞","conjugationType":"過去肯정","answer":"安全だった","hint":"だ → だった"},
-  {"korean":"안전하지 않았다 (과거부정)","japanese":"この道は____","adjective":"安全","type":"な형용詞","conjugationType":"過去否定","answer":"安全ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"위험하다 (현재긍정)","japanese":"ここは____","adjective":"危険","type":"な形容詞","conjugationType":"現在肯定","answer":"危険だ","hint":"な형용사 + だ"},
-  {"korean":"위험하지 않다 (현재부정)","japanese":"ここは____","adjective":"危険","type":"な형용詞","conjugationType":"現在否定","answer":"危険ではない","hint":"だ → ではない"},
-  {"korean":"위험했다 (과거긍정)","japanese":"ここは____","adjective":"危険","type":"な형용詞","conjugationType":"過去肯정","answer":"危険だった","hint":"だ → だった"},
-  {"korean":"위험하지 않았다 (과거부정)","japanese":"ここは____","adjective":"危険","type":"な형용詞","conjugationType":"過去否定","answer":"危険ではなかった","hint":"ではない → ではなかった"},
-  {"korean":"이상하다 (현재긍정)","japanese":"彼の行動は____","adjective":"変","type":"な形容詞","conjugationType":"現在肯定","answer":"変だ","hint":"な형용사 + だ"},
-  {"korean":"이상하지 않다 (현재부정)","japanese":"彼の行動は____","adjective":"変","type":"な형용詞","conjugationType":"現在否定","answer":"変ではない","hint":"だ → ではない"},
-  {"korean":"이상했다 (과거긍정)","japanese":"彼の行動は____","adjective":"変","type":"な형용詞","conjugationType":"過去肯정","answer":"変だった","hint":"だ → だった"},
-  {"korean":"이상하지 않았다 (과거부정)","japanese":"彼の行動は____","adjective":"変","type":"な형용詞","conjugationType":"過去否定","answer":"変ではなかった","hint":"ではない → ではなかった"}
+  {
+    "korean": "이 방은 크다",
+    "japanese": "この部屋は____",
+    "adjective": "大きい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "大きい"
+  },
+  {
+    "korean": "이 방은 크지 않다",
+    "japanese": "この部屋は____",
+    "adjective": "大きい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "大きくない"
+  },
+  {
+    "korean": "이 방은 컸다",
+    "japanese": "この部屋は____",
+    "adjective": "大きい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "大きかった"
+  },
+  {
+    "korean": "이 방은 크지 않았다",
+    "japanese": "この部屋は____",
+    "adjective": "大きい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "大きくなかった"
+  },
+  {
+    "korean": "이 상자는 작다",
+    "japanese": "この箱は____",
+    "adjective": "小さい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "小さい"
+  },
+  {
+    "korean": "이 상자는 작지 않다",
+    "japanese": "この箱は____",
+    "adjective": "小さい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "小さくない"
+  },
+  {
+    "korean": "이 상자는 작았다",
+    "japanese": "この箱は____",
+    "adjective": "小さい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "小さかった"
+  },
+  {
+    "korean": "이 상자는 작지 않았다",
+    "japanese": "この箱は____",
+    "adjective": "小さい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "小さくなかった"
+  },
+  {
+    "korean": "이 산은 높다",
+    "japanese": "この山は____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "高い"
+  },
+  {
+    "korean": "이 산은 높지 않다",
+    "japanese": "この山は____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "高くない"
+  },
+  {
+    "korean": "이 산은 높았다",
+    "japanese": "この山は____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "高かった"
+  },
+  {
+    "korean": "이 산은 높지 않았다",
+    "japanese": "この山は____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "高くなかった"
+  },
+  {
+    "korean": "이 건물은 낮다",
+    "japanese": "この建物は____",
+    "adjective": "低い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "低い"
+  },
+  {
+    "korean": "이 건물은 낮지 않다",
+    "japanese": "この建物は____",
+    "adjective": "低い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "低くない"
+  },
+  {
+    "korean": "이 건물은 낮았다",
+    "japanese": "この建物は____",
+    "adjective": "低い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "低かった"
+  },
+  {
+    "korean": "이 건물은 낮지 않았다",
+    "japanese": "この建物は____",
+    "adjective": "低い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "低くなかった"
+  },
+  {
+    "korean": "이 영화는 좋다",
+    "japanese": "この映画は____",
+    "adjective": "良い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "良い"
+  },
+  {
+    "korean": "이 영화는 좋지 않다",
+    "japanese": "この映画は____",
+    "adjective": "良い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "良くない"
+  },
+  {
+    "korean": "이 영화는 좋았다",
+    "japanese": "この映画は____",
+    "adjective": "良い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "良かった"
+  },
+  {
+    "korean": "이 영화는 좋지 않았다",
+    "japanese": "この映画は____",
+    "adjective": "良い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "良くなかった"
+  },
+  {
+    "korean": "날씨가 나쁘다",
+    "japanese": "天気が____",
+    "adjective": "悪い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "悪い"
+  },
+  {
+    "korean": "날씨가 나쁘지 않다",
+    "japanese": "天気が____",
+    "adjective": "悪い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "悪くない"
+  },
+  {
+    "korean": "날씨가 나빴다",
+    "japanese": "天気が____",
+    "adjective": "悪い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "悪かった"
+  },
+  {
+    "korean": "날씨가 나쁘지 않았다",
+    "japanese": "天気が____",
+    "adjective": "悪い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "悪くなかった"
+  },
+  {
+    "korean": "이 차는 새롭다",
+    "japanese": "この車は____",
+    "adjective": "新しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "新しい"
+  },
+  {
+    "korean": "이 차는 새롭지 않다",
+    "japanese": "この車は____",
+    "adjective": "新しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "新しくない"
+  },
+  {
+    "korean": "이 차는 새로웠다",
+    "japanese": "この車は____",
+    "adjective": "新しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "新しかった"
+  },
+  {
+    "korean": "이 차는 새롭지 않았다",
+    "japanese": "この車は____",
+    "adjective": "新しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "新しくなかった"
+  },
+  {
+    "korean": "이 집은 오래되었다",
+    "japanese": "この家は____",
+    "adjective": "古い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "古い"
+  },
+  {
+    "korean": "이 집은 오래되지 않았다",
+    "japanese": "この家は____",
+    "adjective": "古い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "古くない"
+  },
+  {
+    "korean": "이 집은 오래되었었다",
+    "japanese": "この家は____",
+    "adjective": "古い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "古かった"
+  },
+  {
+    "korean": "이 집은 오래되지 않았었다",
+    "japanese": "この家は____",
+    "adjective": "古い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "古くなかった"
+  },
+  {
+    "korean": "오늘은 덥다",
+    "japanese": "今日は____",
+    "adjective": "暑い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "暑い"
+  },
+  {
+    "korean": "오늘은 덥지 않다",
+    "japanese": "今日は____",
+    "adjective": "暑い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "暑くない"
+  },
+  {
+    "korean": "오늘은 더웠다",
+    "japanese": "今日は____",
+    "adjective": "暑い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "暑かった"
+  },
+  {
+    "korean": "오늘은 덥지 않았다",
+    "japanese": "今日は____",
+    "adjective": "暑い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "暑くなかった"
+  },
+  {
+    "korean": "오늘은 춥다",
+    "japanese": "今日は____",
+    "adjective": "寒い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "寒い"
+  },
+  {
+    "korean": "오늘은 춥지 않다",
+    "japanese": "今日は____",
+    "adjective": "寒い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "寒くない"
+  },
+  {
+    "korean": "오늘은 추웠다",
+    "japanese": "今日は____",
+    "adjective": "寒い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "寒かった"
+  },
+  {
+    "korean": "오늘은 춥지 않았다",
+    "japanese": "今日は____",
+    "adjective": "寒い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "寒くなかった"
+  },
+  {
+    "korean": "방이 따뜻하다",
+    "japanese": "部屋が____",
+    "adjective": "暖かい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "暖かい"
+  },
+  {
+    "korean": "방이 따뜻하지 않다",
+    "japanese": "部屋が____",
+    "adjective": "暖かい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "暖かくない"
+  },
+  {
+    "korean": "방이 따뜻했다",
+    "japanese": "部屋が____",
+    "adjective": "暖かい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "暖かかった"
+  },
+  {
+    "korean": "방이 따뜻하지 않았다",
+    "japanese": "部屋が____",
+    "adjective": "暖かい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "暖かくなかった"
+  },
+  {
+    "korean": "바람이 시원하다",
+    "japanese": "風が____",
+    "adjective": "涼しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "涼しい"
+  },
+  {
+    "korean": "바람이 시원하지 않다",
+    "japanese": "風が____",
+    "adjective": "涼しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "涼しくない"
+  },
+  {
+    "korean": "바람이 시원했다",
+    "japanese": "風が____",
+    "adjective": "涼しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "涼しかった"
+  },
+  {
+    "korean": "바람이 시원하지 않았다",
+    "japanese": "風が____",
+    "adjective": "涼しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "涼しくなかった"
+  },
+  {
+    "korean": "커피가 뜨겁다",
+    "japanese": "コーヒーが____",
+    "adjective": "熱い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "熱い"
+  },
+  {
+    "korean": "커피가 뜨겁지 않다",
+    "japanese": "コーヒーが____",
+    "adjective": "熱い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "熱くない"
+  },
+  {
+    "korean": "커피가 뜨거웠다",
+    "japanese": "コーヒーが____",
+    "adjective": "熱い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "熱かった"
+  },
+  {
+    "korean": "커피가 뜨겁지 않았다",
+    "japanese": "コーヒーが____",
+    "adjective": "熱い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "熱くなかった"
+  },
+  {
+    "korean": "물이 차갑다",
+    "japanese": "水が____",
+    "adjective": "冷たい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "冷たい"
+  },
+  {
+    "korean": "물이 차갑지 않다",
+    "japanese": "水が____",
+    "adjective": "冷たい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "冷たくない"
+  },
+  {
+    "korean": "물이 차가웠다",
+    "japanese": "水が____",
+    "adjective": "冷たい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "冷たかった"
+  },
+  {
+    "korean": "물이 차갑지 않았다",
+    "japanese": "水が____",
+    "adjective": "冷たい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "冷たくなかった"
+  },
+  {
+    "korean": "이 길은 길다",
+    "japanese": "この道は____",
+    "adjective": "長い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "長い"
+  },
+  {
+    "korean": "이 길은 길지 않다",
+    "japanese": "この道は____",
+    "adjective": "長い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "長くない"
+  },
+  {
+    "korean": "이 길은 길었다",
+    "japanese": "この道は____",
+    "adjective": "長い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "長かった"
+  },
+  {
+    "korean": "이 길은 길지 않았다",
+    "japanese": "この道は____",
+    "adjective": "長い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "長くなかった"
+  },
+  {
+    "korean": "치마가 짧다",
+    "japanese": "スカートが____",
+    "adjective": "短い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "短い"
+  },
+  {
+    "korean": "치마가 짧지 않다",
+    "japanese": "スカートが____",
+    "adjective": "短い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "短くない"
+  },
+  {
+    "korean": "치마가 짧았다",
+    "japanese": "スカートが____",
+    "adjective": "短い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "短かった"
+  },
+  {
+    "korean": "치마가 짧지 않았다",
+    "japanese": "スカートが____",
+    "adjective": "短い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "短くなかった"
+  },
+  {
+    "korean": "전철이 빠르다",
+    "japanese": "電車が____",
+    "adjective": "速い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "速い"
+  },
+  {
+    "korean": "전철이 빠르지 않다",
+    "japanese": "電車が____",
+    "adjective": "速い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "速くない"
+  },
+  {
+    "korean": "전철이 빨랐다",
+    "japanese": "電車が____",
+    "adjective": "速い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "速かった"
+  },
+  {
+    "korean": "전철이 빠르지 않았다",
+    "japanese": "電車が____",
+    "adjective": "速い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "速くなかった"
+  },
+  {
+    "korean": "버스가 느리다",
+    "japanese": "バスが____",
+    "adjective": "遅い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "遅い"
+  },
+  {
+    "korean": "버스가 느리지 않다",
+    "japanese": "バスが____",
+    "adjective": "遅い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "遅くない"
+  },
+  {
+    "korean": "버스가 느렸다",
+    "japanese": "バスが____",
+    "adjective": "遅い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "遅かった"
+  },
+  {
+    "korean": "버스가 느리지 않았다",
+    "japanese": "バスが____",
+    "adjective": "遅い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "遅くなかった"
+  },
+  {
+    "korean": "아침이 이르다",
+    "japanese": "朝が____",
+    "adjective": "早い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "早い"
+  },
+  {
+    "korean": "아침이 이르지 않다",
+    "japanese": "朝が____",
+    "adjective": "早い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "早くない"
+  },
+  {
+    "korean": "아침이 일렀다",
+    "japanese": "朝が____",
+    "adjective": "早い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "早かった"
+  },
+  {
+    "korean": "아침이 이르지 않았다",
+    "japanese": "朝が____",
+    "adjective": "早い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "早くなかった"
+  },
+  {
+    "korean": "공원이 넓다",
+    "japanese": "公園が____",
+    "adjective": "広い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "広い"
+  },
+  {
+    "korean": "공원이 넓지 않다",
+    "japanese": "公園が____",
+    "adjective": "広い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "広くない"
+  },
+  {
+    "korean": "공원이 넓었다",
+    "japanese": "公園が____",
+    "adjective": "広い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "広かった"
+  },
+  {
+    "korean": "공원이 넓지 않았다",
+    "japanese": "公園が____",
+    "adjective": "広い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "広くなかった"
+  },
+  {
+    "korean": "길이 좁다",
+    "japanese": "道が____",
+    "adjective": "狭い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "狭い"
+  },
+  {
+    "korean": "길이 좁지 않다",
+    "japanese": "道が____",
+    "adjective": "狭い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "狭くない"
+  },
+  {
+    "korean": "길이 좁았다",
+    "japanese": "道が____",
+    "adjective": "狭い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "狭かった"
+  },
+  {
+    "korean": "길이 좁지 않았다",
+    "japanese": "道が____",
+    "adjective": "狭い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "狭くなかった"
+  },
+  {
+    "korean": "책이 두껍다",
+    "japanese": "本が____",
+    "adjective": "厚い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "厚い"
+  },
+  {
+    "korean": "책이 두껍지 않다",
+    "japanese": "本が____",
+    "adjective": "厚い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "厚くない"
+  },
+  {
+    "korean": "책이 두꺼웠다",
+    "japanese": "本が____",
+    "adjective": "厚い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "厚かった"
+  },
+  {
+    "korean": "책이 두껍지 않았다",
+    "japanese": "本が____",
+    "adjective": "厚い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "厚くなかった"
+  },
+  {
+    "korean": "종이가 얇다",
+    "japanese": "紙が____",
+    "adjective": "薄い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "薄い"
+  },
+  {
+    "korean": "종이가 얇지 않다",
+    "japanese": "紙が____",
+    "adjective": "薄い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "薄くない"
+  },
+  {
+    "korean": "종이가 얇았다",
+    "japanese": "紙が____",
+    "adjective": "薄い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "薄かった"
+  },
+  {
+    "korean": "종이가 얇지 않았다",
+    "japanese": "紙が____",
+    "adjective": "薄い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "薄くなかった"
+  },
+  {
+    "korean": "짐이 무겁다",
+    "japanese": "荷物が____",
+    "adjective": "重い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "重い"
+  },
+  {
+    "korean": "짐이 무겁지 않다",
+    "japanese": "荷物が____",
+    "adjective": "重い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "重くない"
+  },
+  {
+    "korean": "짐이 무거웠다",
+    "japanese": "荷物が____",
+    "adjective": "重い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "重かった"
+  },
+  {
+    "korean": "짐이 무겁지 않았다",
+    "japanese": "荷物が____",
+    "adjective": "重い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "重くなかった"
+  },
+  {
+    "korean": "가방이 가볍다",
+    "japanese": "カバンが____",
+    "adjective": "軽い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "軽い"
+  },
+  {
+    "korean": "가방이 가볍지 않다",
+    "japanese": "カバンが____",
+    "adjective": "軽い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "軽くない"
+  },
+  {
+    "korean": "가방이 가벼웠다",
+    "japanese": "カバンが____",
+    "adjective": "軽い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "軽かった"
+  },
+  {
+    "korean": "가방이 가볍지 않았다",
+    "japanese": "カバンが____",
+    "adjective": "軽い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "軽くなかった"
+  },
+  {
+    "korean": "힘이 강하다",
+    "japanese": "力が____",
+    "adjective": "強い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "強い"
+  },
+  {
+    "korean": "힘이 강하지 않다",
+    "japanese": "力が____",
+    "adjective": "強い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "強くない"
+  },
+  {
+    "korean": "힘이 강했다",
+    "japanese": "力が____",
+    "adjective": "強い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "強かった"
+  },
+  {
+    "korean": "힘이 강하지 않았다",
+    "japanese": "力が____",
+    "adjective": "強い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "強くなかった"
+  },
+  {
+    "korean": "바람이 약하다",
+    "japanese": "風が____",
+    "adjective": "弱い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "弱い"
+  },
+  {
+    "korean": "바람이 약하지 않다",
+    "japanese": "風が____",
+    "adjective": "弱い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "弱くない"
+  },
+  {
+    "korean": "바람이 약했다",
+    "japanese": "風が____",
+    "adjective": "弱い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "弱かった"
+  },
+  {
+    "korean": "바람이 약하지 않았다",
+    "japanese": "風が____",
+    "adjective": "弱い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "弱くなかった"
+  },
+  {
+    "korean": "방이 밝다",
+    "japanese": "部屋が____",
+    "adjective": "明るい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "明るい"
+  },
+  {
+    "korean": "방이 밝지 않다",
+    "japanese": "部屋が____",
+    "adjective": "明るい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "明るくない"
+  },
+  {
+    "korean": "방이 밝았다",
+    "japanese": "部屋が____",
+    "adjective": "明るい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "明るかった"
+  },
+  {
+    "korean": "방이 밝지 않았다",
+    "japanese": "部屋が____",
+    "adjective": "明るい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "明るくなかった"
+  },
+  {
+    "korean": "밤이 어둡다",
+    "japanese": "夜が____",
+    "adjective": "暗い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "暗い"
+  },
+  {
+    "korean": "밤이 어둡지 않다",
+    "japanese": "夜が____",
+    "adjective": "暗い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "暗くない"
+  },
+  {
+    "korean": "밤이 어두웠다",
+    "japanese": "夜が____",
+    "adjective": "暗い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "暗かった"
+  },
+  {
+    "korean": "밤이 어둡지 않았다",
+    "japanese": "夜が____",
+    "adjective": "暗い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "暗くなかった"
+  },
+  {
+    "korean": "사람이 많다",
+    "japanese": "人が____",
+    "adjective": "多い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "多い"
+  },
+  {
+    "korean": "사람이 많지 않다",
+    "japanese": "人が____",
+    "adjective": "多い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "多くない"
+  },
+  {
+    "korean": "사람이 많았다",
+    "japanese": "人が____",
+    "adjective": "多い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "多かった"
+  },
+  {
+    "korean": "사람이 많지 않았다",
+    "japanese": "人が____",
+    "adjective": "多い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "多くなかった"
+  },
+  {
+    "korean": "시간이 적다",
+    "japanese": "時間が____",
+    "adjective": "少ない",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "少ない"
+  },
+  {
+    "korean": "시간이 적지 않다",
+    "japanese": "時間が____",
+    "adjective": "少ない",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "少なくない"
+  },
+  {
+    "korean": "시간이 적었다",
+    "japanese": "時間が____",
+    "adjective": "少ない",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "少なかった"
+  },
+  {
+    "korean": "시간이 적지 않았다",
+    "japanese": "時間が____",
+    "adjective": "少ない",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "少なくなかった"
+  },
+  {
+    "korean": "역이 가깝다",
+    "japanese": "駅が____",
+    "adjective": "近い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "近い"
+  },
+  {
+    "korean": "역이 가깝지 않다",
+    "japanese": "駅が____",
+    "adjective": "近い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "近くない"
+  },
+  {
+    "korean": "역이 가까웠다",
+    "japanese": "駅が____",
+    "adjective": "近い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "近かった"
+  },
+  {
+    "korean": "역이 가깝지 않았다",
+    "japanese": "駅が____",
+    "adjective": "近い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "近くなかった"
+  },
+  {
+    "korean": "학교가 멀다",
+    "japanese": "学校が____",
+    "adjective": "遠い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "遠い"
+  },
+  {
+    "korean": "학교가 멀지 않다",
+    "japanese": "学校が____",
+    "adjective": "遠い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "遠くない"
+  },
+  {
+    "korean": "학교가 멀었다",
+    "japanese": "学校が____",
+    "adjective": "遠い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "遠かった"
+  },
+  {
+    "korean": "학교가 멀지 않았다",
+    "japanese": "学校が____",
+    "adjective": "遠い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "遠くなかった"
+  },
+  {
+    "korean": "시험이 어렵다",
+    "japanese": "試験が____",
+    "adjective": "難しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "難しい"
+  },
+  {
+    "korean": "시험이 어렵지 않다",
+    "japanese": "試験が____",
+    "adjective": "難しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "難しくない"
+  },
+  {
+    "korean": "시험이 어려웠다",
+    "japanese": "試験が____",
+    "adjective": "難しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "難しかった"
+  },
+  {
+    "korean": "시험이 어렵지 않았다",
+    "japanese": "試験が____",
+    "adjective": "難しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "難しくなかった"
+  },
+  {
+    "korean": "문제가 쉽다",
+    "japanese": "問題が____",
+    "adjective": "易しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "易しい"
+  },
+  {
+    "korean": "문제가 쉽지 않다",
+    "japanese": "問題が____",
+    "adjective": "易しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "易しくない"
+  },
+  {
+    "korean": "문제가 쉬웠다",
+    "japanese": "問題が____",
+    "adjective": "易しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "易しかった"
+  },
+  {
+    "korean": "문제가 쉽지 않았다",
+    "japanese": "問題が____",
+    "adjective": "易しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "易しくなかった"
+  },
+  {
+    "korean": "게임이 재미있다",
+    "japanese": "ゲームが____",
+    "adjective": "面白い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "面白い"
+  },
+  {
+    "korean": "게임이 재미없다",
+    "japanese": "ゲームが____",
+    "adjective": "面白い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "面白くない"
+  },
+  {
+    "korean": "게임이 재미있었다",
+    "japanese": "ゲームが____",
+    "adjective": "面白い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "面白かった"
+  },
+  {
+    "korean": "게임이 재미없었다",
+    "japanese": "ゲームが____",
+    "adjective": "面白い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "面白くなかった"
+  },
+  {
+    "korean": "요리가 맛있다",
+    "japanese": "料理が____",
+    "adjective": "美味しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "美味しい"
+  },
+  {
+    "korean": "요리가 맛없다",
+    "japanese": "料理が____",
+    "adjective": "美味しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "美味しくない"
+  },
+  {
+    "korean": "요리가 맛있었다",
+    "japanese": "料理が____",
+    "adjective": "美味しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "美味しかった"
+  },
+  {
+    "korean": "요리가 맛없었다",
+    "japanese": "料理が____",
+    "adjective": "美味しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "美味しくなかった"
+  },
+  {
+    "korean": "이 생선은 맛없다",
+    "japanese": "この魚は____",
+    "adjective": "まずい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "まずい"
+  },
+  {
+    "korean": "이 생선은 맛없지 않다",
+    "japanese": "この魚は____",
+    "adjective": "まずい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "まずくない"
+  },
+  {
+    "korean": "이 생선은 맛없었다",
+    "japanese": "この魚は____",
+    "adjective": "まずい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "まずかった"
+  },
+  {
+    "korean": "이 생선은 맛없지 않았다",
+    "japanese": "この魚は____",
+    "adjective": "まずい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "まずくなかった"
+  },
+  {
+    "korean": "시계가 비싸다",
+    "japanese": "時計が____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "高い"
+  },
+  {
+    "korean": "시계가 비싸지 않다",
+    "japanese": "時計が____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "高くない"
+  },
+  {
+    "korean": "시계가 비쌌다",
+    "japanese": "時計が____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "高かった"
+  },
+  {
+    "korean": "시계가 비싸지 않았다",
+    "japanese": "時計が____",
+    "adjective": "高い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "高くなかった"
+  },
+  {
+    "korean": "야채가 싸다",
+    "japanese": "野菜が____",
+    "adjective": "安い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "安い"
+  },
+  {
+    "korean": "야채가 싸지 않다",
+    "japanese": "野菜が____",
+    "adjective": "安い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "安くない"
+  },
+  {
+    "korean": "야채가 쌌다",
+    "japanese": "野菜が____",
+    "adjective": "安い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "安かった"
+  },
+  {
+    "korean": "야채가 싸지 않았다",
+    "japanese": "野菜が____",
+    "adjective": "安い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "安くなかった"
+  },
+  {
+    "korean": "그녀는 젊다",
+    "japanese": "彼女は____",
+    "adjective": "若い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "若い"
+  },
+  {
+    "korean": "그녀는 젊지 않다",
+    "japanese": "彼女は____",
+    "adjective": "若い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "若くない"
+  },
+  {
+    "korean": "그녀는 젊었다",
+    "japanese": "彼女は____",
+    "adjective": "若い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "若かった"
+  },
+  {
+    "korean": "그녀는 젊지 않았다",
+    "japanese": "彼女は____",
+    "adjective": "若い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "若くなかった"
+  },
+  {
+    "korean": "꽃이 붉다",
+    "japanese": "花が____",
+    "adjective": "赤い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "赤い"
+  },
+  {
+    "korean": "꽃이 붉지 않다",
+    "japanese": "花が____",
+    "adjective": "赤い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "赤くない"
+  },
+  {
+    "korean": "꽃이 붉었다",
+    "japanese": "花が____",
+    "adjective": "赤い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "赤かった"
+  },
+  {
+    "korean": "꽃이 붉지 않았다",
+    "japanese": "花が____",
+    "adjective": "赤い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "赤くなかった"
+  },
+  {
+    "korean": "하늘이 파랗다",
+    "japanese": "空が____",
+    "adjective": "青い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "青い"
+  },
+  {
+    "korean": "하늘이 파랗지 않다",
+    "japanese": "空が____",
+    "adjective": "青い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "青くない"
+  },
+  {
+    "korean": "하늘이 파랬다",
+    "japanese": "空が____",
+    "adjective": "青い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "青かった"
+  },
+  {
+    "korean": "하늘이 파랗지 않았다",
+    "japanese": "空が____",
+    "adjective": "青い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "青くなかった"
+  },
+  {
+    "korean": "눈이 하얗다",
+    "japanese": "雪が____",
+    "adjective": "白い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "白い"
+  },
+  {
+    "korean": "눈이 하얗지 않다",
+    "japanese": "雪が____",
+    "adjective": "白い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "白くない"
+  },
+  {
+    "korean": "눈이 하얬다",
+    "japanese": "雪が____",
+    "adjective": "白い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "白かった"
+  },
+  {
+    "korean": "눈이 하얗지 않았다",
+    "japanese": "雪が____",
+    "adjective": "白い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "白くなかった"
+  },
+  {
+    "korean": "고양이가 검다",
+    "japanese": "猫が____",
+    "adjective": "黒い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "黒い"
+  },
+  {
+    "korean": "고양이가 검지 않다",
+    "japanese": "猫が____",
+    "adjective": "黒い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "黒くない"
+  },
+  {
+    "korean": "고양이가 검었다",
+    "japanese": "猫が____",
+    "adjective": "黒い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "黒かった"
+  },
+  {
+    "korean": "고양이가 검지 않았다",
+    "japanese": "猫が____",
+    "adjective": "黒い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "黒くなかった"
+  },
+  {
+    "korean": "바나나가 노랗다",
+    "japanese": "バナナが____",
+    "adjective": "黄色い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "黄色い"
+  },
+  {
+    "korean": "바나나가 노랗지 않다",
+    "japanese": "バナナが____",
+    "adjective": "黄色い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "黄色くない"
+  },
+  {
+    "korean": "바나나가 노랬다",
+    "japanese": "バナナが____",
+    "adjective": "黄色い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "黄色かった"
+  },
+  {
+    "korean": "바나나가 노랗지 않았다",
+    "japanese": "バナナが____",
+    "adjective": "黄色い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "黄色くなかった"
+  },
+  {
+    "korean": "구두가 갈색이다",
+    "japanese": "靴が____",
+    "adjective": "茶色い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "茶色い"
+  },
+  {
+    "korean": "구두가 갈색이 아니다",
+    "japanese": "靴が____",
+    "adjective": "茶色い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "茶色くない"
+  },
+  {
+    "korean": "구두가 갈색이었다",
+    "japanese": "靴が____",
+    "adjective": "茶色い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "茶色かった"
+  },
+  {
+    "korean": "구두가 갈색이 아니었다",
+    "japanese": "靴が____",
+    "adjective": "茶色い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "茶色くなかった"
+  },
+  {
+    "korean": "공이 둥글다",
+    "japanese": "ボールが____",
+    "adjective": "丸い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "丸い"
+  },
+  {
+    "korean": "공이 둥글지 않다",
+    "japanese": "ボールが____",
+    "adjective": "丸い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "丸くない"
+  },
+  {
+    "korean": "공이 둥글었다",
+    "japanese": "ボールが____",
+    "adjective": "丸い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "丸かった"
+  },
+  {
+    "korean": "공이 둥글지 않았다",
+    "japanese": "ボールが____",
+    "adjective": "丸い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "丸くなかった"
+  },
+  {
+    "korean": "강아지가 귀엽다",
+    "japanese": "犬が____",
+    "adjective": "可愛い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "可愛い"
+  },
+  {
+    "korean": "강아지가 귀엽지 않다",
+    "japanese": "犬が____",
+    "adjective": "可愛い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "可愛くない"
+  },
+  {
+    "korean": "강아지가 귀여웠다",
+    "japanese": "犬が____",
+    "adjective": "可愛い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "可愛かった"
+  },
+  {
+    "korean": "강아지가 귀엽지 않았다",
+    "japanese": "犬が____",
+    "adjective": "可愛い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "可愛くなかった"
+  },
+  {
+    "korean": "영화가 무섭다",
+    "japanese": "映画が____",
+    "adjective": "怖い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "怖い"
+  },
+  {
+    "korean": "영화가 무섭지 않다",
+    "japanese": "映画が____",
+    "adjective": "怖い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "怖くない"
+  },
+  {
+    "korean": "영화가 무서웠다",
+    "japanese": "映画が____",
+    "adjective": "怖い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "怖かった"
+  },
+  {
+    "korean": "영화가 무섭지 않았다",
+    "japanese": "映画が____",
+    "adjective": "怖い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "怖くなかった"
+  },
+  {
+    "korean": "이야기가 슬프다",
+    "japanese": "話が____",
+    "adjective": "悲しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "悲しい"
+  },
+  {
+    "korean": "이야기가 슬프지 않다",
+    "japanese": "話が____",
+    "adjective": "悲しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "悲しくない"
+  },
+  {
+    "korean": "이야기가 슬펐다",
+    "japanese": "話が____",
+    "adjective": "悲しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "悲しかった"
+  },
+  {
+    "korean": "이야기가 슬프지 않았다",
+    "japanese": "話が____",
+    "adjective": "悲しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "悲しくなかった"
+  },
+  {
+    "korean": "그는 기쁘다",
+    "japanese": "彼は____",
+    "adjective": "嬉しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "嬉しい"
+  },
+  {
+    "korean": "그는 기쁘지 않다",
+    "japanese": "彼は____",
+    "adjective": "嬉しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "嬉しくない"
+  },
+  {
+    "korean": "그는 기뻤다",
+    "japanese": "彼は____",
+    "adjective": "嬉しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "嬉しかった"
+  },
+  {
+    "korean": "그는 기쁘지 않았다",
+    "japanese": "彼は____",
+    "adjective": "嬉しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "嬉しくなかった"
+  },
+  {
+    "korean": "나는 부끄럽다",
+    "japanese": "私は____",
+    "adjective": "恥ずかしい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "恥ずかしい"
+  },
+  {
+    "korean": "나는 부끄럽지 않다",
+    "japanese": "私は____",
+    "adjective": "恥ずかしい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "恥ずかしくない"
+  },
+  {
+    "korean": "나는 부끄러웠다",
+    "japanese": "私は____",
+    "adjective": "恥ずかしい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "恥ずかしかった"
+  },
+  {
+    "korean": "나는 부끄럽지 않았다",
+    "japanese": "私は____",
+    "adjective": "恥ずかしい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "恥ずかしくなかった"
+  },
+  {
+    "korean": "파티가 즐겁다",
+    "japanese": "パーティーが____",
+    "adjective": "楽しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "楽しい"
+  },
+  {
+    "korean": "파티가 즐겁지 않다",
+    "japanese": "パーティーが____",
+    "adjective": "楽しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "楽しくない"
+  },
+  {
+    "korean": "파티가 즐거웠다",
+    "japanese": "パーティーが____",
+    "adjective": "楽しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "楽しかった"
+  },
+  {
+    "korean": "파티가 즐겁지 않았다",
+    "japanese": "パーティーが____",
+    "adjective": "楽しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "楽しくなかった"
+  },
+  {
+    "korean": "신발이 더럽다",
+    "japanese": "靴が____",
+    "adjective": "汚い",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "汚い"
+  },
+  {
+    "korean": "신발이 더럽지 않다",
+    "japanese": "靴が____",
+    "adjective": "汚い",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "汚くない"
+  },
+  {
+    "korean": "신발이 더러웠다",
+    "japanese": "靴が____",
+    "adjective": "汚い",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "汚かった"
+  },
+  {
+    "korean": "신발이 더럽지 않았다",
+    "japanese": "靴が____",
+    "adjective": "汚い",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "汚くなかった"
+  },
+  {
+    "korean": "작품이 훌륭하다",
+    "japanese": "作品が____",
+    "adjective": "素晴らしい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "素晴らしい"
+  },
+  {
+    "korean": "작품이 훌륭하지 않다",
+    "japanese": "作品が____",
+    "adjective": "素晴らしい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "素晴らしくない"
+  },
+  {
+    "korean": "작품이 훌륭했다",
+    "japanese": "作品が____",
+    "adjective": "素晴らしい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "素晴らしかった"
+  },
+  {
+    "korean": "작품이 훌륭하지 않았다",
+    "japanese": "作品が____",
+    "adjective": "素晴らしい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "素晴らしくなかった"
+  },
+  {
+    "korean": "어머니는 바쁘다",
+    "japanese": "母は____",
+    "adjective": "忙しい",
+    "type": "い形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "忙しい"
+  },
+  {
+    "korean": "어머니는 바쁘지 않다",
+    "japanese": "母は____",
+    "adjective": "忙しい",
+    "type": "い形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "忙しくない"
+  },
+  {
+    "korean": "어머니는 바빴다",
+    "japanese": "母は____",
+    "adjective": "忙しい",
+    "type": "い形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "忙しかった"
+  },
+  {
+    "korean": "어머니는 바쁘지 않았다",
+    "japanese": "母は____",
+    "adjective": "忙しい",
+    "type": "い形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "忙しくなかった"
+  },
+  {
+    "korean": "이 장소는 조용하다",
+    "japanese": "この場所は____",
+    "adjective": "静か",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "静かだ"
+  },
+  {
+    "korean": "이 장소는 조용하지 않다",
+    "japanese": "この場所は____",
+    "adjective": "静か",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "静かではない"
+  },
+  {
+    "korean": "이 장소는 조용했다",
+    "japanese": "この場所は____",
+    "adjective": "静か",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "静かだった"
+  },
+  {
+    "korean": "이 장소는 조용하지 않았다",
+    "japanese": "この場所は____",
+    "adjective": "静か",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "静かではなかった"
+  },
+  {
+    "korean": "거리가 시끄럽다",
+    "japanese": "通りが____",
+    "adjective": "賑やか",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "賑やかだ"
+  },
+  {
+    "korean": "거리가 시끄럽지 않다",
+    "japanese": "通りが____",
+    "adjective": "賑やか",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "賑やかではない"
+  },
+  {
+    "korean": "거리가 시끄러웠다",
+    "japanese": "通りが____",
+    "adjective": "賑やか",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "賑やかだった"
+  },
+  {
+    "korean": "거리가 시끄럽지 않았다",
+    "japanese": "通りが____",
+    "adjective": "賑やか",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "賑やかではなかった"
+  },
+  {
+    "korean": "이 앱은 편리하다",
+    "japanese": "このアプリは____",
+    "adjective": "便利",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "便利だ"
+  },
+  {
+    "korean": "이 앱은 편리하지 않다",
+    "japanese": "このアプリは____",
+    "adjective": "便利",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "便利ではない"
+  },
+  {
+    "korean": "이 앱은 편리했다",
+    "japanese": "このアプリは____",
+    "adjective": "便利",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "便利だった"
+  },
+  {
+    "korean": "이 앱은 편리하지 않았다",
+    "japanese": "このアプリは____",
+    "adjective": "便利",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "便利ではなかった"
+  },
+  {
+    "korean": "이 신발은 불편하다",
+    "japanese": "この靴は____",
+    "adjective": "不便",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "不便だ"
+  },
+  {
+    "korean": "이 신발은 불편하지 않다",
+    "japanese": "この靴は____",
+    "adjective": "不便",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "不便ではない"
+  },
+  {
+    "korean": "이 신발은 불편했다",
+    "japanese": "この靴は____",
+    "adjective": "不便",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "不便だった"
+  },
+  {
+    "korean": "이 신발은 불편하지 않았다",
+    "japanese": "この靴は____",
+    "adjective": "不便",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "不便ではなかった"
+  },
+  {
+    "korean": "이 가수는 유명하다",
+    "japanese": "この歌手は____",
+    "adjective": "有名",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "有名だ"
+  },
+  {
+    "korean": "이 가수는 유명하지 않다",
+    "japanese": "この歌手は____",
+    "adjective": "有名",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "有名ではない"
+  },
+  {
+    "korean": "이 가수는 유명했다",
+    "japanese": "この歌手は____",
+    "adjective": "有名",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "有名だった"
+  },
+  {
+    "korean": "이 가수는 유명하지 않았다",
+    "japanese": "この歌手は____",
+    "adjective": "有名",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "有名ではなかった"
+  },
+  {
+    "korean": "점원이 친절하다",
+    "japanese": "店員が____",
+    "adjective": "親切",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "親切だ"
+  },
+  {
+    "korean": "점원이 친절하지 않다",
+    "japanese": "店員が____",
+    "adjective": "親切",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "親切ではない"
+  },
+  {
+    "korean": "점원이 친절했다",
+    "japanese": "店員が____",
+    "adjective": "親切",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "親切だった"
+  },
+  {
+    "korean": "점원이 친절하지 않았다",
+    "japanese": "店員が____",
+    "adjective": "親切",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "親切ではなかった"
+  },
+  {
+    "korean": "이 방은 깨끗하다",
+    "japanese": "この部屋は____",
+    "adjective": "きれい",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "きれいだ"
+  },
+  {
+    "korean": "이 방은 깨끗하지 않다",
+    "japanese": "この部屋は____",
+    "adjective": "きれい",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "きれいではない"
+  },
+  {
+    "korean": "이 방은 깨끗했다",
+    "japanese": "この部屋は____",
+    "adjective": "きれい",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "きれいだった"
+  },
+  {
+    "korean": "이 방은 깨끗하지 않았다",
+    "japanese": "この部屋は____",
+    "adjective": "きれい",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "きれいではなかった"
+  },
+  {
+    "korean": "그는 건강하다",
+    "japanese": "彼は____",
+    "adjective": "元気",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "元気だ"
+  },
+  {
+    "korean": "그는 건강하지 않다",
+    "japanese": "彼は____",
+    "adjective": "元気",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "元気ではない"
+  },
+  {
+    "korean": "그는 건강했다",
+    "japanese": "彼は____",
+    "adjective": "元気",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "元気だった"
+  },
+  {
+    "korean": "그는 건강하지 않았다",
+    "japanese": "彼は____",
+    "adjective": "元気",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "元気ではなかった"
+  },
+  {
+    "korean": "나는 음악을 좋아한다",
+    "japanese": "私は音楽が____",
+    "adjective": "好き",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "好きだ"
+  },
+  {
+    "korean": "나는 음악을 좋아하지 않다",
+    "japanese": "私は音楽が____",
+    "adjective": "好き",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "好きではない"
+  },
+  {
+    "korean": "나는 음악을 좋아했다",
+    "japanese": "私は音楽が____",
+    "adjective": "好き",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "好きだった"
+  },
+  {
+    "korean": "나는 음악을 좋아하지 않았다",
+    "japanese": "私は音楽が____",
+    "adjective": "好き",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "好きではなかった"
+  },
+  {
+    "korean": "나는 야채를 싫어한다",
+    "japanese": "私は野菜が____",
+    "adjective": "嫌い",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "嫌いだ"
+  },
+  {
+    "korean": "나는 야채를 싫어하지 않다",
+    "japanese": "私は野菜が____",
+    "adjective": "嫌い",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "嫌いではない"
+  },
+  {
+    "korean": "나는 야채를 싫어했다",
+    "japanese": "私は野菜が____",
+    "adjective": "嫌い",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "嫌いだった"
+  },
+  {
+    "korean": "나는 야채를 싫어하지 않았다",
+    "japanese": "私は野菜が____",
+    "adjective": "嫌い",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "嫌いではなかった"
+  },
+  {
+    "korean": "설명이 간단하다",
+    "japanese": "説明が____",
+    "adjective": "簡単",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "簡単だ"
+  },
+  {
+    "korean": "설명이 간단하지 않다",
+    "japanese": "説明が____",
+    "adjective": "簡単",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "簡単ではない"
+  },
+  {
+    "korean": "설명이 간단했다",
+    "japanese": "説明が____",
+    "adjective": "簡単",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "簡単だった"
+  },
+  {
+    "korean": "설명이 간단하지 않았다",
+    "japanese": "説明が____",
+    "adjective": "簡単",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "簡単ではなかった"
+  },
+  {
+    "korean": "문제가 복잡하다",
+    "japanese": "問題が____",
+    "adjective": "複雑",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "複雑だ"
+  },
+  {
+    "korean": "문제가 복잡하지 않다",
+    "japanese": "問題が____",
+    "adjective": "複雑",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "複雑ではない"
+  },
+  {
+    "korean": "문제가 복잡했다",
+    "japanese": "問題が____",
+    "adjective": "複雑",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "複雑だった"
+  },
+  {
+    "korean": "문제가 복잡하지 않았다",
+    "japanese": "問題が____",
+    "adjective": "複雑",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "複雑ではなかった"
+  },
+  {
+    "korean": "오늘은 특별하다",
+    "japanese": "今日は____",
+    "adjective": "特別",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "特別だ"
+  },
+  {
+    "korean": "오늘은 특별하지 않다",
+    "japanese": "今日は____",
+    "adjective": "特別",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "特別ではない"
+  },
+  {
+    "korean": "오늘은 특별했다",
+    "japanese": "今日は____",
+    "adjective": "特別",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "特別だった"
+  },
+  {
+    "korean": "오늘은 특별하지 않았다",
+    "japanese": "今日は____",
+    "adjective": "特別",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "特別ではなかった"
+  },
+  {
+    "korean": "시간이 자유롭다",
+    "japanese": "時間が____",
+    "adjective": "自由",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "自由だ"
+  },
+  {
+    "korean": "시간이 자유롭지 않다",
+    "japanese": "時間が____",
+    "adjective": "自由",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "自由ではない"
+  },
+  {
+    "korean": "시간이 자유로웠다",
+    "japanese": "時間が____",
+    "adjective": "自由",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "自由だった"
+  },
+  {
+    "korean": "시간이 자유롭지 않았다",
+    "japanese": "時間が____",
+    "adjective": "自由",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "自由ではなかった"
+  },
+  {
+    "korean": "이 일은 중요하다",
+    "japanese": "この仕事は____",
+    "adjective": "大切",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "大切だ"
+  },
+  {
+    "korean": "이 일은 중요하지 않다",
+    "japanese": "この仕事は____",
+    "adjective": "大切",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "大切ではない"
+  },
+  {
+    "korean": "이 일은 중요했다",
+    "japanese": "この仕事は____",
+    "adjective": "大切",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "大切だった"
+  },
+  {
+    "korean": "이 일은 중요하지 않았다",
+    "japanese": "この仕事は____",
+    "adjective": "大切",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "大切ではなかった"
+  },
+  {
+    "korean": "이것은 필요하다",
+    "japanese": "これは____",
+    "adjective": "必要",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "必要だ"
+  },
+  {
+    "korean": "이것은 필요하지 않다",
+    "japanese": "これは____",
+    "adjective": "必要",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "必要ではない"
+  },
+  {
+    "korean": "이것은 필요했다",
+    "japanese": "これは____",
+    "adjective": "必要",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "必要だった"
+  },
+  {
+    "korean": "이것은 필요하지 않았다",
+    "japanese": "これは____",
+    "adjective": "必要",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "必要ではなかった"
+  },
+  {
+    "korean": "오늘은 한가하다",
+    "japanese": "今日は____",
+    "adjective": "暇",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "暇だ"
+  },
+  {
+    "korean": "오늘은 한가하지 않다",
+    "japanese": "今日は____",
+    "adjective": "暇",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "暇ではない"
+  },
+  {
+    "korean": "오늘은 한가했다",
+    "japanese": "今日は____",
+    "adjective": "暇",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "暇だった"
+  },
+  {
+    "korean": "오늘은 한가하지 않았다",
+    "japanese": "今日は____",
+    "adjective": "暇",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "暇ではなかった"
+  },
+  {
+    "korean": "이 길은 안전하다",
+    "japanese": "この道は____",
+    "adjective": "安全",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "安全だ"
+  },
+  {
+    "korean": "이 길은 안전하지 않다",
+    "japanese": "この道は____",
+    "adjective": "安全",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "安全ではない"
+  },
+  {
+    "korean": "이 길은 안전했다",
+    "japanese": "この道は____",
+    "adjective": "安全",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "安全だった"
+  },
+  {
+    "korean": "이 길은 안전하지 않았다",
+    "japanese": "この道は____",
+    "adjective": "安全",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "安全ではなかった"
+  },
+  {
+    "korean": "여기는 위험하다",
+    "japanese": "ここは____",
+    "adjective": "危険",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "危険だ"
+  },
+  {
+    "korean": "여기는 위험하지 않다",
+    "japanese": "ここは____",
+    "adjective": "危険",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "危険ではない"
+  },
+  {
+    "korean": "여기는 위험했다",
+    "japanese": "ここは____",
+    "adjective": "危険",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "危険だった"
+  },
+  {
+    "korean": "여기는 위험하지 않았다",
+    "japanese": "ここは____",
+    "adjective": "危険",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "危険ではなかった"
+  },
+  {
+    "korean": "그의 행동은 이상하다",
+    "japanese": "彼の行動は____",
+    "adjective": "変",
+    "type": "な形容詞",
+    "conjugationType": "現在肯定",
+    "hint": "기본형",
+    "answer": "変だ"
+  },
+  {
+    "korean": "그의 행동은 이상하지 않다",
+    "japanese": "彼の行動は____",
+    "adjective": "変",
+    "type": "な形容詞",
+    "conjugationType": "現在否定",
+    "hint": "부정형",
+    "answer": "変ではない"
+  },
+  {
+    "korean": "그의 행동은 이상했다",
+    "japanese": "彼の行動は____",
+    "adjective": "変",
+    "type": "な形容詞",
+    "conjugationType": "過去肯定",
+    "hint": "과거형",
+    "answer": "変だった"
+  },
+  {
+    "korean": "그의 행동은 이상하지 않았다",
+    "japanese": "彼の行動は____",
+    "adjective": "変",
+    "type": "な形容詞",
+    "conjugationType": "過去否定",
+    "hint": "과거부정형",
+    "answer": "変ではなかった"
+  }
 ]
