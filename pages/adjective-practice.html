@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5 형용사 활용 연습</title>
     
+    <!-- 미리보기 이미지 설정 -->
     <meta property="og:title" content="N5 형용사 활용 연습">
-    <meta property="og:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
+    <meta property="og:description" content="일본어 N5 형용사 활용을 쉽게 연습해보세요!">
     <meta property="og:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://trykeyai-ui.github.io/N5-jpV/">
     
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="N5 형용사 활용 연습">
-    <meta name="twitter:description" content="일본어 N5 형용사 문형을 쉽게 연습해보세요!">
+    <meta name="twitter:description" content="일본어 N5 형용사 활용을 쉽게 연습해보세요!">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/trykeyai-ui/N5-jpV/main/preview.png">
     
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -46,38 +48,13 @@
             const [loading, setLoading] = useState(true);
             const [studyHistory, setStudyHistory] = useState([]);
             const [showSummary, setShowSummary] = useState(false);
-            const [isSpeaking, setIsSpeaking] = useState(false);
 
             const conjugationOptions = [
-                { jp: "現在肯定", kr: "기본형" },
-                { jp: "現在否定", kr: "부정형" },
-                { jp: "過去肯定", kr: "과거형" },
-                { jp: "過去否定", kr: "과거부정형" }
+                { jp: "現在肯定", kr: "현재긍정" },
+                { jp: "現在否定", kr: "현재부정" },
+                { jp: "過去肯定", kr: "과거긍정" },
+                { jp: "過去否定", kr: "과거부정" }
             ];
-
-            // 🔊 음성 재생 함수
-            const speak = (text) => {
-                if (!text || !('speechSynthesis' in window)) return;
-                
-                // 빈칸과 특수문자 제거
-                const cleanText = text.replace(/____/g, '').replace(/\s+/g, '').trim();
-                if (!cleanText) return;
-                
-                // 이전 음성 중지
-                window.speechSynthesis.cancel();
-                
-                const utterance = new SpeechSynthesisUtterance(cleanText);
-                utterance.lang = 'ja-JP';
-                utterance.rate = 0.85; // 조금 느리게
-                utterance.pitch = 1;
-                utterance.volume = 1;
-                
-                utterance.onstart = () => setIsSpeaking(true);
-                utterance.onend = () => setIsSpeaking(false);
-                utterance.onerror = () => setIsSpeaking(false);
-                
-                window.speechSynthesis.speak(utterance);
-            };
 
             useEffect(() => {
                 loadQuestions();
@@ -111,17 +88,15 @@
                 if (!questions[currentIndex]) return;
                 
                 const correctAdjective = questions[currentIndex].adjective;
-                const correctType = questions[currentIndex].type;
-                const allAdjectives = [...new Set(allQuestions.map(q => ({adj: q.adjective, type: q.type})))];
-                const otherAdjectives = allAdjectives.filter(v => v.adj !== correctAdjective);
+                const allAdjectives = [...new Set(allQuestions.map(q => q.adjective))];
+                const otherAdjectives = allAdjectives.filter(v => v !== correctAdjective);
                 
+                // 랜덤하게 2개의 다른 형용사 선택
                 const shuffledOthers = otherAdjectives.sort(() => Math.random() - 0.5);
                 const wrongOptions = shuffledOthers.slice(0, 2);
                 
-                const options = [
-                    {adj: correctAdjective, type: correctType}, 
-                    ...wrongOptions
-                ].sort(() => Math.random() - 0.5);
+                // 정답과 오답을 섞어서 3개 옵션 생성
+                const options = [correctAdjective, ...wrongOptions].sort(() => Math.random() - 0.5);
                 setAdjectiveOptions(options);
             };
 
@@ -152,7 +127,6 @@
                 } else {
                     if (attemptCount === 0) {
                         setCanRetry(true);
-                        setAttemptCount(1);
                     } else {
                         setCanRetry(false);
                         setStudyHistory([...studyHistory, historyItem]);
@@ -166,6 +140,7 @@
                 setSelectedAdjective('');
                 setShowResult(false);
                 setShowHint(false);
+                setAttemptCount(1);
                 setCanRetry(false);
             };
 
@@ -174,7 +149,7 @@
                     setCurrentIndex(currentIndex + 1);
                     setUserAnswer('');
                     setSelectedConjugation('');
-                    setSelectedAdjective('');
+                    setSelectedVerb('');
                     setShowResult(false);
                     setShowHint(false);
                     setAttemptCount(0);
@@ -194,7 +169,7 @@
                 setCurrentIndex(0);
                 setUserAnswer('');
                 setSelectedConjugation('');
-                setSelectedAdjective('');
+                setSelectedVerb('');
                 setShowResult(false);
                 setShowHint(false);
                 setScore(0);
@@ -240,7 +215,7 @@
                         <div className="bg-white rounded-2xl shadow-2xl p-4 md:p-6 lg:p-8 mb-4 md:mb-6">
                             <div className="flex items-center justify-between mb-4 md:mb-6">
                                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-indigo-900">
-                                    🇯🇵 N5 형용사 활용 연습
+                                    ✨ N5 형용사 활용 연습
                                 </h1>
                                 <button
                                     onClick={reset}
@@ -270,21 +245,8 @@
                                         </div>
                                         <div>
                                             <div className="text-xs md:text-sm text-gray-600 mb-1">일본어 (빈칸 채우기)</div>
-                                            <div className="flex items-center gap-3">
-                                                <div className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-900">
-                                                    {questions[currentIndex].japanese}
-                                                </div>
-                                                <button
-                                                    onClick={() => speak(questions[currentIndex].japanese)}
-                                                    className={`px-3 py-2 rounded-lg font-semibold text-base md:text-lg transition flex items-center gap-2 ${
-                                                        isSpeaking 
-                                                            ? 'bg-green-500 text-white animate-pulse' 
-                                                            : 'bg-blue-500 text-white hover:bg-blue-600'
-                                                    }`}
-                                                    title="문장 발음 듣기"
-                                                >
-                                                    🔊 듣기
-                                                </button>
+                                            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-indigo-900">
+                                                {questions[currentIndex].japanese}
                                             </div>
                                         </div>
                                     </div>
@@ -293,23 +255,20 @@
                                         <div className="space-y-4 md:space-y-6">
                                             <div>
                                                 <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
-                                                    1️⃣ 형용사 원형을 선택하세요
+                                                    1️⃣ 형용사 기본형을 선택하세요
                                                 </label>
                                                 <div className="grid grid-cols-3 gap-2 md:gap-3">
-                                                    {adjectiveOptions.map((option, idx) => (
+                                                    {adjectiveOptions.map((adjective, idx) => (
                                                         <button
                                                             key={idx}
-                                                            onClick={() => setSelectedAdjective(option.adj)}
+                                                            onClick={() => setSelectedAdjective(adjective)}
                                                             className={`p-3 md:p-4 rounded-lg font-semibold text-base md:text-lg transition ${
-                                                                selectedAdjective === option.adj
+                                                                selectedAdjective === adjective
                                                                     ? 'bg-indigo-600 text-white'
                                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                                             }`}
                                                         >
-                                                            <div>{option.adj}</div>
-                                                            <div className="text-xs mt-1 opacity-75">
-                                                                ({option.type === 'い形容詞' ? 'い형' : 'な형'})
-                                                            </div>
+                                                            {adjective}
                                                         </button>
                                                     ))}
                                                 </div>
@@ -319,18 +278,21 @@
                                                 <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
                                                     2️⃣ 활용형을 선택하세요
                                                 </label>
-                                                <div className="grid grid-cols-2 gap-2 md:gap-3">
+                                                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
                                                     {conjugationOptions.map((option, idx) => (
                                                         <button
                                                             key={idx}
                                                             onClick={() => setSelectedConjugation(option.jp)}
-                                                            className={`p-3 md:p-4 rounded-lg font-semibold text-sm md:text-base transition ${
+                                                            className={`p-2 md:p-3 rounded-lg font-semibold text-sm md:text-base transition ${
                                                                 selectedConjugation === option.jp
                                                                     ? 'bg-indigo-600 text-white'
                                                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                                             }`}
                                                         >
-                                                            <div>{option.kr}</div>
+                                                            <div>{option.jp}</div>
+                                                            <div className="text-xs text-gray-500 dark:text-gray-300">
+                                                                {option.kr}
+                                                            </div>
                                                         </button>
                                                     ))}
                                                 </div>
@@ -338,14 +300,14 @@
 
                                             <div>
                                                 <label className="block text-sm md:text-base font-semibold text-gray-700 mb-2 md:mb-3">
-                                                    3️⃣ 답을 입력하세요
+                                                    3️⃣ 정답을 입력하세요
                                                 </label>
                                                 <input
                                                     type="text"
                                                     value={userAnswer}
                                                     onChange={(e) => setUserAnswer(e.target.value)}
                                                     onKeyPress={(e) => {
-                                                        if (e.key === 'Enter' && userAnswer && selectedConjugation && selectedAdjective) {
+                                                        if (e.key === 'Enter' && userAnswer && selectedConjugation && selectedVerb) {
                                                             checkAnswer();
                                                         }
                                                     }}
@@ -402,33 +364,13 @@
                                                 <div className="text-xl md:text-2xl font-bold mb-2">
                                                     {isCorrect ? '정답입니다!' : '틀렸습니다'}
                                                 </div>
-                                                
-                                                {/* 🔊 정답 발음 듣기 버튼 */}
-                                                <div className="flex items-center justify-center gap-3 mt-4">
-                                                    <div className="text-lg md:text-xl font-semibold">
-                                                        정답: {questions[currentIndex].answer}
-                                                    </div>
-                                                    <button
-                                                        onClick={() => speak(questions[currentIndex].answer)}
-                                                        className={`px-4 py-2 rounded-lg font-semibold text-base transition flex items-center gap-2 ${
-                                                            isSpeaking 
-                                                                ? 'bg-green-500 text-white animate-pulse' 
-                                                                : isCorrect
-                                                                    ? 'bg-green-600 text-white hover:bg-green-700'
-                                                                    : 'bg-red-600 text-white hover:bg-red-700'
-                                                        }`}
-                                                        title="정답 발음 듣기"
-                                                    >
-                                                        🔊 정답 듣기
-                                                    </button>
-                                                </div>
                                             </div>
 
                                             {!isCorrect && (
                                                 <div className="space-y-3">
                                                     <div className={`p-3 rounded-lg ${selectedAdjective === questions[currentIndex].adjective ? 'bg-green-100' : 'bg-red-100'}`}>
                                                         <p className="text-xs md:text-sm text-gray-700">
-                                                            형용사 원형: <span className="font-bold">{selectedAdjective || '(선택 안함)'}</span>
+                                                            형용사 기본형: <span className="font-bold">{selectedAdjective || '(선택 안함)'}</span>
                                                             {selectedAdjective !== questions[currentIndex].adjective && (
                                                                 <span className="text-red-700"> → 정답: <span className="font-bold">{questions[currentIndex].adjective}</span></span>
                                                             )}
@@ -501,7 +443,8 @@
                                                     return (
                                                         <div key={conj} className="flex items-center justify-between bg-white p-3 rounded-lg">
                                                             <div>
-                                                                <span className="font-semibold">{option?.kr || conj}</span>
+                                                                <span className="font-semibold">{conj}</span>
+                                                                <span className="text-sm text-gray-600 ml-2">({option?.kr})</span>
                                                             </div>
                                                             <div className="flex items-center gap-3">
                                                                 <span className="text-sm text-gray-600">{stats.correct}/{stats.total}</span>
@@ -528,16 +471,25 @@
                                                             <p className="text-indigo-900">{item.question.japanese}</p>
                                                         </div>
                                                         <div className="text-sm space-y-1">
-                                                            <div className="flex gap-2 items-center">
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">정답 형용사:</span>
+                                                                <span className="font-medium text-green-700">{item.question.adjective}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력 형용사:</span>
+                                                                <span className="font-medium text-red-700">{item.userAdjective || '(선택 안함)'}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">정답 활용형:</span>
+                                                                <span className="font-medium text-green-700">{item.question.conjugationType}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
+                                                                <span className="text-gray-600">입력 활용형:</span>
+                                                                <span className="font-medium text-red-700">{item.userConjugation || '(선택 안함)'}</span>
+                                                            </div>
+                                                            <div className="flex gap-2">
                                                                 <span className="text-gray-600">정답:</span>
                                                                 <span className="font-medium text-green-700">{item.question.answer}</span>
-                                                                <button
-                                                                    onClick={() => speak(item.question.answer)}
-                                                                    className="px-2 py-1 bg-green-500 text-white rounded text-xs hover:bg-green-600 transition"
-                                                                    title="정답 발음 듣기"
-                                                                >
-                                                                    🔊
-                                                                </button>
                                                             </div>
                                                             <div className="flex gap-2">
                                                                 <span className="text-gray-600">입력:</span>
