@@ -149,7 +149,7 @@
                     setCurrentIndex(currentIndex + 1);
                     setUserAnswer('');
                     setSelectedConjugation('');
-                    setSelectedVerb('');
+                    setSelectedAdjective('');
                     setShowResult(false);
                     setShowHint(false);
                     setAttemptCount(0);
@@ -169,7 +169,7 @@
                 setCurrentIndex(0);
                 setUserAnswer('');
                 setSelectedConjugation('');
-                setSelectedVerb('');
+                setSelectedAdjective('');
                 setShowResult(false);
                 setShowHint(false);
                 setScore(0);
@@ -307,7 +307,7 @@
                                                     value={userAnswer}
                                                     onChange={(e) => setUserAnswer(e.target.value)}
                                                     onKeyPress={(e) => {
-                                                        if (e.key === 'Enter' && userAnswer && selectedConjugation && selectedVerb) {
+                                                        if (e.key === 'Enter' && userAnswer && selectedConjugation && selectedAdjective) {
                                                             checkAnswer();
                                                         }
                                                     }}
